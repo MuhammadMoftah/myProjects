@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="SITE KEYWORDS HERE" />
+    <meta name="description" content="">
+    <meta name='copyright' content='codeglim'>
+    <title>Bytary</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ihover.css">
+
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link href="css/imagehover.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!--start header-->
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <p><i class="flaticon flaticon-phone-call"></i> 00966567962166</p>
+                    <p><i class="flaticon flaticon-envelope"></i> info@example.com</p>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <div class="links">
+                        <ul class="list-unstyled user-links">
+                            <a href="login.html">
+                                <li>Login</li>
+                            </a> <span>|</span>
+                            <a href="register.html">
+                                <li>Register</li>
+                            </a> <span>|</span>
+                            <a href="profile.html">
+                                <li>My Account</li>
+                            </a> <span>|</span>
+                            <a href="myfavourite.html" data-toggle="tooltip" title="My Favourite" data-placement="left">
+                                <li><i class="fa fa-star"></i></li>
+                            </a> <span>|</span>
+                            <a href="">
+                                <li>Logout</li>
+                            </a> <span>|</span>
+                            <a href="about_us.html">
+                                <li>About Bytary</li>
+                            </a>
+                        </ul>
+                        <ul class="list-unstyled social-links">
+                            <a id="fill" href="" target="_blank">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                            <a id="fill" href="" target="_blank">
+                                <li><i class="fa fa-twitter"></i></li>
+                            </a>
+                            <a id="fill" href="" target="_blank">
+                                <li><i class="fa fa-google-plus"></i></li>
+                            </a>
+                            <a id="fill" href="" target="_blank">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                            <a id="fill" href="" target="_blank">
+                                <li><i class="fa fa-instagram"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--end header-->
+
+    <!--start navbar-->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+                <a class="navbar-brand" href="#"><img src="images/fd.png"></a>
+
+            </div>
+
+            <div class="collapse navbar-collapse js-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a><img src="images/home-icon-silhouette.png"></li>
+                    <li><a href="petclinic.html">Pet Clinic</a> <img src="images/icon1.png"></li>
+                    <li><a href="vets.html">Vets</a> <img src="images/637308-2001.png"></li>
+                    <li><a href="petstores.html">Pet Stores</a> <img src="images/1173553-2001.png"></li>
+                    <li><a href="pharmacies.html">Pharmacies</a> <img src="images/image21.png"></li>
+
+                    <li><a href="forum.html">Forum</a> <img src="images/communication.png"></li>
+                    <li><a href="blog_home.html">Blog</a><img src="images/blog-comment-speech-bubble-symbol%20(1).png"></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown">Join Us <b class="fa fa-angle-down"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="partner_register.html"><i class="fa fa-angle-right"></i> Pet Clinic</a></li>
+                            <li><a href="vets_register.html"><i class="fa fa-angle-right"></i> Vets</a></li>
+                            <li><a href="store_register.html"><i class="fa fa-angle-right"></i> Pet Stores</a></li>
+                            <li><a href="pharamacy_register.html"><i class="fa fa-angle-right"></i> Pharmacies</a></li>
+
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+            <!-- /.nav-collapse -->
+        </div>
+    </nav>
+
+    <!--end navbar-->
+
+    <!--start head-->
+
+    <section class="head">
+        <div class="overlay">
+            <div class="container">
+                <h4>Vets</h4>
+            </div>
+        </div>
+    </section>
+    <!--end head-->
+
+    <!--start breadcrumb-->
+
+    <section class="breadcrumb wow fadeIn" data-wow-duration="1s">
+        <div class="container">
+            <ul class="list-unstyled">
+                <li><a href="">Home</a> <i class="fa fa-angle-right"></i></li>
+                <li class="active">Vets</li>
+            </ul>
+        </div>
+    </section>
+    <!--end breadcrumb-->
+
+    <!--start pharmacies-->
+
+    <section class="vets" style="background: #f0f0f0">
+        <div class="container">
+            <div class="vet_details wow fadeIn" data-wow-duration="1s">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="1s">
+                        <img src="images/team-one.jpg">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 wow fadeInRight" data-wow-duration="1s">
+                        <div class="details">
+                            <h3>Vet Name</h3>
+                            <div class="rate">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p><i class="flaticon flaticon-map-marker"></i> kingdom Of Saudi Arabia</p>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <p><i class="flaticon flaticon-phone-call" style="color: #92c73f"></i> 00966567962166</p>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <p><i class="flaticon flaticon-envelope" style="color: #92c73f"></i> info@example.com</p>
+                                </div>
+                            </div>
+
+                            <p><i class="fa fa-user-md" style="color: #92c73f;"></i> <span style="color: #92c73f;font-size: 18px;margin-right: 5px;">Specification:</span> Cats</p>
+
+                            <p><i class="fa fa-group" style="color: #92c73f;"></i> <span style="color: #92c73f;font-size: 18px;margin-right: 5px;">Number Of Clients:</span> 30</p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 wow fadeInLeft" data-wow-duration="1s">
+                    <div class="description2" style="background: #fff;">
+                        <h4>Description</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+                        <div class="slider">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4 class="pull-left">
+                                        Nearest vets</h4>
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- Controls -->
+                                    <div class="controls pull-right">
+                                        <a class="left fa fa-chevron-left btn btn-success" href="#carousel-example" data-slide="prev"></a><a class="right fa fa-chevron-right btn btn-success" href="#carousel-example" data-slide="next"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div id="carousel-example" class="carousel slide " data-ride="carousel">
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="our-team wow fadeIn" data-wow-duration="1s">
+                                                <a href="vets_details.html">
+                                                    <div class="team-image">
+
+                                                        <img src="images/team-one.jpg">
+                                                        <p class="description" style="color: #fff;">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate.
+                                                        </p>
+
+                                                    </div>
+                                                </a>
+                                                <div class="team-info">
+                                                    <h3 class="title">Vet Name</h3>
+                                                    <a href="send_message.html"><button>Send Message</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="our-team wow fadeIn" data-wow-duration="1s">
+                                                <a href="vets_details.html">
+
+                                                    <div class="team-image">
+                                                        <img src="images/team-one.jpg">
+                                                        <p class="description" style="color: #fff;">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate.
+                                                        </p>
+
+                                                    </div>
+                                                </a>
+                                                <div class="team-info">
+                                                    <h3 class="title">Vet Name</h3>
+                                                    <a href="send_message.html"><button>Send Message</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="our-team wow fadeIn" data-wow-duration="1s">
+                                                <a href="vets_details.html">
+                                                    <div class="team-image">
+
+                                                        <img src="images/team-one.jpg">
+                                                        <p class="description" style="color: #fff;">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate.
+                                                        </p>
+
+                                                    </div>
+                                                </a>
+                                                <div class="team-info">
+                                                    <h3 class="title">Vet Name</h3>
+                                                    <a href="send_message.html"><button>Send Message</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="our-team wow fadeIn" data-wow-duration="1s">
+                                                <a href="vets_details.html">
+                                                    <div class="team-image">
+
+                                                        <img src="images/team-one.jpg">
+                                                        <p class="description" style="color: #fff;">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate.
+                                                        </p>
+
+                                                    </div>
+                                                </a>
+                                                <div class="team-info">
+                                                    <h3 class="title">vet name</h3>
+                                                    <a href="send_message.html"><button>Send message</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInRight" data-wow-duration="1s">
+
+                    <div class="map">
+                        <div class="head">
+                            <h3>Our Location:</h3>
+                        </div>
+                        <div class="iframe">
+                            <div class="map_direction">
+                                <div id="map6" style="width: 100%;height: 300px;">
+
+                                </div>
+                                <div class="get_direction">
+                                    <button class="btn btn-success btn-md">Get Direction</button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="send_message2">
+
+                        <button data-toggle="collapse" data-target="#send_message_form">Send Message</button>
+
+                        <div id="send_message_form" class="send_message_form collapse" style="padding: 20px;">
+                            <form>
+                                <textarea class="form-control" placeholder="Your Message" rows="5"></textarea>
+                                <input type="submit" value="Send">
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end login-->
+
+    <script type="text/javascript">
+        var locations = [
+
+            ['Maroubra Beach', -33.950198, 151.259302, 1]
+        ];
+
+        var map = new google.maps.Map(document.getElementById('map6'), {
+            zoom: 10,
+            width: 100,
+            center: new google.maps.LatLng(-33.92, 151.25),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map,
+                //                icon: 'images/5a4ba7ff-7611-4336-aacb-44ae73228ae6.png',
+
+            });
+
+            google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                    infowindow.setContent(locations[i][0]);
+                    infowindow.open(map, marker);
+                }
+            })(marker, i));
+        }
+
+    </script>
+
+    <!--start footer-->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn" data-wow-duration="1s">
+                    <div class="row" style="padding: 0;">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                            <div class="logo text-center">
+                                <img src="images/fd.png">
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-6">
+                            <div class="info">
+                                <p><i class="fa fa-phone"></i> 00966567962166</p>
+                                <p><i class="fa fa-envelope"></i><a href="mailto:info@example.com">info@example.com</a> </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <p>This is Photoshop's version of Lorem Ipsum proin grav ida nibh vel velit auctor ali quet aenean sollicitudin, lorquis bibendum</p>
+
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 wow fadeIn" data-wow-duration="1s">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <h3 class="main-title">Quick Links</h3>
+
+
+                            <a href="about_us.html">
+                                <p> About Us</p>
+                            </a>
+                            <a href="contact.html">
+                                <p> Contact Us</p>
+                            </a>
+                            <a href="login.html">
+                                <p> Login</p>
+                            </a>
+                            <a href="register.html">
+                                <p> Register</p>
+                            </a>
+
+                            <a href="bytary_map.html">
+                                <p> Bytary Map</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <h3 class="main-title">Be A Partner</h3>
+
+
+                            <a href="partner_register.html">
+                                <p> Pet Clinic</p>
+                            </a>
+                            <a href="partner_register.html">
+                                <p> Vets</p>
+                            </a>
+                            <a href="partner_register.html">
+                                <p> Pet Store</p>
+                            </a>
+                            <a href="partner_register.html">
+                                <p> Pharmacy</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 wow fadeIn" data-wow-duration="1s">
+                    <h3 class="main-title">OUR SOCIAL</h3>
+                    <div class="social">
+                        <ul class="list-unstyled">
+                            <a id="fill_facebook" href="" class="facebook">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                            <a id="fill_twitter" href="" class="twitter">
+                                <li><i class="fa fa-twitter"></i></li>
+                            </a>
+                            <a id="fill_google" href="" class="google">
+                                <li><i class="fa fa-google-plus"></i></li>
+                            </a>
+                            <a id="fill_instagram" href="" class="instagram">
+                                <li><i class="fa fa-instagram"></i></li>
+                            </a>
+                            <a id="fill_linkedin" href="" class="linkedin">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+
+                        </ul>
+                    </div>
+                    <div class="download">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <a href="">
+                                <img src="images/google_play.png" style="width: 100%;">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <a href="">
+
+                                <img src="images/appstore.png" style="width: 100%;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer-->
+
+    <!--start copyright-->
+
+    <section class="copyright">
+        <p style="margin: 0;">All Rights reserved DTAG Solutios</p>
+    </section>
+    <!--end copyright-->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/bootstrap-slider.min.js"></script>
+    <script>
+        $("#ex2").slider({});
+        $("#ex3").slider({});
+
+        // Without JQuery
+
+    </script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script>
+        $('ul.nav li.dropdown').hover(function() {
+            $(this).find('.dropdown-menu').stop(true, true).slideDown(500);
+        }, function() {
+            $(this).find('.dropdown-menu').stop(true, true).slideUp(500);
+        });
+
+    </script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+
+    <script>
+        function openFileOption() {
+            document.getElementById("file1").click();
+        }
+
+    </script>
+
+
+    <script>
+        var x, i, j, selElmnt, a, b, c;
+        /*look for any elements with the class "custom-select":*/
+        x = document.getElementsByClassName("custom-select");
+        for (i = 0; i < x.length; i++) {
+            selElmnt = x[i].getElementsByTagName("select")[0];
+            /*for each element, create a new DIV that will act as the selected item:*/
+            a = document.createElement("DIV");
+            a.setAttribute("class", "select-selected");
+            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+            x[i].appendChild(a);
+            /*for each element, create a new DIV that will contain the option list:*/
+            b = document.createElement("DIV");
+            b.setAttribute("class", "select-items select-hide");
+            for (j = 0; j < selElmnt.length; j++) {
+                /*for each option in the original select element,
+                create a new DIV that will act as an option item:*/
+                c = document.createElement("DIV");
+                c.innerHTML = selElmnt.options[j].innerHTML;
+                c.addEventListener("click", function(e) {
+                    /*when an item is clicked, update the original select box,
+                    and the selected item:*/
+                    var y, i, k, s, h;
+                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                    h = this.parentNode.previousSibling;
+                    for (i = 0; i < s.length; i++) {
+                        if (s.options[i].innerHTML == this.innerHTML) {
+                            s.selectedIndex = i;
+                            h.innerHTML = this.innerHTML;
+                            y = this.parentNode.getElementsByClassName("same-as-selected");
+                            for (k = 0; k < y.length; k++) {
+                                y[k].removeAttribute("class");
+                            }
+                            this.setAttribute("class", "same-as-selected");
+                            break;
+                        }
+                    }
+                    h.click();
+                });
+                b.appendChild(c);
+            }
+            x[i].appendChild(b);
+            a.addEventListener("click", function(e) {
+                /*when the select box is clicked, close any other select boxes,
+                and open/close the current select box:*/
+                e.stopPropagation();
+                closeAllSelect(this);
+                this.nextSibling.classList.toggle("select-hide");
+                this.classList.toggle("select-arrow-active");
+            });
+        }
+
+        function closeAllSelect(elmnt) {
+            /*a function that will close all select boxes in the document,
+            except the current select box:*/
+            var x, y, i, arrNo = [];
+            x = document.getElementsByClassName("select-items");
+            y = document.getElementsByClassName("select-selected");
+            for (i = 0; i < y.length; i++) {
+                if (elmnt == y[i]) {
+                    arrNo.push(i)
+                } else {
+                    y[i].classList.remove("select-arrow-active");
+                }
+            }
+            for (i = 0; i < x.length; i++) {
+                if (arrNo.indexOf(i)) {
+                    x[i].classList.add("select-hide");
+                }
+            }
+        }
+        /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+        document.addEventListener("click", closeAllSelect);
+
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //If your <ul> has the id "glasscase"
+            $('#glasscase').glassCase({
+                'thumbsPosition': 'bottom',
+                'widthDisplay': 560
+            });
+        });
+
+    </script>
+</body>

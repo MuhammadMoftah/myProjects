@@ -1,0 +1,498 @@
+@font-face {
+    font-family: "DroidKufi";
+    src: url(../fonts/DroidKufi.ttf);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'DroidKufi' ;
+    direction: rtl;
+}
+body{
+    background-color: #F5F5F5;
+}
+a, .btn, button {
+  text-decoration: none;
+  outline: none;
+  transition: all 300ms linear 0s;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+/*====== Start Styling =====*/
+
+/*====== SideBar ======*/
+/*====== SideBar ======*/
+/*====== SideBar ======*/
+.title {
+    color: #20589d;
+    font-size: 15px;
+}
+
+.title2{
+    color: #20589d;
+    font-size: 15px;
+    border-bottom: 1px solid #EDEDED;
+    padding: 15px 20px;
+    margin: 30px 0 0 0;
+    background-color: rgba(214, 227, 237, 0.56);
+}
+
+@media (max-width:480px){
+    .title2{
+        font-size: 13px;
+    }
+    table * {
+        font-size: 12px !important;
+        text-align: right !important;
+    }
+    
+    .activ *{
+        font-size: 12px !important;
+    }
+}
+@media(min-width:992px){
+    .side {
+        width: 295px;    
+    }
+}
+@media(min-width:1199px){
+    .heart{
+        width: 850px;
+        margin-top: -29px !important;
+    } 
+}
+
+.heart, .side {
+    padding: 0;
+}
+@media(max-width:992px){
+    .heart{
+        margin-top: -20px
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    .heart{
+        margin-top: -29px
+    }
+}
+.part{
+    border-bottom: 2px solid #F5F5F5;
+    background-color: white;
+}
+
+.side {
+    background-color: white;
+    
+}
+
+/*===== Nav ====*/
+nav{
+    background-color: white;
+    min-height: 64px;
+}
+
+@media(min-width:768px){
+  nav ul{
+    height: 61px;
+    }  
+}
+.navbar-toggle span{
+    background-color: #fff;
+}
+.navbar-toggle{
+    background-color: #4460A0;
+}
+
+nav ul {
+    background-color: white;
+}
+nav li {
+    float: right !important;
+}
+
+nav ul  .active{
+    background-color: #f0f0f0;
+}
+
+nav ul li:first-child a {
+    padding: 21px 30px;
+}
+nav ul li i{
+    color: #6B717B;
+    padding: 7px 10px;
+    font-size: 19px !important;
+}
+nav ul li a{
+    color: #6B717B;
+}
+ nav ul li:hover a{
+    background-color: #939393;
+    cursor: pointer;
+    color: #ffffff !important;
+}
+
+@media (max-width:768px){
+    nav li {
+    float: none !important;
+    }
+    nav ul li i{
+    color: #6B717B;
+    padding: 7px 0 ;
+    font-size: 19px !important;
+    }
+    nav ul li i{
+    margin: 7px 10px;
+    }
+}
+@media (min-width:992px){
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none !important;
+      vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+      text-align: center;
+    }
+}
+/*===== Name =====*/
+.side .part:first-child {
+    background-color: rgba(105, 152, 199, 0.72);
+    margin-top: -9px;
+    height:40px;
+    border: none;
+    padding: 0;
+}
+.side div h5{
+    color: #5f5f5f;
+    color: white;
+    padding: 5px 0;
+    line-height: 2;
+    text-shadow: 1px 1px 1px grey;
+}
+
+
+/*===== Profile Img =====*/
+.side .img{
+    background-color: rgba(159, 182, 195, 0.66);
+}
+@media (min-width:992px){
+    .side .img img{
+        width: 100%;
+    }
+}
+/*===== Informations =====*/
+.side table {
+    margin: 10px 10px;
+}
+.side th , .side td {
+    font-size: 12px;
+    padding: 3px 8px;
+    text-align: right;
+    color: #545c64;
+}
+
+/*===== media =====*/
+.media {
+    padding:  0 10px
+}
+.media ul{
+    margin: 15px 0;
+    text-align: center;
+}
+.media li{
+    background-color: #CCCCCC;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative; 
+}
+@media (max-width:480px){
+    .media li{
+        margin: 0 
+    }
+}
+.media li i{
+    line-height: 2em;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 12px
+}
+.media li:hover{
+    cursor: pointer;
+}
+.media li:nth-child(1):hover{
+    background-color: #E46492;
+}
+.media li:nth-child(2):hover{
+    background-color: #1686B0;
+}
+.media li:nth-child(3):hover{
+    background-color: #275A85;
+}
+.media li:nth-child(4):hover{
+    background-color: #1769FF;
+}
+.media li:nth-child(5):hover{
+    background-color: #5AA8DF;
+}
+.media li:nth-child(6):hover{
+    background-color: #4460A0;
+}
+.media li:nth-child(4) i{
+    left: 10px;
+}
+.media li:nth-child(6) i{
+    left: 14px;
+}
+.media li:nth-child(2) i{
+    bottom: 2px;
+    
+}
+
+/*===== Skills =====*/
+.side .skills{
+    padding: 10px 30px;
+}
+.side .skills .progress, .side .skills .progress-bar {
+    height: 11px;
+    line-height: 1em;
+    width: 90%;
+    float: left;
+    font-size: 11px;
+    text-shadow: 1px 1px 1px #484848;
+
+}
+
+/*===== language =====*/
+@keyframes move {
+    0%{
+        transform: scale(1)
+    }
+    
+    50%{
+        transform: scale(1.2)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+.lang  {
+    margin: 0 15px;
+    perspective: 600px
+}
+.lang ul {
+    padding: 10px 0;
+    text-align: center;
+}
+.lang li {
+    padding: 0;
+    margin: auto -4px;
+}
+
+.lang li:hover {
+    animation: move 0.5s 1;
+}
+.lang li:hover img{
+    cursor: pointer;
+}
+.lang img{
+    width: 100%
+}
+
+
+/*===== Personal =====*/
+.side .personal{
+    padding: 10px 30px;
+}
+.side .personal .progress, .side .personal .progress-bar {
+    height: 11px;
+    line-height: 1em;
+    width: 90%;
+    float: left;
+    font-size: 11px;
+    text-shadow: 1px 1px 1px #484848;
+
+}
+
+/*===== Empty div*/
+.side .empty{
+    min-height: 38px;
+}
+
+
+/*====== Heart of Site =====*/
+/*====== Heart of Site =====*/
+/*====== Heart of Site =====*/
+.heart .part{
+    border-bottom: 2px solid white;
+}
+
+/*===== Site =====*/
+.heart .site .row {
+    margin: 0;
+    padding: 30px 0 0 5px;
+}
+.heart .site li {
+    font-size: 12;
+    color: #767676;
+    padding: 5px 0;
+}
+.heart .site .list{
+    padding: 0 30px;
+}
+.heart .site li i{
+    padding-left:7px
+}
+
+/*===== Experiences =====*/
+.exp{
+    padding: 20px 0 0 0
+}
+.exp table{
+    margin: 0 200px 0 0;
+}
+@media(max-width:1200px){
+   .exp table{
+    margin: 0 20px 0 0 
+} 
+}
+.exp th, .exp td{
+    font-size: 12px;
+    padding: 20 15px;
+    color: #5a5a5a;
+    position: relative;
+}
+.exp th{
+    color: black;
+
+}
+.exp img{
+    position: absolute;
+    top: 22;
+    right: 6;
+    z-index: 1;
+}
+
+.exp tr:last-child{
+    position: relative;
+}
+
+.exp tr:last-child td{
+    margin-right: 14;
+
+}
+
+
+.exp table span{
+    position: absolute;
+    top: 12px;
+    background-color: #F5F5F5;
+    width: 2px;
+    height: 340px;
+    z-index: 0;
+}
+@media max-width(480px){
+    .exp table span{
+        height: 400px
+    }
+}
+/*===== Education =====*/
+.edu{
+    padding: 0 0 20px 0
+}
+.edu table{
+    margin-bottom: 20px;
+    margin-right: 80px;
+}
+@media(max-width:1200px){
+    .edu table{
+        margin-right: 15px
+}
+}
+.edu th{
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+}
+.edu td{
+    font-size: 14px;
+    border-bottom: 1px solid #efefef;
+    border-top: 1px solid #efefef;
+    padding: 10px
+}
+.edu tr:nth-child(1){
+    color: #225FFB;
+}
+.edu tr:nth-child(2){
+    color: #4ABA33;
+}
+.edu tr:nth-child(3){
+    color: #099C97;
+}
+.edu tr:nth-child(4){
+    color: #EE4849;
+}
+.edu tr:nth-child(5){
+    color: #DDB44F;
+}
+.edu tr:nth-child(6){
+    color: #A73DB9;
+}
+
+
+/*===== Activties =====*/
+.activ{
+    padding: 0 0 20px 0
+}
+.activ ul{
+    display: inline-block;
+    width: 45%;
+}
+
+.activ li{
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #797979;
+}
+
+
+
+/*===== Footer =====*/
+footer .container{
+    background-color: #5A5D62;
+    color: white;
+    padding: 20px 0;
+}
+
+footer a:hover {
+    color: white
+}
+footer a {
+    font-size: 12px;
+    color: #d3d3d3
+}
+
+footer h6{
+    font-size: 11px;
+}
+
+footer li{ 
+    position: relative;
+}
+footer span{
+    position: absolute;
+    top: 5px ;
+    left: -3px;
+    background-color: white;
+    width: 2px;
+    height: 8px
+}
+
+
+
+
+

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Theme</title>
+</head>
+
+<body>
+
+    <!--===== NavBar =====-->
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+            <div class="navbar-nav  flex-row-reverse">
+                <a class="nav-item nav-link active" href="index.html">الرئيسية</a>
+                <div class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: white">
+                        المنتجات
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="one-section.html">قسم واحد</a>
+                        <a class="dropdown-item" href="one-section.html">قسم اتنين</a>
+                        <a class="dropdown-item" href="one-section.html">قسم تلاتة</a>
+                      </div>
+                    </div>
+                <a class="nav-item nav-link" href="#">سابقة الاعمال</a>
+                <a class="nav-item nav-link" href="about.html">عن الشركة</a>
+                <a class="nav-item nav-link" href="contact.html">اتصل بنا </a>
+                    
+                <a class="nav-item nav-link" onclick="openSearch()" href="#" data-toggle="collapse" data-target="#navbarNavAltMarkup" ><i class="fas fa-search"></i> </a>
+            </div>
+
+        </div>
+    </nav>
+<!--  Search  -->
+    <div class="search-overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+        <div class="overlay-content">
+            <form action="action_page.php">
+                <input type="text" placeholder="ابحث ..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+
+
+<!--===== Cover =====-->
+<!--===== Cover =====-->
+<div class="cover" style="background-image:url(images/tanks1.jpeg)">
+    <div class="cover-overlay">
+       <div class="content">
+            <h1><span style="color: var(--clr-1)">العرابى</span> تانكاتك عندنا </h1>
+            <button><i class="fas fa-arrow-down"></i></button>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+<!--==== One Item ====-->
+<!--==== One Item ====-->
+    <div class="oneItem" style="direction: rtl">
+        <div class="container">
+        <div class="title">
+            <h3>اسم المنتج</h3> 
+        </div>
+        <div class="row">
+        <div class="col-md-6 text-right">
+            <div class="text ">
+                كشك بلاستيك من نوع الفولاز. يتحمل حتى درجة حرارة بلا بلا ويمكن استخدماه في كذا كذا مع العلم انه كذا 
+                
+                <br><br>
+                
+                كشك بلاستيك من نوع الفولاز. يتحمل حتى درجة حرارة بلا بلا ويمكن استخدماه في كذا كذا مع العلم انه كذا 
+                
+                <br><br>
+                
+                كشك بلاستيك من نوع الفولاز. يتحمل حتى درجة حرارة بلا بلا ويمكن استخدماه في كذا كذا مع العلم انه كذا 
+                   
+            </div>
+            
+            <button class="btn btn-outline-success  px-4 my-3">حجز</button>
+        </div>
+        
+        <div class="col-md-6">
+           <div class="pic">
+               <img src="images/koshk2.jpeg" alt="" id="myImg" >  
+            </div>
+        </div>
+         
+         
+            </div>
+        </div>
+    </div>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+
+
+
+
+<!--==== Footer ====-->
+<!--==== Footer ====-->
+		<!-- The content of your page would go here. -->
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Company<span>logo</span></h3>
+
+				<p class="footer-links" style="font-family: 'Cairo'; font-weight: 100;">
+					<a href="#">الرئيسية</a>
+					·
+					<a href="#">المنتجات</a>
+					·
+					<a href="#">سابقة الاعمال</a>
+					·
+					<a href="#">ماذا عنا</a>
+					·
+					<a href="#">اتصل بنا</a>
+				</p>
+
+				<p class="footer-company-name">Company Name &copy; 2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fas fa-map-marker-alt"></i>
+					<p><span>18 Shaikh Ali Street</span> Cairo, Egypt</p>
+				</div>
+
+				<div>
+					<i class="fas fa-phone"></i>
+					<p style="direction: ltr">+1 555 123456</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>عن الشركة</span>
+					شركة مصرية نقدم لكم افضل المنتجات بأقل الاسعار , نحن نتميز بمتانة الخامات الخاصة بنا والاريحية فى التعامل معنا, نحن شركة مصرية نقدم لكم افضل المنتجات بأقل الاسعار 
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					<a href="#"><i class="fab fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+		
+		
+<!--		===== ScrollButton =====-->
+<!--		===== ScrollButton =====-->
+		<button class="btn btn-success scrollButton  "><i class="fas fa-angle-up"></i></button>
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

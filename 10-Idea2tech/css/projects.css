@@ -1,0 +1,147 @@
+
+.proj  {
+    border-bottom: 10px;
+    padding-bottom: 50px;
+}
+.proj h1{
+    font-size:40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px
+}
+
+@media(max-width:634px){
+.proj h1{
+    font-size: 22px;
+    width: 80%;
+}
+}
+
+.proj p{
+    text-align: center;
+    font-size: 17px;
+}
+
+.proj .choices {
+    background-color: white;
+    margin: 20px auto;
+	float: none;
+    border-radius: 50px;   
+	padding-bottom: 2; 
+    text-align: center;
+    width: 80%;
+}
+@media(max-width:575px){
+    .proj .choices {
+       width: 100%; 
+    }
+}
+.proj .choices li{
+    padding: 15 0 15 0;
+    margin: 0 10 -10 10;
+    border-bottom: 1px solid transparent ;
+}
+.proj .choices li:hover{
+    cursor: pointer;
+    color: #13A89E;
+    border-bottom: 1px solid;
+}
+.selected{
+    color: #13A89E;
+	font-weight: bold;
+}
+
+.proj .items{
+    text-align: center;
+}
+.proj .items  div {
+    height: 300px;
+    width: 29%;
+    float: none;
+    display: inline-block;
+    min-width: 200px;
+    
+}
+@media(max-width:768px){
+   .proj .items  div  {
+       width: 48%; 
+    }
+}
+@media(max-width:480px){
+   .proj .items  div  {
+       width: 90%; 
+    }
+}
+.proj .items img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+}
+.proj .items .hover:hover{
+    opacity: 0.9;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+.proj .items .hover{
+    width: 100%;
+    left: 0;
+    background-color: #424242;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.7s;
+}
+.proj .items .hover button:hover{
+    color: #13A89E;
+    background-color: #fff;
+    border-color: white;
+}
+.proj .items .hover button{
+    font-size: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid ;
+    max-width: 90px;
+    padding: 10px;
+    width: 40%;
+}
+.proj .items .hover  div{
+    margin: 100px  auto 0 auto;
+    height: 50px;
+    width: 40%;
+}
+.proj .items .hover button:last-of-type{
+    float: right;
+}
+.proj .items .hover button:first-of-type{
+    margin: 0 20px 0 0;
+    float: left;
+}
+.proj .items .hover h4{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    word-spacing: 2px
+}
+
+/*
+.proj .load{
+    background-color: #F2F2F2;
+    height: 150px
+}
+.proj .load h3:hover{
+    cursor: pointer;
+    color: #13A89E;
+}
+.proj .load h3{
+    margin-top: 60;
+    letter-spacing: 1px;
+    font-size: 18;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #262626;
+}
+*/

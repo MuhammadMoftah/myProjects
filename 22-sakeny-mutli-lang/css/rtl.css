@@ -1,0 +1,138 @@
+.title h1 {
+    text-align: right;
+}
+
+.title h1:after {
+    right: 0;
+    left: auto;
+}
+
+body {
+    direction: rtl;
+}
+
+
+/*===== Nav =====*/
+/*===== Nav =====*/
+nav {
+    direction: rtl
+}
+
+.navbar-nav .dropdown-menu {
+    text-align: right;
+}
+
+/*===== Footer =====*/
+/*===== Footer =====*/
+footer * {
+    text-align: right;
+}
+
+footer .brand {
+    text-align: right !important;
+}
+
+/*===== Search =====*/
+/*===== Search =====*/
+.top-cover {
+    direction: rtl;
+}
+
+footer .list-unstyled {
+    padding: 0;
+}
+
+
+/*===== About =====*/
+/*===== About =====*/
+.about p {
+    text-align: right !important;
+}
+
+/*===== all-projects =====*/
+/*===== all-projects =====*/
+.all-projects .card .card-body * {
+    text-align: right;
+}
+
+/*===== Company Registry =====*/
+/*===== Company Registry =====*/
+.company-reg .title {
+    right: 122px;
+}
+
+.company-reg .form-group {
+    text-align: right;
+}
+
+.company-reg .custom-checkbox {
+    text-align: right;
+}
+
+.company-reg .custom-checkbox .custom-control-label {
+    margin-right: 20px;
+}
+
+.company-reg .custom-control-label::after {
+    left: auto;
+    right: -20px;
+}
+
+.company-reg .custom-control-label::before {
+    left: auto;
+    right: -20px;
+}
+
+/*===== login =====*/
+/*===== login =====*/
+.login .title {
+    right: 122px;
+}
+
+.login .form-group {
+    text-align: right;
+}
+
+.login .custom-checkbox {
+    text-align: right;
+}
+
+.login .custom-checkbox .custom-control-label {
+    margin-right: 20px;
+}
+
+.login .custom-control-label::after {
+    left: auto;
+    right: -20px;
+}
+
+.login .custom-control-label::before {
+    left: auto;
+    right: -20px;
+}
+
+.login .col-12:before {
+    top: 30%;
+}
+
+/*===== Single Projects =====*/
+/*===== Single Projects =====*/
+
+.single-project ul,
+.single-project b,
+.single-project p,
+.single-project h4 {
+    text-align: right !important;
+}
+
+.single-project .contact {
+    text-align: right;
+}
+
+.single-project .footer-social-link {
+    text-align: center !important;
+    padding: 0;
+}
+.single-project .footer-social-link li {
+    margin-right: .5rem;
+}

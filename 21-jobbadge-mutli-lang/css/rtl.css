@@ -1,0 +1,178 @@
+.container-blog-posts .blog-posts-header .section-title {
+    text-align: right;
+}
+
+.post-job-list-view {
+    direction: rtl;
+}
+
+.container-post-jobs .post-job-list-view .list-view-item{
+    text-align: right;
+}
+
+/*===== company jobs =====*/
+/*===== company jobs =====*/
+.blog-posts-wrapper {
+    direction: rtl;
+}
+
+
+.blog-posts-wrapper .blog-posts-content-wrapper {
+    text-align: right;
+}
+
+
+/*=====Company profile as company =====*/
+/*=====Company profile as company =====*/
+.comp-profile {
+    direction: rtl;
+}
+
+.comp-profile .form-group {
+    text-align: right;
+}
+
+.comp-profile .profile p {
+    text-align: right;
+}
+
+.comp-profile tr,
+.comp-profile td,
+.comp-profile th {
+    text-align: center;
+}
+
+.comp-profile #usersTable_wrapper > .row {
+    /*    direction: ltr*/
+}
+
+/*===== Contact =====*/
+/*===== Contact =====*/
+.contact form {
+    direction: rtl;
+    text-align: right;
+}
+
+/*===== forget pass & login =====*/
+/*===== forget pass & login =====*/
+.login {
+    direction: rtl;
+    text-align: right;
+}
+
+
+/*==== interview-types ====*/
+/*==== interview-types ====*/
+.interview-type {
+    direction: rtl;
+}
+
+.interview-type .modal .form-group {
+    text-align: right;
+}
+
+.interview-type .modal .modal-footer button {
+    margin-right: 10px
+}
+
+/*==== Job Details ====*/
+/*==== Job Details ====*/
+.container-job {
+    direction: rtl;
+}
+
+.container-job div {
+    text-align: right;
+}
+
+.container-job .job-content .job-content-title {
+    text-align: right;
+}
+
+.container-job .job-content p {
+    text-align: right;
+    padding-right: 0;
+}
+
+.container-job .like-button span {
+    left: auto;
+    right: 2px;
+}
+
+
+/*==== join us ====*/
+/*==== join us ====*/
+#tabs {
+    direction: rtl;
+}
+
+#tabs .form-group {
+    text-align: right;
+}
+
+#tabs .custom-control {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.custom-control-label:after,
+.custom-control-label:before {
+    left: auto;
+    right: -1.5rem;
+}
+
+/*===== new company page ====*/
+/*===== new company page ====*/
+.company-profile{
+    direction:rtl; 
+    text-align: right;
+}
+
+.company-profile .part {
+    text-align: right
+}
+
+/*===== new user page =====*/
+/*===== new user page =====*/
+.user-profile{
+    direction: rtl;
+    text-align: right
+}
+.user-profile .part {
+    text-align: right
+}
+
+
+/*===== Record Page =====*/
+/*===== Record Page =====*/
+.record-interview{
+    direction: rtl;
+    text-align: right;
+}
+
+
+/*===== user profile skills ====*/
+/*===== user profile skills ====*/
+
+.add-skills{
+    text-align: right;
+    direction: rtl;
+}
+
+.add-skills .part-body ico {
+    right: auto;
+    left: 20px;
+}
+.add-skills .modal-footer {
+    justify-content: flex-start;
+}
+
+.add-skills .modal-footer button{
+    margin: auto 5px;
+}
+
+
+
+
+
+

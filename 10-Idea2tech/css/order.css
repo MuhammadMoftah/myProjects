@@ -1,0 +1,88 @@
+
+.order{
+    background-image: url(../images/Planning-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-size: cover;
+}
+
+.order table {
+    width: 100%;
+    margin: 80px 0 0 0;
+}
+.order table th{
+    background-color: #12A89D;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin: 0 ;
+    font-size: 25px;
+    letter-spacing: 1;
+    
+}
+.order table td{
+    background-color: #3A3839;
+    border-top: 2px solid #EBE0CC;
+    padding: 15px;
+}
+.order table th{
+    padding: 15px;
+    
+}
+.order table{
+    color: white;
+    font-size: 20px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+@media(max-width:550px){
+    .order table{
+        font-size: 14px;
+    }   
+    .order table th{
+        font-size: 17px;
+        padding: 20px 0
+    }
+  
+}
+
+
+.last{
+    padding: 20px 0;
+}
+.last .pay{
+    float: right;    
+    padding: 20px 0;
+}
+.last img{
+    width: 45px;
+    text-align: justify;
+    margin: 0 11px;
+    height: 30px;
+}
+
+.last p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.last h1{
+    text-align: center;
+    float: none;
+    margin-left: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

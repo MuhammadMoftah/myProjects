@@ -1,0 +1,97 @@
+/* Progress Tracker */
+.progress-tracker {
+  position: fixed;
+  top: 50%;
+  right:25px;
+}
+.progress-tracker.hide {
+  width: 0px;
+}
+.progress-tracker.hide ul li .pt-description,
+.progress-tracker.hide.active ul li .pt-description,
+.progress-tracker.hide.constant ul li.active .pt-description {
+  display: none;
+   
+}
+.progress-tracker ul li {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background-color: #ebe9ea;
+  border: 1px solid #666;
+  margin-bottom: 20px;
+  list-style-type: none;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+    opacity: 0.5;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+    
+}
+.progress-tracker ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.progress-tracker ul li .pt-description {
+  display: none;
+    font-size: 16px;
+  position: absolute;
+  top: 4px;
+  right: 50px;
+  padding: 8px;
+    color: #EEE;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #222;
+    border: 1px solid #ccc;
+    opacity: 0.7;
+  white-space:nowrap;
+
+}
+
+.pt-description {
+    margin-right: 10px;
+  position: relative;
+  border-radius: 0.5em;
+  padding: 1em;
+  box-sizing: border-box;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+}
+.pt-description:before, .pt-description:after {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(54%, -50%) rotate(45deg);
+          transform: translate(54%, -50%) rotate(45deg);
+}
+.pt-description:before {
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  z-index: -1;
+}
+
+.pt-description:before,.pt-description:after {
+  border-top: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  background: #222;
+}
+.progress-tracker ul li.active {
+     box-shadow: 0 0 0 6px rgba(255,255,255,0.6); 
+    opacity: 1;
+    
+}
+.progress-tracker.constant ul li.active .pt-description {
+  display: block;
+}
+.progress-tracker ul li:hover{
+  box-shadow: 0 0 0 6px rgba(255,255,255,0.6);
+    opacity: 1;
+}

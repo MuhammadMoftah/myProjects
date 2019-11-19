@@ -1,0 +1,903 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+/*==== SiteColors ==== */
+/*==== SiteColors ==== */
+:root {
+    --clr-1: #33e0be;
+    --oclr-1: rgba(51, 224, 190, 0.75);
+    --clr: #1ABC9C;
+    --oclr: rgba(26, 188, 156, 0.75);
+    --clr1:#18a085;
+    --oclr1:rgba(24, 160, 133, 0.75);
+    --clr2:#157c68;
+    --oclr2:rgba(21, 124, 104, 0.75);
+
+}
+
+
+/*===== Initialization ====*/
+/*===== Initialization ====*/
+body {
+    background-color: #f3f3f3;
+    font-family: 'Cairo', sans-serif;
+}
+
+a,
+.btn,
+button {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.title{
+    text-align: right;
+    position: relative;
+    margin: 30px 0;
+}
+
+.title h3:after{
+    content: "";
+    background-color: var(--clr2);
+    position: absolute;
+    right: 2px;
+    bottom: -5px;
+    width: 30px;
+    height: 2px;
+}
+.title h3:before{
+    content: "";
+    background-color: var(--clr2);
+    position: absolute;
+    right: 2px;
+    bottom: -10px;
+    width: 100px;
+    height: 2px;
+}
+
+
+
+/*===== ScrollButton =====*/
+/*===== ScrollButton =====*/
+.scrollButton{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 20px;
+    padding: 25px 15px;
+    display: none;
+    
+}
+
+.scrollButton i{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    transition: all 1s ease; 
+}
+
+.scrollButton:hover i{
+    bottom: 25px;
+    transition: all 1s ease; 
+}
+
+
+/*===== Navbar =====*/
+/*===== Navbar =====*/
+nav{
+    background-color: transparent;
+    transition: all 1s ease;
+}
+nav.myNav{
+    transition: all 1s ease;
+    padding: 15px 40px !important;
+    background-color: var(--oclr1); 
+}
+.navbar #navbarNavAltMarkup .navbar-nav > a {
+    margin: auto 10px;
+    color: white;
+}
+
+nav .dropdown-menu{
+    background-color: var(--clr1);
+    border: none;
+    text-align: right;
+}
+nav .dropdown-menu a{
+    color: white;
+}
+nav .dropdown-menu a:hover{
+    background-color: var(--clr-1);
+}
+
+@media(max-width:992px){
+    nav  .navbar-nav {
+        align-items: center;
+        flex-direction:column !important;
+    }
+    nav .navbar-nav .dropdown{
+        width: 100% !important
+    }
+    nav .navbar-nav a {
+        width: 100% ;
+        text-align: center;
+        color: white;
+        border-bottom: 1px solid #a8a8a8;
+        padding: 15px
+    }
+    nav .navbar-nav a:hover {
+        background-color: var(--clr-1);
+    }
+    nav{
+        transition: all 1s ease;
+    padding: 15px 40px !important;
+    background-color: var(--oclr1); 
+    }
+}
+
+
+/*==== Search ====*/
+.search-overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+/* The content */
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+/* Close button */
+.search-overlay .closebtn {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.search-overlay .closebtn:hover {
+    color: #ccc;
+}
+
+/* Style the search field */
+.search-overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+    border-radius: 5px 0 0 5px;
+    direction: rtl;
+}
+.search-overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+/* Style the submit button */
+.search-overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: var(--clr);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0px;
+    color: #e0e0e0;
+}
+
+.search-overlay button:hover {
+    background: var(--clr-1);
+}
+
+
+/*===== Cover =====*/
+/*===== Cover =====*/
+.cover{
+    height: 700px;
+    width: 100%;
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    background-attachment: fixed;
+}
+.cover .cover-overlay{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(23, 23, 23, 0.86);
+    
+}
+
+.cover .cover-overlay .content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.cover .cover-overlay h1{
+    position: absolute;
+    text-align: center;
+    top:240px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: white;
+    font-size: 60px;
+}
+
+.cover .cover-overlay button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 150px;
+    height: 50px;
+    width: 50px;
+    margin: auto !important;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid grey;
+    padding: 40px 10px;
+    color: #c7c7c7
+    
+}
+
+.cover .cover-overlay button i{
+   position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: all 1s ease;
+}
+
+.cover .cover-overlay button:hover{
+    color: var(--clr-1);
+    border-color: var(--clr-1);
+}
+
+.cover .cover-overlay button:hover i{
+    top: 45px;
+    transition: all 1s ease;
+}
+
+
+/*=====About US=====*/
+/*=====About US=====*/
+.whoWe{
+    padding-top: 50px;
+}
+
+
+
+
+
+/*==== Imporant Items ====*/
+/*==== Imporant Items ====*/
+.bestItems{
+    padding-top: 50px;
+}
+.bestItems .slider {
+    direction: rtl
+}
+.bestItems .slider .item{
+    height: 300px;
+    border: 2px solid #9a9a9a;
+    margin: 0 5px;
+    float: right;
+    text-align: right;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.bestItems .slider .item:hover{
+    border: 2px solid var(--clr);
+}
+.bestItems .slider .item:hover img {
+    border-bottom: 2px solid var(--clr);
+}
+.bestItems .slider .item a {
+    font-size: 14px;
+}
+
+.bestItems .slider h5{
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 19px;
+}
+.bestItems .slider .item img{
+    height: 220px;
+    border-bottom: 2px solid #9a9a9a;
+}
+.slick-arrow{
+    background-color: var(--oclr);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.slick-arrow:hover,
+.slick-arrow:active,
+.slick-arrow:focus{
+    background-color: var(--clr);
+}
+
+/*==== Categories ====*/
+/*==== Categories ====*/
+.cate {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+.cate .row{
+    flex-direction: row-reverse;
+}
+.cate .part {
+    height: 408px;
+    border: 2px solid #aaaaaa;
+    border: 2px solid var(--clr2);
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+.cate .part h5{
+    background-color: #aaaaaa;
+    background-color: var(--clr2);
+    color: white;
+    margin: 0;
+    padding: 15px 0;
+}
+.cate .part .unique{
+    width: 100%;
+    height: 250px;
+    border-radius: 0px;
+}
+.cate .part img{
+    max-width: 100%;
+    width: 30%;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.cate .part:hover h5 {
+    background-color: var(--clr-1);
+}
+.cate .part:hover {
+    border-color: var(--clr-1);
+}
+
+
+
+/*===== Contact Us  =====*/
+/*===== Contact Us  =====*/
+.bgc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, black , #043804);
+    opacity: 0.6;
+}
+.contact {
+    background: url(../images/contact.jpg)  no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0;
+    color: white;
+    position: relative;
+    direction: rtl;
+    
+}
+.contact .title {
+    color: white;
+}
+.contact .title .left,
+.contact .title .right{
+    background-color: white;
+}
+.contact .contact-form {
+    overflow: hidden;
+    position: relative;
+    background: transparent;
+    padding: 0;
+    overflow: visible;
+}
+.contact .contact-form .form-control {
+    border-radius: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+    padding: 15px 20px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #FFF;
+}
+.contact .contact-form .form-control:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.4);
+    outline: 0;
+}
+.contact .contact-form textarea.form-control {
+    height: 210px;
+    resize: none;
+}
+.contact .contact-form .btn-box {
+    padding-top: 15px;
+}
+.contact .contact-form:before {
+    content: "\f003";
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 170px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.contact .contact-info {
+    background: #EEEEEE;
+    padding: 32px 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    min-width: 200px;
+}
+.contact .contact-info .info-box {
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #CACACA;
+}
+.contact .contact-info .info-box:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+.contact .contact-info .info-box i {
+    font-size: 35px;
+}
+.contact .contact-info .info-box h5 {
+    margin-top: 14px;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: 400;
+}
+.contact .contact-info .info-box p {
+    margin-bottom: 0;
+    color: #777;
+}
+.contact .contact-form .form-control::-webkit-input-placeholder {
+    color: #EEE;
+}
+.contact .contact-form .form-control::-moz-placeholder {
+    color: #EEE;
+}
+.contact .contact-form .form-control:-ms-input-placeholder {
+    color: #EEE;
+}
+.contact .contact-form .form-control:-moz-placeholder {
+    color: #EEE;
+}
+.contact .contact-form:before {
+    content: none;
+}
+.contact .contact-info {
+    background: rgba(255, 255, 255, 0.2);
+    color: #EEE;
+}
+.contact .contact-info .info-box {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.contact .contact-info .info-box h5 {
+    color: #FFF;
+}
+.contact .contact-info .info-box p {
+    color: #EEE;
+}
+
+/* Contact Form */
+.contact .contact-form {
+    padding: 40px;
+}
+.contact .contact-form:before {
+    content: none;
+}
+
+
+
+
+/*===== oneSection =====*/
+/*===== oneSection =====*/
+.oneSection {
+    padding: 50px 0;
+    direction: rtl;
+    
+}
+.oneSection .item{
+    height: 300px;
+    border: 2px solid #9a9a9a;
+    margin: 0 -5px;
+    float: right;
+    text-align: right;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px
+}
+.oneSection  .item:hover{
+    border: 2px solid var(--clr);
+}
+.oneSection .item:hover img {
+    border-bottom: 2px solid var(--clr);
+}
+.oneSection .item a {
+    font-size: 14px;
+}
+
+.oneSection h5{
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 19px;
+    background-color: #9a9a9a;
+    height: 100%;
+    margin: 0;
+    padding-top: 10px;
+}
+.oneSection .item:hover h5 {
+    background-color: var(--clr);
+}
+.oneSection .item img{
+    height: 250px;
+    border-bottom: 2px solid #9a9a9a;
+}
+
+
+
+
+/*===== oneItem =====*/
+/*===== oneItem =====*/
+
+.oneItem{
+    padding: 80px 0;
+}
+
+.oneItem .pic img{
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #808080
+}
+
+.oneItem .pic img:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 1px #000000
+}
+
+/*==== Modal Style ====*/
+/*==== Modal Style ====*/
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 9999; 
+    padding-top: 50px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+    overflow: hidden;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+/*===== Footer =====*/
+/*===== Footer =====*/
+footer{
+/*    direction: rtl;*/
+}
+
+.footer-center{
+    direction: rtl;
+    text-align: right;
+}
+.footer-center > div{
+/*    text-align: center;*/
+}
+
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 17px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 39px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+.footer-distributed {
+    direction: rtl;
+}
+.footer-distributed >div {
+    direction: rtl !important;
+    text-align: right;
+}
+
+
+
+
+

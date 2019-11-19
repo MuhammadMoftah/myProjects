@@ -1,0 +1,633 @@
+/*===== Initialization ====*/
+/*===== Initialization ====*/
+:root {
+    --clr1: #C1C076;
+    --clr2: #B5B338;
+    --clr3: #828128;
+    --clr4: #363511;
+    --clr5: #363521;
+}
+
+::-moz-selection {
+    background-color: var(--clr1) !important;
+}
+
+::selection {
+    background-color: var(--clr1) !important;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+a,
+.btn,
+button {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hovered {
+    background-image: linear-gradient(190deg, var(--clr1), var(--clr3));
+    color: white
+}
+
+/*===== Navbar =====*/
+/*===== Navbar =====*/
+header .logo-link img {
+    height: 65px
+}
+
+.container-header .menu-mobile {
+    color: var(--clr3);
+}
+
+.container-header .header-link-action {
+    color: #B4B137;
+    background: linear-gradient(90deg, var(--clr1) 0, var(--clr3));
+}
+
+.container-header .header-link-action:hover span {
+    background: linear-gradient(90deg, var(--clr1) 0, var(--clr3));
+}
+
+.container-header .header-nav ul li a.header-nav-link {
+    font-size: 13px;
+    font-weight: bold
+}
+
+.container-header .header-nav ul li a.header-nav-link:hover {
+    color: var(--clr2);
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .container-header .header-nav ul li {
+        padding: 15px 0;
+        cursor: pointer;
+    }
+
+    .container-header .header-nav ul li:hover {
+        background: #afafaf1f;
+        padding: 15px 0;
+    }
+}
+
+header .notifcation {
+    position: relative;
+}
+
+header .notifcation span {
+    position: absolute;
+    right: -3px;
+    top: 5%;
+}
+
+header .notifcation button {
+    font-size: 30px;
+    color: var(--clr3);
+    color: #818181;
+}
+
+header .notifcation img {
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*===== Search =====*/
+/*===== Search =====*/
+.container-search-job .search-job .search-job-form .search-job-form-button {
+    background: linear-gradient(90deg, var(--clr2) 0, var(--clr3));
+}
+
+.container-search-job .search-job .search-job-form .search-job-form-button:hover {
+    background: linear-gradient(90deg, var(--clr2) 0, var(--clr3));
+}
+
+.container-search-job .search-job .search-job-title-new-job span {
+    color: var(--clr3);
+    font-weight: bold;
+}
+
+.container-search-job .search-job .search-job-statistics .text {
+    color: var(--clr3);
+}
+
+
+
+/*===== Category Jobs =====*/
+/*===== Category Jobs =====*/
+.container-jobs-category .jobs-category-carousel .item .item-link:hover .item-img {
+    background-image: linear-gradient(190deg, var(--clr1), var(--clr3));
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    color: var(--clr2);
+    -webkit-background-clip: text;
+}
+
+
+/*===== Company Jobs =====*/
+/*===== Company Jobs =====*/
+.container-blog-posts .blog-posts .blog-posts-img img {
+    height: 215px;
+    width: 100%;
+}
+
+.container-blog-posts .blog-posts .blog-posts-content .blog-posts-title a:hover {
+    color: var(--clr3);
+}
+
+/*===== Posted Jobs =====*/
+/*===== Posted Jobs =====*/
+.container-post-jobs .post-jobs-filter .post-jobs-filter-select .icon {
+    background: linear-gradient(207deg, var(--clr2), var(--clr3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-post-jobs .post-jobs-filter .post-jobs-filter-view-list .view-list-type.active {
+    background: linear-gradient(207deg, var(--clr2), var(--clr3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-post-jobs .post-job-list-view .list-view-item .item-post-job .item-post .post-date {
+    color: var(--clr2);
+}
+
+.button-outline {
+    color: var(--clr2);
+    background-image: linear-gradient(190deg, var(--clr1), var(--clr3));
+}
+
+.button-outline:hover span {
+    background-image: linear-gradient(190deg, var(--clr1), var(--clr3));
+}
+
+.button-fill {
+    background: linear-gradient(207deg, var(--clr2), var(--clr3));
+}
+
+.button-fill:hover {
+    background: linear-gradient(207deg, var(--clr1), var(--clr2));
+}
+
+.container-post-jobs .post-job-grid-view .grid-view-item .item-date {
+    color: var(--clr2)
+}
+
+.container-post-jobs .post-job-grid-view .grid-view-item .item-post-title:hover,
+.container-post-jobs .post-job-grid-view .grid-view-item .item-post-title a:hover {
+    color: var(--clr3);
+}
+
+
+/*===== Testimonials =====*/
+/*===== Testimonials =====*/
+.container-our-testimonials .our-testimonials-carousel .item .item-name .name {
+    color: var(--clr3)
+}
+
+
+/*===== job-details =====*/
+/*===== job-details =====*/
+.container-job .header-detail-info .icon {
+    color: var(--clr3)
+}
+
+.job-detail-info .info-item .item-title {
+    color: var(--clr2);
+}
+
+.job-company-info .company-info-detail .info-company-link {
+    color: var(--clr3);
+}
+
+.job-company-info .company-info-detail .info-company-button:hover {
+    border: 2px solid var(--clr2);
+    color: var(--clr2);
+}
+
+.container-post-jobs .post-job-list-view .list-view-item .item-post-job .item-post .post-name:hover,
+.container-post-jobs .post-job-list-view .list-view-item .item-post-job .item-post .post-name a:hover,
+.container-post-jobs .post-job-list-view .list-view-item .item-post-job .item-post .post-name a:visited:hover {
+    color: var(--clr2);
+}
+
+.job-detail-info .info-item .item-desc a:hover {
+    color: var(--clr2);
+}
+
+/*===== Join Us =====*/
+/*===== Join Us =====*/
+section#tabs {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#tabs {
+    color: black;
+}
+
+#tabs h6.section-title {
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: grey;
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: var(--clr2) !important;
+    background-color: rgba(177, 177, 177, 0.18);
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 2px solid !important;
+    font-size: 20px;
+}
+
+
+/*===== Company Profile =====*/
+/*===== Company Profile =====*/
+
+.comp-profile .part {
+    border-radius: 10px;
+    padding: 30px 5px;
+}
+
+.comp-profile .card {
+    background-color: transparent;
+    border: none
+}
+
+.comp-profile .card img {
+    width: 180px;
+    margin: auto;
+}
+
+
+
+/*===== Login =====*/
+/*===== Login =====*/
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem #b5b33866;
+    border-color: var(--clr2);
+}
+
+.login {
+    padding: 30px 0;
+}
+
+.login .row > .mx-auto {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.login form {
+    padding: 80px 50px 50px 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+@media(min-width:992px) {
+    .login form {
+        padding: 80px 200px;
+    }
+}
+
+.login .form-title {
+    padding-top: 70px;
+    position: absolute;
+    height: 350px;
+    width: 500px;
+    z-index: 5;
+    left: -280px;
+    top: -290px;
+    background: url('../icons/title-image.png') no-repeat;
+    background-size: contain;
+}
+
+.login .title {
+    position: absolute;
+    right: 110px;
+    bottom: 82px;
+    color: white;
+    font-weight: 800 !important;
+}
+
+.login .col-12:before {
+    content: '';
+    display: block;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    background: #000;
+    z-index: 0
+}
+
+.login .col-12 h4 {
+    margin: auto;
+    padding: 0 10px;
+    font-size: 18px;
+    height: auto;
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    background-color: #F2F2F2;
+}
+
+.social-login a {
+    transition: all .3s ease-in-out 0s;
+    display: inline-block;
+    color: #fff !important;
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+    border-radius: 5px;
+    margin: 0 3px;
+}
+
+.social-login a:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s ease;
+}
+
+.social-login a.facebook {
+    background: #005ebf;
+    border: 1px solid #005ebf;
+}
+
+.social-login a.google {
+    background: #bf0000;
+    border: 1px solid #bf0000;
+}
+
+.social-login a.twitter {
+    background: #55acee;
+    border: 1px solid #55acee;
+}
+
+.social-login a.linked {
+    background: #0077b5;
+    border: 1px solid #0077b5;
+}
+
+/*===== Application Status =====*/
+/*===== Application Status =====*/
+.application ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+.application ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 82%;
+    z-index: 400;
+    top: 10px;
+}
+
+.application ul.timeline > li {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.application ul.timeline > li p {
+    font-size: 15px;
+    margin-bottom: -8px;
+    cursor: pointer;
+}
+
+.application ul.timeline > li small {
+    font-size: 11px;
+}
+
+.application ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid var(--clr2);
+    left: 25px;
+    width: 10px;
+    height: 10px;
+    z-index: 400;
+    margin-top: 6px;
+}
+
+/*===== Contact =====*/
+/*===== Contact =====*/
+.contact form {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #d3d3d3
+}
+
+/*===== About =====*/
+/*===== About =====*/
+.about .section-title {
+    color: var(--clr3)
+}
+
+/*===== New User Page ====*/
+/*===== New User Page ====*/
+.user-profile .user-info {
+    border-top: 2px solid var(--clr2);
+    padding: 10px;
+}
+
+.user-profile .user-info img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.user-profile .user-info span {
+    font-size: 14px;
+}
+
+.user-profile .container-footer {
+    width: 25%;
+}
+
+.user-profile .container-footer ul.footer-social-media li {
+    margin: 0 10px 0 0;
+}
+
+@media(max-width:768px) {
+    .user-profile .user-info div {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .user-profile .user-info img {
+        margin: 20px auto;
+    }
+
+    .user-profile .container-footer ul.footer-social-media {
+        text-align: center !important;
+    }
+}
+
+.user-profile .part {
+    padding: 10px;
+    border-top: 2px solid var(--clr2);
+}
+
+.user-profile .part h6 {
+    color: var(--clr3)
+}
+
+/*===== User Add Skills =====*/
+/*===== User Add Skills =====*/
+.add-skills .part-body {
+    background-color: white;
+    position: relative;
+}
+
+.add-skills .part-body ico {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.add-skills .part h6 {
+    color: var(--clr3)
+}
+
+.datepicker {
+    z-index: 1151 !important;
+}
+
+.add-skills .bootstrap-tagsinput .tag {
+    background-color: #17a2b8;
+    padding: 2px 7px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 2px 0;
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+.add-skills .langu-form p {
+    width: 48%;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block
+}
+
+/*===== Company Profile ====*/
+/*===== Company Profile ====*/
+.company-profile .user-info .add-border {
+    border-right: 1px solid #dee2e6;
+}
+
+@media(max-width:768px) {
+    .company-profile .user-info .add-border {
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+    }
+}
+
+/*===== Interview Type =====*/
+/*===== Interview Type =====*/
+.interview-type .part {
+    height: 300px;
+    width: 300px;
+}
+
+.interview-type .part i {
+    font-size: 80px
+}
+
+
+/*===== Session Waiting & Expired =====*/
+/*===== Session Waiting & Expired =====*/
+section.session {
+    height: 700px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+
+}
+
+section.session h1 {
+    text-shadow: 1px 1px 3px #242424;
+    border-radius: 10px;
+    color: var(--clr2);
+}
+
+
+/*==== New Partners ====*/
+/*==== New Partners ====*/
+
+.container-new-partner{
+    padding: 120px 0;
+}
+.container-new-partner .carousel-cell {
+    width: 120px;
+    height: 120px;
+    margin-right: 100px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+
+
+/*===== footer =====*/
+/*===== footer =====*/
+.container-footer .footer-contact-info .contact-info .icon {
+    color: var(--clr2);
+}
+
+.container-footer .footer-about-us img {
+    position: absolute;
+    top: -90px;
+    width: 80px;
+    height: 90px;
+    left: 0;
+}
+
+.container-footer ul.footer-menu li a:hover {
+    color: var(--clr2);
+}
+
+.container-footer ul.footer-social-media li a:hover {
+    color: var(--clr3)
+}

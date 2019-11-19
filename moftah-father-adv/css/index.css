@@ -1,0 +1,62 @@
+/*===== Initialization ====*/
+/*===== Initialization ====*/
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+body{
+    direction: rtl;
+    text-align: right;
+/*    font-family: 'Cairo', sans-serif;*/
+}
+
+a, .btn, button {
+  text-decoration: none;
+  outline: none;
+  transition: all 300ms linear 0s;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+  margin: 0;
+}
+
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+img{
+    margin: auto;
+    border-radius: 5px;
+/*    width: 100%;*/
+    max-width: 100%;
+}
+.device{
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    text-align: center;
+    height: 280px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

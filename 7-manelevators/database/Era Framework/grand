@@ -1,0 +1,6 @@
+grant all privileges on erasofte_man.* to erasofte_man@'%' identified by"ndsdonnrsredfg{1]Z;" with grant option 
+
+
+grant all privileges on erasofte_man.* to erasofte_man@localhost identified by"ndsdonnrsredfg{1]Z;" with grant option 
+
+

@@ -1,0 +1,38 @@
+ $formerrors = array();
+        if(strlen($user)  4 ){
+            $formerrors [] = ' Username can't be less than 4 charachters';
+        }
+        if(strlen($user)  20 ){
+            $formerrors [] = ' Username can't be more than 20 charachters';
+        }
+        if(empty($user)){
+            $formerrors[] = ' Username Can't be empty';
+        }
+        if(empty($pass)){
+            $formerrors[] = ' Password Can't be empty';
+        }
+        if(empty($email)) {
+            $formerrors[] = ' Email address Can't be empty';
+        }
+        if(empty($name)) {
+            $formerrors[] = ' You full name  Can't be empty';
+        }
+        foreach($formerrors as $error){
+            echo $error . 'br';
+        }
+        if(empty($formerrors)) {
+
+
+                $stmt = $conn-prepare(INSERT INTO users SET username =  , password =  , email =  , fullname =  );
+                $stmt-execute(array($user, $pass, $email, $name));
+
+            function redirecthome($seconds = 3){
+                header(refresh$seconds;url= index.php);
+                exit();
+            }
+                echo $stmt-rowCount() .   . 'Record updated'  . redirecthome(3);
+        }
+    }else{
+        $errormsg= ' You can't browse this page directly';
+        redirecthome($errormsg,6);
+    }

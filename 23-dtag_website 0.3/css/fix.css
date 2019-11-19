@@ -1,0 +1,19 @@
+.header2 .full-width {
+    overflow:hidden;
+}
+
+.services .services-inner {
+    width: 100%;
+}
+    
+.header2 .caption h1 {
+    min-height: 50px
+}
+
+body{
+    height: 50px !important;
+    /* overflow: hidden; */
+}
+#background2{
+    height: 500px;
+}

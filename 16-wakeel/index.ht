@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    
+    <title></title>
+</head>
+
+<body>
+
+<!--===== Navbar =====-->
+<!--===== Navbar =====-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="direction: rtl">
+
+     <div class="container">
+         <a class="navbar-brand ml-auto" href="#"><img src="images/logo.png" alt=""></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">الرئيسية  <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">المهام</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">وكيل المدرسة</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">النماذج</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">اليه التنفيذ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">من نحن</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">اتصل</a>
+          </li>
+          <li class="nav-item">
+            <a style="display: inline-block" class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i></a> 
+            <a style="display: inline-block" class="nav-link" href="#"><i class="fas fa-user-plus"></i></a>
+           </li>
+        </ul>
+      </div>
+      </div>
+</nav>
+
+
+<!--===== Cover =====-->
+<!--===== Cover =====-->
+<section class="cover">
+    <img src="images/cover.jpg" alt="">
+    <h1>اهلا بكم <br> وكيل المدرسة</h1>
+</section>
+  
+<!--===== departments =====-->
+<!--===== departments =====-->
+<section class="deps">
+  <div class="container">
+   <div class="title">
+       <h3>اقسام الموقع</h3>
+   </div>
+   <div class="row">
+        <a href="#"  class="part col-lg-4 col-sm-6">
+            <div class="img"  style="background-image:url(./images/three.jpg)">
+              <div class="overlay ">
+                  <h3>المهام</h3>
+              </div>
+            </div>
+        </a>
+        
+        <a href="#" class="part col-lg-4 col-sm-6">
+            <div class="img"  style="background-image:url(./images/four.jpg)">
+              <div class="overlay ">
+                  <h3>وكيل المدرسة</h3>
+              </div>
+            </div>
+        </a>
+        
+        <a href="#"  class="part col-lg-4 col-sm-6">
+            <div class="img"  style="background-image:url(./images/one.jpg)">
+              <div class="overlay ">
+                  <h3>النماذج</h3>
+              </div>
+            </div>
+        </a>
+        
+        <a href="#"  class="part col-lg-4 col-sm-6">
+            <div class="img"  style="background-image:url(./images/five.jpg)">
+              <div class="overlay ">
+                  <h3>اليه التنفيذ</h3>
+              </div>
+            </div>
+        </a>
+        
+        <a href="#"  class="part col-lg-4 col-sm-6">
+            <div class="img"  style="background-image:url(./images/six.jpg)">
+              <div class="overlay ">
+                  <h3>من نحن </h3>
+              </div>
+            </div>
+        </a>
+        
+        <a href="#" class="part col-lg-4 col-sm-6">
+            <div class="img"  style="background-image:url(./images/two.jpg)">
+              <div class="overlay ">
+                  <h3>اتصل بنا</h3>
+              </div>
+            </div>
+        </a>
+        
+    </div>
+    </div>
+</section> 
+   
+   
+<!--===== Footer =====-->
+<!--===== Footer =====-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="part col-md-4">
+                <h4>من نحن</h4>
+                <p>نالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات  </p>
+            </div>
+            
+            <div class="part col-md-4">
+                <h4>روابط مختصرة</h4>
+                <ul>
+                    <li><i style="color: var(--clr)" class="fas fa-angle-left"></i>&nbsp;	 فيس بوك</li>
+                    <li><i style="color: var(--clr)" class="fas fa-angle-left"></i>&nbsp;	 فيس بوك</li>
+                    <li><i style="color: var(--clr)" class="fas fa-angle-left"></i>&nbsp;	 فيس بوك</li>
+                    <li><i style="color: var(--clr)" class="fas fa-angle-left"></i>&nbsp;	 فيس بوك</li>
+                    <li><i style="color: var(--clr)" class="fas fa-angle-left"></i>&nbsp;	 فيس بوك</li>
+                 
+                </ul>
+            </div>
+            
+            <div class="part col-md-4">
+                <h4>بيانات الاتصال </h4>
+                <ul>
+                    <li style="display: block"><i style="color: var(--clr)" class="fas fa-map-marker-alt"></i>&nbsp;	الشارع، المنطقة، المحافطة</li>
+                    <li style="display: block"><i style="color: var(--clr)" class="fas fa-phone"></i>&nbsp;	+96650594849216</li>
+                    <li style="display: block"><i style="color: var(--clr)"  class="far fa-envelope"></i>&nbsp;	info@d-tag.net</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+   
+   <section class="lower-footer">
+        <h5> جميع الحقوق محفوطة لشركة دى تاج &copy;	 2018 </h5>
+    </section>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

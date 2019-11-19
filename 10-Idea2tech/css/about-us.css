@@ -1,0 +1,79 @@
+
+/*=== First Section ===*/
+/*=== First Section ===*/
+
+.about{
+    background-image: url('../images/85.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-size: cover;
+    position: relative;
+    padding-bottom: 30px;
+}
+.about .design{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.81);
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.about  .text{
+    color: white;
+    padding: 100px 0 50px 0;
+    
+}
+.about  .text h3{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+}
+.about span {color: #13A89E};
+
+@media(max-width:480px){
+    .about  .text h3{
+        text-align: left;
+    }
+}
+
+@media(max-width:992px){
+    .about h1.head{
+        font-size: 50px;
+        width: 60%;
+        padding: 15px 20px;
+        letter-spacing: 1;
+    }
+    .about  .text h1{
+        font-size: 40px;
+    }
+    .about  .text h3{
+        font-size:20px;
+    }
+    .about  .text img{
+        width: 40px
+    }
+   
+   
+    .about .design{
+        height: 87%
+    }
+
+    .about  .text button{
+        display: none;
+    }
+}
+@media(max-width:480px){
+    .about h1.head{
+        font-size: 35px;
+        width: 70%;
+        letter-spacing: 1;
+    }
+ 
+    .about  .text h1{
+        font-size: 35px
+    }
+    .about  .text h3{
+        font-size: 18px;
+    }
+    
+}

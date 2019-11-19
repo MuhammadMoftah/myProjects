@@ -1,0 +1,620 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+}
+body {
+    background-color: #f0f0f0;   
+}
+button:hover{
+    cursor: pointer;
+}
+.mybody{
+    width: 1349px;
+    margin: auto;
+}
+.clearfix {
+    clear: both;
+}
+/*Start Header*/
+.fire {
+    color: #fd4d18;
+}
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    background-color: #a8a8a8;
+    height: 65px;
+    display: block;
+    width: 1349;
+    margin: auto;
+    z-index: 1;
+    top: 0;
+    border-radius: 0 0 20px 20px;
+}
+.start {
+    float: left;
+    margin-top: 15;
+}
+.container ul {
+    list-style: none;
+    color: red;
+    float: right;
+    text-decoration: none;
+    margin-top: 15;
+}
+.container ul li {
+    float: left;
+    margin: 10px;
+    font-weight: bold;
+}
+.container ul li a {
+    text-decoration: none;
+    color: #48110C;
+}
+.container ul li a:hover {
+    color: #FF5700;
+}
+.cover {
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    height: 650px;
+    padding: 20 0 0 0;
+    margin: 50 0 0 0;
+    position: relative;
+}
+.cover .intro {
+    text-align: center;
+    margin:auto;
+    position: absolute;
+    left: 300; 
+    left: 22.5%;
+    top:10%;
+    height: 100%;
+    width: 700;
+}
+@font-face {
+    font-family: ashta;
+    src: url('../fonts/RoyalInferno.ttf');
+}
+.cover h1 {
+    font-family: ashta;
+    color: #fd4d18;
+    width: 900;
+    font-size: 75px;
+    letter-spacing: 15px;
+    word-spacing: 5px;
+    position: absolute;
+    top:12%;
+    left: -13%;
+    text-align: center;
+    margin: auto;
+}
+.cover button {
+    position: absolute;
+    color: #fd4d18;
+    font-size: 30px;
+    padding: 11px;
+    width: 300px;
+    border: 2px solid
+    #fd4d18;
+    font-weight: 900;
+    border-radius: 20px;
+    left: 200;
+    bottom: 200;
+    background-color: black; 
+    
+}
+.cover button:hover{
+    background-color: #fd4d18;
+    color: black;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+/*End Header*/
+/*Start About*/
+.about {
+    margin: 50 0 0 0;
+    padding: 50 0 0 0;
+    height: 600px;
+    text-align: center;
+}
+.about .resp {
+    text-align: left;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 50px;
+    width: 35%;
+}
+.about .resp .text {
+    margin: -60 0 0 50;
+}
+.about .resp .text h3 {
+    border-bottom: 1px solid black;
+    height: 40px;
+    width: 95%;
+}
+.about .resp .ico img {
+    width: 40px;
+    height: 40px;
+}
+.about .resp .ico .html5 {
+    width: 43px;
+    height: 43px;
+}
+/*End About*/
+/*Start Skills*/
+.skills {
+    display: inline-block;
+    width: 1349;
+    margin: -100 0 0 0;
+    padding: 300 0 0 0;
+
+}
+.skills .left {
+    width: 45%;
+    float: left;
+    margin-top: -100;
+}
+.skills .left p {
+    line-height: 27px;
+    font-size: 17px;
+}
+.skills .left h1 {
+    border-bottom: 2px solid #fd4d18;
+    width: 65%;
+}
+.skills .right {
+    width: 500;
+    float: right;
+}
+.skills .rightAll{
+    float: right;
+    margin: -90 0 0 20;
+    width: 500
+}
+.skills .right h3 {
+    width: 220;
+    margin:35 0 0 30;
+}
+.skills .right span {
+    background-color: #fd4d18;
+    display: inline-block;
+    display: block;
+    border-radius: 0 20px 20px 0;
+    text-align: right;
+    font-weight: 600;
+    margin-left: 25;
+}
+/*End Skills*/
+/*Start Team*/
+.team {
+    padding-top: -100px;
+    margin: 150 0 0 0;
+}
+.team h1 {
+    text-align: center;
+    width: 400;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 700;
+    color: #7b7b7b;
+    border-bottom: 3px solid #fd4d18;
+}
+.team .pics h2 { 
+    color: #fd4d18;
+    text-shadow: 1px 1px 5px  black;
+    font-size: 30;
+    margin: 0 0 0 0;
+    
+} 
+.team .pics {
+    display: inline-block;
+    margin: 40 0;
+}
+.team .pics .member {
+    width: 33%;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    margin: auto;
+}
+.team .pics .member img {
+    margin: 5 0;
+    width: 90%;
+    height: 325px;
+    box-shadow: 10px 5px 10px 2px black;
+    border-radius: 20px;
+    border: 2px solid #868686;
+}
+.team .pics .member .ico i:hover {
+    color: #fd4d18;
+    -webkit-transition: 0.7s;
+    transition: 0.7s; 
+}
+.team .pics .member .ico i {
+    margin: 10px;
+    font-size: 25px;
+    line-height: 0px;
+}
+/*End Team*/
+/*Start Newsletter*/
+.newsletter {
+    padding-top: 100px;
+    height: 650px;
+}
+.newsletter img {
+    position: absolute;
+    height: 450px;
+    width:100%;
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 10px -5px 20px;
+}
+.newsletter .email p {
+    font-size: 24px;
+        text-shadow: 1px 1px 1px grey;
+
+}
+.newsletter .email h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: 2px 2px 2px white;
+}
+.newsletter .email {
+    position: absolute;
+    text-align: center;
+    margin: 110px 100px;
+    font-size: 18px;
+    width: 800px;
+    
+}
+.newsletter .email button:hover{
+    background-color: #000000;
+    color: #e3790e;
+    -webkit-transition: all 1.3s;
+    transition: all 1.3s
+}
+.newsletter .email button {
+    padding: 10 25 10 25;
+    background-color: #e3790e;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin: 10;
+    border-radius: 10px;
+}
+.newsletter .email input {
+    background:#b7b7b7 ;
+    padding: 10 100 10 10;
+    margin: 10px;
+    border-radius: 10px;
+}
+/*End news Letter*/
+/*Start OurPricing*/
+
+.pricing *{
+/*    border: 1px solid;*/
+    
+}
+.pricing{
+    margin: 50 0 0 0;
+    padding: 70 0 0 0;
+    
+}
+.pricing .title {
+    text-align: center;
+    border-bottom: 3px solid #fd4d18;
+    width: 400;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 700;
+    color: #7b7b7b;
+}
+.pricing .boxs {
+    display: block;
+    margin: auto;
+    height: 600px;
+    position: relative;
+    padding-left: 95px;
+    width: 1349;
+}
+.pricing .singlebox {
+    display: inline-block;
+    width: 24%;
+    height: 500px;
+    border: 1px #9f9f9f solid;
+    text-align: center;
+    line-height: 30px;
+    margin: -2px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 27px;
+    border-radius: 20px;
+}
+.pricing .basic {
+    color: #767676;
+    margin-top: 25px;
+}
+.pricing .basic button {
+    display: block;
+    margin: 35 auto;
+    background-color: #767676;
+    border: none;
+    padding: 5 35;
+    border-radius: 10px;
+}
+.pricing .standard {
+    position: absolute;
+    margin: 62 0 0 1;
+    color: darkgoldenrod;
+    width: 277;
+}
+.pricing .standard button {
+    display: block;
+    margin: 35 auto;
+    background-color: darkgoldenrod;
+    border: none;
+    padding: 5 35;
+    border-radius: 10px;
+}
+.pricing .professional {
+    width: 258;
+    position: absolute;
+    color: #71c452;
+    margin: 39 0 0 277;
+}
+.pricing .professional button {
+    display: block;
+    margin: 35 auto;
+    background-color: #71c452;
+    border: none;
+    padding: 5 35;
+    border-radius: 10px;
+}
+.pricing .advanced {
+    position: absolute;
+    margin: 10 0 0 535;
+    color: #651da7;
+}
+.pricing .advanced button {
+    display: block;
+    margin: 35 auto;
+    background-color: #651da7;
+    border: none;
+    padding: 5 35;
+    border-radius: 10px;
+}
+.pricing .boxs h1 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #a7a7a7;
+    width: 80%;
+    margin: auto;
+}
+.pricing .boxs em {
+    display: block;
+    padding-top: 40px;
+    color: black;
+}
+/*End OurPricing*/
+/*Start Project*/
+.RecentProjects {
+    text-align: center;
+    margin: 150 auto;
+}
+.recentprojects h1{
+    width: 400;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 700;
+    color: #7b7b7b;
+    border-bottom: 3px solid #fd4d18;
+}
+.recentprojects .buttons {
+    padding: 50 0 10 0;
+}
+.recentprojects .buttons button {
+    background: none;
+    border: 2px solid #0b070a;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #3b3538;
+    padding: 5;
+    font-size: 18;
+}
+.recentprojects .buttons button:hover{
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    color: #F0F0F0;
+    background-color: black;
+}
+.recentprojects .box button {
+    padding: 10 20;
+    background: none;
+    border: 2px #8e8e8e solid;
+    border-radius: 15px;
+    font-weight: 700;
+    color: #d4d4d4;
+}
+.box .hov {
+    display: inline-block;
+    width: 350;
+    height: 260;
+    background-color: #000000;
+    margin: 10;
+    border-radius: 20px;
+}
+.box .hov button {
+    margin: 50 10 0 10
+}
+.box .hov .text h2 {
+    color: #d4d4d4;
+    font-size: 28;
+    width: 100%;
+    font-weight: 100;
+}
+.box .hov .text p {
+    color: #d4d4d4;
+    font-size: 17;
+    font-weight: 600;
+    margin: 40 0;
+}
+.box .hov .img {
+    height: 260;
+    width: 350;
+    background-size: 350px 270px;
+    position: absolute;
+    box-shadow: 10px 5px 10px 2px black;
+    border-radius: 20px;
+    border: 2px solid #868686;
+}
+.hov #one {
+    background-image: url(../images/portfolio-img1.jpg);
+}
+.hov #two {
+    background-image: url(../images/portfolio-img2.jpg);
+}
+.hov #three {
+    background-image: url(../images/portfolio-img3.jpg);
+}
+.hov #four {
+    background-image: url(../images/portfolio-img4.jpg);
+}
+.hov #five {
+    background-image: url(../images/portfolio-img5.jpg);
+}
+.hov #six {
+    background-image: url(../images/portfolio-img6.jpg);
+}
+.box .hov .img:hover {
+    opacity: 0.3;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+}
+/*End Project*/
+/*Start contact us*/
+.contact {
+    position: relative;
+    height: 500;
+}
+.contact img {
+    position: absolute;
+}
+.contact .all {
+    position: relative; 
+    margin: auto ;
+}
+.contact .online {
+    position: absolute;
+    width: 320px;
+    height:400px;
+    left: 80;
+    top: 80;
+}
+.contact .online h1 {
+    color: antiquewhite;
+    text-shadow: 5px 5px 5px black;
+    position: absolute;
+}
+.contact .online p {
+    position: absolute;
+    top: 70;
+    left: -0;
+    color: ;
+    color: aliceblue;
+    font-size: 17;
+    width: 305
+}
+.contact .online section {
+    position: absolute;
+    left: 50;
+    bottom: 190
+}
+.contact .online i:hover {
+    color: #fd4d18;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+}
+.contact .online i {
+    font-size: 25px;
+    margin: 300 10 10 10;
+    color: white;
+}
+.contact .offline {
+    position: absolute;
+    width: 225px;
+    height: 350px;
+    top: 80;
+    left: 400;
+    color: antiquewhite;
+}
+.contact .offline h4 {
+    color: aliceblue;
+    font-weight: 100;
+    margin: 5 0;
+    padding-top: 5px;
+}
+
+.offline h4 i {
+    margin: 5px;
+}
+.contact .send {
+    position: absolute;
+    display: block;
+    width: 650px;
+    height: 350px;
+    top: 80;
+    left: 690;
+    color: aliceblue;
+}
+.contact .send input {
+    width: 270px;
+    margin: 20 10;
+    padding: 12px;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+}
+.contact .send textarea {
+    display: block;
+    width: 568px;
+    height: 170px;
+    margin: 20 10;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+}
+.contact .send button {
+    background-color: #DCDCDC;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10 20;
+    right: 67;
+}
+/*End contact us*/
+/*Start Footer*/
+footer {
+    height: 60px;
+    position: relative;
+}
+footer .ico {
+    position: absolute;
+    float: right;
+    font-size: 22px;
+    display: block;
+    top: 14;
+    right: 200;
+}
+footer i:hover {
+    color: #fd4d18;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+}
+footer i {
+    display: block;
+    margin: 0 30;
+}
+/*End Footer*/

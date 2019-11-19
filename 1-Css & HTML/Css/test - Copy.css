@@ -1,0 +1,255 @@
+	body{
+		margin: 0px;
+		padding: 0px; 
+		height: 4000px;
+} 
+						/*Start Main Rulez*/
+#container 
+{
+	width: 900px;
+	margin:auto;
+}
+
+#clearfix {clear: both;}
+						/*End Main Rulez*/
+
+						/*Start Header*/
+#Header #slider {
+background-image:url('../images/messi.jpg' );
+background-size:cover; /*css3*/
+height: 500px;
+}			
+
+#Header #slider #intro  {
+	padding-top: 270px;
+	height:100%;
+	text-align: center;
+}
+
+#Header #slider #intro h2 {
+margin: auto;
+color: white;
+	width: 600px;
+font-size: 40px;
+border-top:4px solid white ;
+border-bottom:4px solid white;
+padding: 5px;
+text-transform: uppercase;
+}
+
+#Header #slider #intro button{
+	background: none;
+	color: white;
+	font-size: 20px;
+	margin-top: 30px;
+	padding: 15px;
+	width: 150px;
+	border: 2px solid #fff;
+	font-weight: bold;
+}
+
+#Header #navbar 
+{
+	background-color: #252F31;
+	color: white;
+	overflow: hidden;
+}
+
+#Header #navbar h2{ float: left; }
+
+#Header #navbar h2 span { color: #2ecc71}
+
+#Header #navbar ul {
+	list-style: none;
+	padding-left: 0px;
+	float: right; 	
+	overflow: hidden;
+} 
+
+
+#Header #navbar ul li {
+	float: left;
+	padding: 10px;
+}
+
+#Header #navbar #container a {
+	text-decoration: overline;
+}
+					/*End Header*/
+
+
+					/*Start features*/
+#features { overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+#features #feat { float: left;
+					width:280px;
+					height: 150px;
+					margin: 10px;
+}
+/*#features #feat h2 {
+	width: 600px;
+}*/
+					/*End Features*/
+
+
+					/*Start About Me */
+#about-me  {
+	background-color:#f2f2f2;
+	overflow: hidden;
+}
+
+#about-me #image {
+	width: 40%;
+	float: left;
+}
+#about-me #image img { width: 100%; }
+
+#about-me #info {
+	float: left;
+	width: 60%;
+
+}
+ #info h2 {
+width: 600px;
+}
+
+#about-me #info #hobbies > div { width: 50%;
+	float:left;
+	min-height: 100px;
+}
+
+
+						/*End about me */
+
+						/*Start My Skills*/
+#my-skills {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+#my-skills #Skills ,#my-skills #progress 
+ { width: 50%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#my-skills #progress {
+	height: 150px;
+}
+
+#Skills h2 {
+	width: 425px;
+	overflow: hidden;
+}
+
+						/*End My Skills*/
+
+
+						/*Start Resume*/
+#Resume {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#Resume h2 {
+	width: 100%;
+}
+
+						/*End Resume*/
+
+						/*Start My education*/
+#my-education {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+#my-education #main ,#my-education #exp 
+ { width: 50%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+#my-education #progress {
+	height: 150px;
+}
+
+#main h2 {
+	width: 425px;
+	overflow: hidden;
+}
+
+						/*End My education*/
+
+
+						/*Start Testimonials*/
+#testimonials{
+	text-align: center;
+	padding-top: 20px;
+		padding-bottom: 20px;
+
+}
+						/*End Testimonials*/
+
+
+
+					/*<!-- Start portfolio -->*/
+#portfolio {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}	
+ #portfolio h2 ,p {
+ 		text-align: center;
+ 		width: 100%;
+ }
+#portfolio #our-work {
+	overflow: hidden;
+}
+
+#portfolio #our-work > div {
+	float: left;
+	width: 33.333%;
+	padding-top: 10px;
+}
+
+					/*<!-- End portfolio -->*/
+
+
+					/*<!-- Start Contact Me -->*/
+#Contact {
+	background-color: #252F31;
+	overflow:hidden;
+}
+
+#Contact h2 {
+	color: #fff;
+
+}
+#Contact p {
+	color: #6a6e71;	
+}
+#Contact #info {
+	width: 50%;
+	float: left;
+}
+					/*<!-- End Contact Me -->*/
+
+
+					/*Start Footer*/
+#Footer{
+background-color:#191e22;
+color: #6a6e71;	
+text-align: center;
+padding: 20px ;
+}					
+					/*End Footer*/
+

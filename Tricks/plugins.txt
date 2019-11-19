@@ -1,0 +1,69 @@
+fullPage.js => Slide full page
+https://alvarotrigo.com/fullPage/
+
+
+Transform your icons with trendy animations
+https://bitshadow.github.io/iconate/ 
+
+Hover to see Tippy in action!
+https://atomiks.github.io/tippyjs/
+
+Fancybox =>  show images & modals with cool way 
+http://fancyapps.com/fancybox/#examples
+https://fancyapps.com/fancybox/3/
+
+xZoom =>  too zoom images on hover
+https://payalord.github.io/xZoom/
+
+Flickity =>  simple slider 
+https://flickity.metafizzy.co/
+
+Particles.js =>  dynamic background
+http://vincentgarreau.com/particles.js/
+
+Cool css animations:
+http://animista.net
+
+Navbars:
+http://bootsnav.danurstrap.com/
+
+Animated Headlines
+https://codyhouse.co/demo/animated-headlines/index.html
+
+scrollspy.js  =>  used to automatically update links in a navigation list based on scroll position
+https://github.com/sxalexander/jquery-scrollspy
+
+
+Flexslider
+http://flexslider.woothemes.com/
+
+
+progressbar.js  =>  cool progress bar & pie charts
+https://kimmobrunfeldt.github.io/progressbar.js/?fbclid=IwAR3TL3IJ3yOm7iybMq5UMAqN-bkivJTsSkoZrRZj8AbShlY7NuvhiHVvAss
+
+
+SweetAlertjs
+https://sweetalert.js.org/guides/
+
+Cleave.js => Format your <input/> content when you are typing
+https://nosir.github.io/cleave.js/
+
+Popmption => animation libraries for delightful interfaces
+https://popmotion.io/
+
+ScrollMagic => Make Amazing things while scrolling
+http://scrollmagic.io/
+
+AIR DatePicker 
+http://t1m0n.name/air-datepicker/docs/
+
+Bootstrap Tags Input => input with tags when click enter
+https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/
+
+MDB => style fe kol haga lel bootstrap (Forms & datepicker & select ....etc)
+https://mdbootstrap.com
+
+
+
+
+

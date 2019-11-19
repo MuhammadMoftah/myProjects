@@ -1,0 +1,166 @@
+/* === Fit height 100% to the father === */
+/* === Fit height 100% to the father === */
+div{
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+}
+
+/* ===== Hide Scrollbar =====*/
+/* ===== Hide Scrollbar =====*/
+-webkit- (Chrome, Safari, newer versions of Opera):
+.element::-webkit-scrollbar { width: 0 !important }
+
+-moz- (Firefox):
+.element { overflow: -moz-scrollbars-none; }
+
+-ms- (Internet Explorer +10):
+.element { -ms-overflow-style: none; }
+
+
+
+    /*===== Center BackGround Image=====*/
+    /*===== Center BackGround Image=====*/
+    background-image:url(../images/cover1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+    /*===== Center BackGround Image With Hover=====*/
+    /*===== Center BackGround Image With Hover=====*/
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+        url(../images/customer/waiting.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+/*===== Center the Absolute Element Horizontally=====*/
+/*===== Center the Absolute Element Horizontally=====*/
+div{
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/*===== Center the Absolute Element Vertically=====*/
+/*===== Center the Absolute Element Vertically=====*/
+div{
+  position: fixed;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+/*=====Shadow inside the box  =====*/
+/*=====Shadow inside the box  =====*/
+div{
+    box-shadow:10px 10px 50px 20px pink inset;
+}
+
+
+/*=====  inline-block Fix not in one line problem =====*/
+/*=====  al divat mesh fe 5adt wa7ed lma b3ml inline-block =====*/
+div{    
+vertical-align:top;
+}
+
+
+
+/* ===== Carousel FadeOut & FadeIn ===== */
+.carousel .carousel-item {
+  opacity: 0;
+  transition-duration: .6s;
+  transition-duration: 3s;
+  transition-property: opacity;
+ }
+ 
+ .carousel  .carousel-item.active,
+ .carousel  .carousel-item-next.carousel-item-left,
+ .carousel  .carousel-item-prev.carousel-item-right {
+   opacity: 1;
+ }
+ 
+ .carousel .active.carousel-item-left,
+ .carousel  .active.carousel-item-right {
+  opacity: 0;
+ }
+ 
+ .carousel  .carousel-item-next,
+ .carousel .carousel-item-prev,
+ .carousel .carousel-item.active,
+ .carousel .active.carousel-item-left,
+ .carousel  .active.carousel-item-prev {
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+ }
+
+
+
+
+/* Center the navbar and ConTroll BreakPoint */
+/* Center the navbar and ConTroll BreakPoint */
+
+/*     Center it  */
+/*     Center it  */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none !important;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+ .navbar-nav .open .dropdown-menu {
+     position: static;
+     float: none;
+     width: auto;
+     margin-top: 0;
+     background-color: transparent;
+     border: 0;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+  }
+}

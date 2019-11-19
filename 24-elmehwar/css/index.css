@@ -1,0 +1,928 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+/*===== Initialization ====*/
+
+/*===== Initialization ====*/
+
+body {
+    background-color: #ffffff;
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
+    direction: rtl;
+}
+
+a,
+.btn,
+button {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+/******************** start upper-header *************/
+
+.upper-header {
+    padding: 10px;
+    background: #000;
+    direction: rtl;
+    text-align: right;
+}
+
+.upper-header p {
+    color: #f7f7f7;
+    margin: auto;
+    font-size: 13px;
+
+}
+
+.upper-header p span {
+    direction: ltr;
+}
+
+.upper-header p i {
+    margin-left: 10px;
+}
+
+.upper-header .social {
+    text-align: left;
+    color: #fff;
+}
+
+.upper-header .social ul {
+    margin: 0;
+}
+
+.upper-header .social a li {
+    color: #f7f7f7;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+/******************** end upper header *********/
+
+/********************** start header *********/
+
+header {
+    border-bottom-right-radius: 45%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+header .navbar {
+    background-color: transparent !important;
+    direction: ltr;
+    padding: 0;
+    position: absolute;
+    z-index: 999999;
+    width: 100%;
+
+}
+
+header .navbar img {
+    width: 60%;
+}
+
+header .navbar .navbar-nav {
+    direction: rtl;
+    color: #fff;
+}
+
+header .navbar .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 3.5rem;
+
+}
+
+header .navbar .navbar-nav .active .nav-link,
+header .navbar .navbar-nav .nav-link:hover {
+    color: #dade8c
+}
+
+header .overlay {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-right-radius: 45%;
+
+    z-index: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(67, 49, 18, 0.5), rgba(119, 29, 0, 0.5));
+}
+
+/*
+header:before {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-right-radius: 45%;
+
+    z-index: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(67, 49, 18, 0.5), rgba(119, 29, 0, 0.5));
+
+}
+*/
+
+header .carousel,
+header .carousel .carousel-item,
+header .carousel .carousel-item img {
+    border-bottom-right-radius: 45%;
+    height: 500px;
+    overflow: hidden;
+}
+
+header .description {
+    position: absolute;
+    top: 30%;
+    z-index: 999;
+    right: 12%;
+    text-align: right;
+    width: 60%;
+    color: #fff;
+
+}
+
+header .description h4,
+header .carousel-caption h4 {
+    color: #dade8c;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+header .description h3,
+header .carousel-caption h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .description p,
+header .carousel-caption p {
+    font-size: 15px;
+    font-weight: normal;
+    color: #f7f7f7;
+    line-height: 25px;
+}
+
+header .description a button,
+header .carousel-caption a button {
+    background: #fff;
+    padding: 10px 50px;
+    color: #d0a776;
+    border: 0;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 55px;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 132px;
+    text-align: right;
+    z-index: 9999999999999;
+}
+
+/******************* end header **************/
+
+/******************* start services ************/
+
+.services {
+    text-align: right;
+    padding: 30px;
+}
+
+.services .title {
+    margin-bottom: 10px;
+}
+
+.services .title h4 span.title_span {
+    color: #b7792c
+}
+
+.services .title h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.services .title .line {
+    background: #b7792c;
+    width: 10%;
+    height: 1px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+.services p.desc {
+    font-size: 12px;
+    font-weight: normal;
+    color: #aaa;
+    margin-bottom: 30px;
+
+    width: 70%;
+    line-height: 25px;
+}
+
+.services .service .circle {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid #d5d5d5;
+}
+
+.services .service h3 {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.services .service p {
+    font-size: 12px;
+    font-weight: normal;
+    color: #aaa;
+    margin-bottom: 5px;
+
+    line-height: 25px;
+}
+
+.services .service .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #433112;
+    /* overflow: hidden; */
+    width: 180px;
+    border-radius: 50%;
+    top: 0;
+    opacity: 0.5;
+    padding: 0;
+    height: 180px;
+    transform: scale(0);
+    transition: .5s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+
+.services .service .circle:hover .overlay {
+    transform: scale(1);
+}
+
+.services .service img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+/********************* end services **********/
+
+/******************* start clients ************/
+
+.clients {
+    text-align: right;
+    padding: 30px;
+    background: #f9f9f9;
+
+}
+
+.clients .title {
+    margin-bottom: 10px;
+}
+
+.clients .title h4 span.title_span {
+    color: #b7792c
+}
+
+.clients .title h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.clients .title .line {
+    background: #b7792c;
+    width: 10%;
+    height: 1px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+.clients p.desc {
+    font-size: 12px;
+    font-weight: normal;
+    color: #aaa;
+    margin-bottom: 30px;
+    width: 70%;
+    line-height: 25px;
+}
+
+.clients .swiper-slide .logo img {
+    width: 100%;
+    height: 200px;
+}
+
+.clients .swiper-slide .logo {
+    background: #fff;
+}
+
+.clients .logo {
+    position: relative;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.clients .logo img:before,
+.clients .logo img:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 50%;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    -moz-border-radius: 100px / 10px;
+    border-radius: 100px / 10px;
+}
+
+.clients .logo img:after {
+    right: 10px;
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg);
+    -moz-transform: skew(8deg) rotate(3deg);
+    -ms-transform: skew(8deg) rotate(3deg);
+    -o-transform: skew(8deg) rotate(3deg);
+    transform: skew(8deg) rotate(3deg);
+}
+
+.clients .logo img {
+    width: 100%;
+    height: 235px;
+
+}
+
+/******************* emd clients ************/
+
+/******************* start about ************/
+
+.about {
+    background: #fff;
+    position: relative;
+    padding: 50px 0 0;
+}
+
+.about_inner {
+    background: #372d20;
+    border-top-left-radius: 45%;
+    overflow: hidden;
+
+}
+
+.about_inner .image img {
+    height: 400px;
+    width: 100%;
+}
+
+.about_inner .desc {
+    text-align: center;
+    margin-top: 80px;
+    color: #ffff;
+
+    font-weight: bold;
+}
+
+.about_inner .desc h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about_inner .desc .title {
+    margin-bottom: 30px;
+}
+
+.about_inner .desc .title h3 span {
+    color: #b7792c
+}
+
+.about_inner .title img {
+    width: 18%
+}
+
+.about_inner .desc p {
+    font-size: 12px;
+    width: 88%;
+    line-height: 25px;
+}
+
+.about_inner .logo {
+    position: absolute;
+    z-index: 999;
+    right: 43%;
+    width: 160px;
+    height: 160px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 160px;
+    top: -25px;
+}
+
+.about_inner .logo img {
+    width: 85%;
+    text-align: center;
+}
+
+/******************* end about ************/
+
+/**************** start about us ***************/
+
+.about_us {
+    text-align: right;
+    padding: 30px;
+
+}
+
+.about_us .image {
+    position: relative;
+}
+
+.about_us .carousel {
+    position: relative;
+}
+
+.about_us .carousel:before,
+.about_us .carousel:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 25px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #aaa;
+    -webkit-box-shadow: 0 35px 20px #aaa;
+    -moz-box-shadow: 0 35px 20px #aaa;
+    box-shadow: 0 35px 20px #aaa;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+.about_us .carousel:after {
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+    right: 10px;
+    left: auto;
+}
+
+.about_us .carousel .carousel-control-next-icon,
+.about_us .carousel .carousel-control-prev-icon {
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    background-image: none;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 24px !important;
+    opacity: 1 !important;
+}
+
+.about_us .carousel .carousel-control-prev,
+.about_us .carousel .carousel-control-next {
+    opacity: 1;
+}
+
+.about_us .carousel,
+.about_us .carousel .carousel-item,
+.about_us .carousel .carousel-item img {
+    width: 100%;
+    height: 350px;
+}
+
+.about_us .desc {
+    position: absolute;
+    top: 16%;
+    /* text-align: center; */
+    /* line-height: 97px; */
+    right: 26%;
+    text-align: center;
+}
+
+.about_us .desc .logo {
+    width: 130px;
+    height: 130px;
+    /* padding: 10px; */
+    background: #fff;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 130px;
+}
+
+.about_us .desc .logo img {
+    width: 85%;
+    line-height: 130px;
+    text-align: center;
+}
+
+.about_us .desc h4 {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.about_us .desc p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.about_us .title {
+    margin-bottom: 30px;
+}
+
+.about_us .title h4 {
+    font-weight: bold;
+}
+
+.about_us .title h4 span {
+    color: #b7792c
+}
+
+.about_us .title img {
+    width: 18%
+}
+
+.about_us .desc2 p {
+    font-size: 12px;
+    text-align: center;
+    width: 88%;
+    line-height: 25px;
+}
+
+.about_us .desc2 ul {
+    margin-bottom: 0;
+}
+
+.about_us .desc2 ul li {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+/**************** end about us ***************/
+
+/****************** start contact *************/
+
+.contact {
+    padding: 50px;
+    text-align: right;
+}
+
+.contact .title {
+    margin-bottom: 10px;
+}
+
+.contact .title h4 span.title_span {
+    color: #b7792c
+}
+
+.contact .title h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.contact .title .line {
+    background: #b7792c;
+    width: 10%;
+    height: 1px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+
+.contact p.desc {
+    font-size: 12px;
+    font-weight: normal;
+    color: #aaa;
+    margin-bottom: 30px;
+    width: 70%;
+    line-height: 25px;
+}
+
+.contact form .form-control {
+    background: #ececec;
+    border: 0;
+    margin-bottom: 10px;
+    box-shadow: none;
+}
+
+.contact form input[type="submit"] {
+    background: #b7792c;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact .media {
+    margin-bottom: 20px;
+}
+
+.contact .icon {
+    background: url(../images/Symbol%206%20%E2%80%93%201.png) center center;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact .media h5 {
+    color: #b7792c;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.contact .media .media-body {
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+.contact .media p {
+    margin-bottom: 5px;
+}
+
+.contact span.line2 {
+    background: #f7f7f7;
+    width: 90%;
+    margin: 0 auto 20px;
+    display: block;
+    height: 3px;
+}
+
+.contact .info {
+    width: 70%;
+    margin: auto;
+}
+
+.contact .social {
+    text-align: center;
+}
+
+.contact .social p {
+    font-size: 16px;
+}
+
+.contact .social ul a li {
+    color: #b7792c;
+    font-size: 26px;
+    margin-right: 25px;
+}
+
+/************** end contact ***********/
+
+/*************** start footer **************/
+
+footer {
+    background: #000;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    direction: ltr;
+}
+
+footer p {
+    margin: 0;
+}
+
+/**************** end footer ************/
+
+/************** start media query *************/
+
+@media(max-width:2000px) {
+    header .navbar .navbar-nav .nav-link {
+        padding-left: 1.5rem;
+
+    }
+}
+
+@media(max-width:990px) {
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://ww…p='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E) !important;
+    }
+
+    header .navbar {
+        padding: 0 15px;
+
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar .navbar-nav {
+        background: #372d20;
+        text-align: right;
+    }
+}
+
+@media(max-width:800px) {
+    .about_inner .logo {
+        right: 40%
+    }
+}
+
+@media(max-width:786px) {
+    header {
+        border-radius: 0;
+    }
+    header:before {
+        border-radius: 0;
+    }
+
+    header .carousel,
+    header .carousel .carousel-item,
+    header .carousel .carousel-item img {
+        border-radius: 0;
+    }
+
+    .about_inner {
+        border-radius: 0;
+    }
+
+    .about_inner .desc {
+        margin-top: 10px;
+    }
+
+    .about_inner .desc p {
+        width: 100%
+    }
+
+    .contact .info {
+        width: 100%
+    }
+
+    .about_inner .logo {
+        right: 38%;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://ww…p='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E) !important;
+    }
+
+    header .navbar {
+        padding: 0 15px;
+
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar .navbar-nav {
+        background: #372d20;
+        text-align: right;
+    }
+
+    .services p.desc,
+    .clients p.desc,
+    .contact p.desc {
+        width: 100%
+    }
+
+    .contact form {
+        margin-bottom: 10px;
+    }
+
+    .about_us .desc {
+        right: 18%
+    }
+
+    .about_us .image {
+        margin-bottom: 20px;
+    }
+
+    .navbar-light .navbar-brand {
+        width: 50%;
+    }
+
+    .navbar-light .navbar-brand img {
+        width: 100%
+    }
+
+    header .description {
+        position: absolute;
+        top: 25%;
+        z-index: 999;
+        right: 5%;
+        text-align: right;
+        width: 90%;
+        color: #fff;
+    }
+
+    .about_us .desc {
+        display: none;
+    }
+
+    .about_us .carousel,
+    .about_us .carousel .carousel-item,
+    .about_us .carousel .carousel-item img {
+        width: 100%;
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .about_inner .logo {
+        right: 36%;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .about_inner .logo {
+        right: 32%;
+    }
+
+}
+
+
+@media (max-width: 412px) {
+    .about_inner .logo {
+        right: 33%;
+    }
+
+}
+
+
+
+@media(max-width:384px) {
+    .about_inner .logo {
+        right: 30%
+    }
+}
+
+@media(max-width:360px) {
+    .about_inner .logo {
+        right: 26%;
+    }
+
+}
+
+/************* end media query ***********/

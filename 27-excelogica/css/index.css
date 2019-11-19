@@ -1,0 +1,444 @@
+/*===== Initialization ====*/
+/*===== Initialization ====*/
+:root {
+    --clr1: #f7941d;
+    --clr2: #ffad4b;
+    --clr3: #ffc075;
+}
+
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Cairo';
+}
+
+a,
+.btn,
+button {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-main1 {
+    background-color: var(--clr1);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.btn-main1:hover {
+    background-color: var(--clr3);
+    color: white !important;
+}
+
+.btn-main2 {
+    background-color: white;
+    border: 1px solid var(--clr1);
+    color: black;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.btn-main2:hover {
+    background-color: var(--clr1);
+    border: 1px solid var(--clr1);
+    color: white !important;
+}
+
+.link-main1 {
+    color: var(--clr1) !important;
+}
+
+.link-main1:hover {
+    color: var(--clr3) !important;
+}
+
+.form-control:focus {
+    border-color: var(--clr1) !important;
+    box-shadow: 0 0 0 0.2rem rgba(247, 148, 29, 0.33) !important;
+}
+
+.page-link {
+    color: var(--clr1)
+}
+
+.page-item.active .page-link {
+    background-color: var(--clr1);
+    border-color: var(--clr1);
+}
+
+.page-link:hover {
+    color: var(--clr1);
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 3px #000000;
+}
+
+
+
+/*=== Header ===*/
+/*=== Header ===*/
+nav .navbar-brand img {
+    width: 160px;
+}
+
+nav .nav-search {
+    position: relative;
+    width: 330px;
+    border-right: 1px solid #d0d0d0;
+    padding-right: 15px;
+}
+
+nav .nav-search input {
+    padding: 25px 15px;
+    border-radius: 15px;
+    width: 100% !important;
+}
+
+nav .nav-search [type='submit'] {
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    color: #b5b5b5;
+    font-size: 20px;
+}
+
+@media(max-width:992px) {
+    nav .nav-search {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--clr3);
+        padding: 15px 0;
+    }
+
+    nav .nav-search [type='submit'] {
+        top: 11px;
+        right: 10px;
+    }
+}
+
+nav .navbar-nav a {
+    margin: 0 10px
+}
+
+nav .navbar-nav a img {
+    height: 42px;
+}
+
+nav .navbar-nav a:hover {
+    color: var(--clr1) !important;
+}
+
+nav .navbar-nav a img {
+    transition: all 0.3s ease;
+    padding: 3px
+}
+
+nav .navbar-nav a:hover img {
+    padding: 0px;
+    transition: all 0.3s ease;
+}
+
+/*=== Cover ===*/
+/*=== Cover ===*/
+section.cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*    background-position: center;*/
+    height: 600px;
+}
+
+section.cover hgroup {
+    left: 8%;
+    bottom: 15%;
+    padding-top: 250px;
+}
+
+/*=== Business ===*/
+/*=== Business ===*/
+.ideas article {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 0.5px solid #d0d0d0;
+}
+
+.ideas article .img {
+    height: 110px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ideas article hgroup {
+    margin-top: -47px;
+}
+
+.ideas article p {
+    height: 155px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.ideas article hgroup img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #e1e1e1;
+}
+
+
+/*=== Categories ===*/
+/*=== Categories ===*/
+.cate a.part img {
+    height: 55px;
+    max-width: 75px;
+    margin-bottom: 10px;
+}
+
+.cate a.part {
+    transition: all 0.5s ease;
+}
+
+.cate a.part:hover {
+    box-shadow: 1px 1px 10px #acacac;
+    transition: all 0.5s ease;
+}
+
+
+/*==== People ====*/
+/*==== People ====*/
+.people article {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 0.5px solid #d0d0d0;
+}
+
+
+.people article > p {
+    height: 155px;
+    overflow: hidden
+}
+
+.people article hgroup img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    border: 0.5px solid #e1e1e1;
+}
+
+/*=== Join US ===*/
+/*=== Join US ===*/
+.join-us {
+    background-image: url(../images/page-cover1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 1px solid #d8d8d8;
+    padding: 50px 0;
+}
+
+.join-us hgroup label:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgba(244, 181, 106, 0.4);
+}
+
+.join-us hgroup input[type=radio] {
+    display: none;
+}
+
+.join-us hgroup span {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #8b8b8b;
+    position: absolute;
+    top: 5px;
+    left: -18px;
+}
+
+.join-us hgroup input:checked + span {
+    background-color: var(--clr2);
+}
+
+
+.single-idea .idea-cover figure.img {
+    height: 160px;
+    width: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+}
+
+
+.single-idea .idea-info .nav a {
+    color: black
+}
+
+.single-idea .idea-info .nav a.active {
+    background-color: white;
+}
+
+
+/*=== Entre Page === */
+/*=== Entre Page === */
+.profile-cover {
+    background-image: url(../images/profile-cover1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.profile-cover hgroup {
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.profile-cover figure.img {
+    background-image: url(../images/user2.jpg);
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 140px;
+}
+
+/*==== Entre Page ====*/
+/*==== Entre Page ====*/
+.top-bar .nav .nav-link {
+    padding: 10px 15px;
+    margin: 0 3px;
+    border-radius: 0 !important;
+    border-bottom: 2px solid transparent;
+    background-color: transparent !important;
+    color: grey !important;
+    position: relative;
+}
+
+.top-bar .nav .nav-link::after {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 1px;
+    left: 0px;
+    top: 9px;
+    background-color: #cecece;
+}
+
+.top-bar .nav .nav-link::before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 1px;
+    right: -7px;
+    top: 9px;
+    background-color: #cecece;
+}
+
+.top-bar .nav .nav-link.active {
+    border-bottom: 2px solid var(--clr1);
+    font-weight: bold;
+}
+
+.user-box .company .img {
+    width: 100%;
+    max-width: 120px;
+    height: 110px;
+    max-height: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin: auto
+}
+
+.user-box .ideas .tab-content > .active {
+    display: flex;
+}
+
+.user-box .ideas .nav > a.active {
+    background-color: var(--clr1);
+    color: white
+}
+
+/*===== Invite Modal =====*/
+/*===== Invite Modal =====*/
+.invite-modal .user-to-invite .img{
+    height: 70px;
+    width: 70px;
+    border: 1px solid #cbcbcb;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.invite-modal .user-to-invite:hover{
+    cursor: pointer;
+    border-color: var(--clr1) !important;
+}
+.invite-modal .user-to-invite:hover .img{
+    border-color: var(--clr1) !important;
+}
+
+.invite-modal input[type=checkbox]:checked + label{
+    border-color: var(--clr1) !important;
+    color: var(--clr1);
+}
+.invite-modal input[type=checkbox]:checked + label .img{
+    border-color: var(--clr1) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

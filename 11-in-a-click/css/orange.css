@@ -1,0 +1,20 @@
+/*==== SiteColors ==== */
+/*==== SiteColors ==== */
+:root {
+  --clr1: #FF8F00;
+  --oclr1: rgba(239, 108, 0, 0.8);
+  --oclr1: rgb(255, 143, 0);
+    
+  --clr2:#FB8C00;
+  --oclr2:rgb(251, 140, 0);
+    
+  --clr3: #FF9800;
+  --oclr3: rgba(255, 152, 0, 0.8);
+  
+    
+  --clr4: #FFA726;
+  --clr4: rgba(255, 167, 38, 0.8);
+    
+  --bgc:#ffa700;
+  --obgc:rgb(255, 167, 0);
+}

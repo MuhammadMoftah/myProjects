@@ -1,0 +1,200 @@
+*{
+    font-family: "droid";
+}
+.ourplans{
+    background-image: url(../images/Planning-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-size: cover;
+    direction:rtl 
+}
+h1.head{
+    letter-spacing: 0;
+}
+.ourplans .plans{
+    padding: 80px 0 0px 0;
+    text-align: center;
+}
+.ourplans .part{
+    border-radius: 20px;
+    padding: 0;
+    overflow: hidden;
+    width: 29%;
+    text-align: center;
+    float: none;
+    display: inline-block;
+    margin: 20px 20px;
+}
+@media(max-width:992px){
+    .ourplans .part{
+        width: 35%;
+        margin: 20px 5px;
+    }
+}
+@media(max-width:600px){
+    .ourplans .part{
+        width: 80%;
+        margin: 20px 5px;
+    }
+}
+.ourplans .part h3{
+    background-color: #12A89D;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin: 0 ;
+    font-size: 40px;
+}
+.ourplans .part div{
+    color: white;
+    background-color: #3A3839;
+    font-size: 23px;
+    padding: 40px 0;
+}
+.ourplans .part p{
+    font-size: 25px;
+    padding: 30px;
+}
+.ourplans .part span{
+    font-size: 50px;
+    font-weight: bold;
+}
+.ourplans .part h5{
+    background-color: #12A89D;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 ;
+    font-size: 20px;
+}
+.ourplans .part h5:hover{
+    cursor: pointer;
+    background-color: #14c6b9;
+}
+
+
+.ourplans input[type='button']{
+    display: block;
+    margin: auto;
+    padding: 15px 100px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.bot{
+    text-align: center;
+    padding: 50px 0;
+}
+.bot .title {
+    font-size: 27px;
+}
+.bot {
+    font-size: 20px;
+    font-weight: bold;
+    
+}   
+.bot span{
+    color: #12A89D;
+}
+
+
+
+
+.last{
+    padding: 20px 0;
+}
+.last .pay{
+    float: right;    
+    padding: 20px 0;
+}
+.last img{
+    width: 45px;
+    text-align: justify;
+    margin: 0 11px;
+    height: 30px;
+}
+
+.last p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.last h1{
+    text-align: center;
+    float: none;
+    margin-left: 220px;
+    font-size: 25px;
+    margin-top: 45px;
+}
+
+
+
+
+
+
+
+/* .roundedTwo */
+.roundedTwo {
+  width: 28px;
+  height: 10px;
+  position: relative;
+  margin: 0px auto;
+  background: #fcfff4;
+  background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  border-radius: 50px;
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.roundedTwo label {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  cursor: pointer;
+  background: -webkit-linear-gradient(top, #222222 0%, #45484d 100%);
+  background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+  border-radius: 50px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+}
+.roundedTwo label:after {
+  content: '';
+  width: 9px;
+  height:5px;
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  border: 2px solid #fcfff4;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.roundedTwo label:hover::after {
+  opacity: 0.5;
+}
+.roundedTwo input[type=checkbox] {
+  visibility: hidden;
+}
+.roundedTwo input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+/* end .roundedTwo */
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+
+/*=== Contact-Us ===*/
+/*=== Contact-Us ===*/
+
+.contact{
+    background-image: url('../images/85.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-size: cover;
+    position: relative;
+    padding-bottom: 30px;
+}
+.contact h1.head{
+    letter-spacing: 0;
+}
+.contact .design{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.81);
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.contact  .text{
+    color: white;
+    padding: 100px 0 50px 0;
+    
+}
+.contact  .text,
+.contact .design{
+    float: right;
+    direction: rtl;
+}
+
+@media(max-width:992px){
+    .contact h1.head{
+        font-size: 50px;
+        width: 60%;
+        padding: 15px 20px;
+        letter-spacing: 1;
+    }
+  
+    .contact .design{
+        height: 87%
+    }
+    .contact  .text{
+        width: 100%;
+        float: none;
+    }
+}
+
+@media(max-width:480px){
+    .contact h1.head{
+        font-size: 35px;
+        width: 70%;
+        letter-spacing: 1;
+    }
+    
+}
+
+
+.contact .map{
+    margin-top: 110px;
+    text-align: center;
+}
+.contact iframe{
+    width: 80%;
+}
+@media(max-width:992px){
+    .contact iframe{
+    width: 90%;
+    }
+    .contact .map{
+    margin-top: 0px;
+    }
+}
+
+.contact .text{
+    text-align: center;
+}
+
+.contact table,
+.contact table tr,
+.contact table td{
+    color: white;
+    padding: 10px;
+}
+.contact table td:first-child{
+ width: 85px;
+}
+.contact .text input[type=submit]{
+    padding: 10px 100px;
+    margin: 15px 0;
+}
+.contact .text p{
+    display: block;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

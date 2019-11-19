@@ -1,0 +1,427 @@
+/*=== First Section ===*/
+/*=== First Section ===*/
+.first{
+    padding-bottom: 30px;
+}
+
+.first .design{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.81);
+    height: 78%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.first  .text{
+    color: white;
+    padding: 100px 0 50px 0;
+    
+}
+.first  .text h3{
+    text-align: justify; 
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.first .pic {
+    position: relative;
+}
+.first .pic img{
+    z-index: 1;
+    position: absolute;
+    right: 10%;
+    top: 100px;
+    -webkit-box-shadow: 0px 5px 20px 5px #222222;
+    box-shadow: 0px 5px 20px 5px #222222;
+}
+.first .pic button{
+    display: none;
+}
+@media(max-width:992px){
+    .first h1.head{
+        font-size: 50px;
+        width: 60%;
+        padding: 15px 20px;
+        letter-spacing: 1;
+    }
+    .first  .text h1{
+        font-size: 40px;
+    }
+    .first  .text h3{
+        font-size:19px;
+    }
+    .first  .text img{
+        width: 40px
+    }
+    .first .pic{
+        text-align: center;
+    }
+    .first .pic img{
+        position: static;
+        
+    }
+    .first .design{
+        height: 87%
+    }
+    .first .pic button{
+        display: block;
+        margin: 15px auto;
+    }
+    .first  .text button{
+        display: none;
+    }
+}
+@media(max-width:480px){
+    .first h1.head{
+        font-size: 35px;
+        width: 70%;
+        letter-spacing: 1;
+    }
+    .first .pic img{
+        width: 300px
+    }
+    .first  .text h1{
+        font-size: 35px
+    }
+    .first  .text h3{
+        font-size: 17px;
+        text-align: left;
+
+    }
+    .first .design{
+        height: 90%;
+    }
+}
+
+/*=== App Design ===*/
+/*=== App Design ===*/
+.app{
+   background-image: url('../images/Levels3.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.app .text img{
+    width: 40px
+}
+.app .text h1{
+    color: #13A89E;
+    font-weight: bold;
+    text-align:center;
+}
+@media(min-width:1200px){
+    .app .text h1{
+        margin-top: 60px
+    } 
+}
+.app .text p{
+    color: #555455;
+    font-size: 22px;
+    font-weight: bold;
+    word-spacing: 2px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.app .text button{
+    display: block;
+    margin:  30px auto;
+}
+@media(max-width:768px){
+    .app .text h1{
+        font-size:40px;
+    }
+    .app .text img{
+        width: 25px;
+    }
+    
+    .app .text p{
+        font-size: 19px;
+    }
+}
+
+@media(max-width:480px){
+    .app .text h1{
+        font-size:38px;
+    }
+    .app .text p{
+        font-size: 17px;
+        text-align: center;
+    }
+}
+
+/*=== Markting ===*/
+/*=== Markting ===*/
+.mark{
+    color: white;
+    background-image: url('../images/Marketing.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+}
+.mark img{
+    width: 60px;
+}
+.mark p{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+@media(max-width:768px){
+    .mark h1{
+        font-size: 40px;
+    }
+    .mark img{
+        width: 40px;
+    }
+    .mark p{
+        font-size: 20px;
+        text-align: left;
+    }
+}
+@media(max-width:480px){
+    .mark h1{
+        font-size: 38px;
+    }
+    .mark img{
+        width: 35px;
+    }
+    .mark p{
+        font-size: 19px;
+        text-align: left;
+    }
+}
+
+/*=== Design ===*/
+/*=== Design ===*/
+.desi{
+    background-image: url('../images/design.jpg');
+    background-position: left;
+    background-size: cover;
+    color: white;
+    padding: 30px 0;
+}
+
+.desi h1{
+    text-align: center;
+}
+
+.desi img{
+    width: 80px;
+}
+.desi p {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: justify;
+    margin: 40px 0;
+    text-shadow: 2px 2px 2px #222222;
+}
+.desi .details{
+    box-shadow: 2px 2px 10px 0px black;
+    padding: 0px 10px
+}
+.desi .details .part{
+    margin: 10px 0px;
+}
+.desi .details .part h5{
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px #222222;
+}
+.desi .details p{
+    margin: 5px 0;
+    font-size: 21px;
+}
+
+@media(max-width:768px){
+    .desi{
+        background-position: left;
+    }
+    .desi h1{
+    font-size: 35px;
+    letter-spacing: 0;
+    }
+    .desi img{
+        width: 45px
+    }
+    .desi  p{
+        font-size: 19px;
+        text-align: left;
+    }
+    .desi .details .part{
+        padding: 15px;
+    }
+    .desi .details p{
+        font-size: 19px;
+    }
+}
+
+@media(max-width:480px){
+    .desi h1{
+    font-size: 35px;
+    letter-spacing: 0;
+    }
+    .desi img{
+        width: 40px
+    }
+    .desi  p{
+        font-size: 17px;
+    }
+    .desi .details p{
+        font-size: 17px;
+    }
+}
+
+.desi button{
+    float:right;
+    margin-top: 30px;
+}
+
+
+/*=== Media ===*/
+/*=== Media ===*/
+.media{
+    background-image: url('../images/media1.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 30px 0;
+    margin: 0;
+}
+.media h1{
+    text-align: center;
+}
+.media h1 img{
+    width: 60px;
+}
+
+.media .part img {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+    margin: 25px auto;
+}
+.media  p{
+    font-size: 21px;
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: justify;
+}
+.media button {
+    background-color: white;
+    color: #13A89E;
+    display: block;
+    margin: 20px auto;
+}
+
+@media(max-width:768px){
+    .media h1{
+        font-size: 35px;
+        letter-spacing: 0;
+    }
+    .media h1 img{
+        width: 45px
+    }
+    .media  p{
+        font-size: 19px;
+    }
+}
+
+@media(max-width:480px){
+    .media h1{
+        font-size: 35px;
+        letter-spacing: 0;
+    }
+    .media h1 img{
+        width: 40px
+    }
+    .media  p{
+        font-size: 19px;
+        text-align: left;
+    }
+}
+
+
+/*=== Fixed Menu ===*/
+/*=== Fixed Menu ===*/
+.fxdmenu{
+    position: fixed;
+    top:100px;
+    right:-360px ;
+    height: 115px;
+    z-index: 1;
+    transition: all 1s;
+    opacity: 0.9;
+}
+.hover{
+    right: 0;
+    transition: all 1s;
+}
+.fxdmenu > div{
+    float: left;
+    display: inline-block;
+    color: white;
+    font-weight: bold; 
+    padding: 15px
+}
+.fxdmenu .head{
+    background-color:#505956; 
+    font-size: 20px;
+    height: 100%;
+    line-height: 4;
+    border-radius: 50% 0 0 50%;
+    cursor: pointer;
+    
+}
+.fxdmenu .head:hover{
+    background-color: #6b7471;
+}
+.fxdmenu .tail {
+    background-color: #266E68;
+    height: 100%;
+    font-size: 15px;
+    width: 360px;
+}
+.fxdmenu .tail ul{
+    text-align: center;
+}
+.fxdmenu .tail li{
+    width: 40%;
+    display: inline-block;
+    margin: 4px 0;
+}
+.fxdmenu .tail li:hover{
+    cursor: pointer;
+    color: #00ffff;
+}
+
+@media(max-width:480px){
+    .fxdmenu{
+        height: 100px;
+        right:-245px ;
+    }
+    .hover {
+       right: 0; 
+    }
+    .fxdmenu .head{
+        font-size: 16px;
+        padding: 13px 5px;
+    }
+    .fxdmenu .tail {
+        width: 245px;
+        padding: 10px 0;
+        
+    }
+    .fxdmenu .tail li{
+        width: 45%;
+        font-size: 13;
+        margin: 3px 0
+    }
+}

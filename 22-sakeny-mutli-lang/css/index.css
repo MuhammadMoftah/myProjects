@@ -1,0 +1,672 @@
+/*===== Initialization ====*/
+/*===== Initialization ====*/
+:root {
+    --clr1: #4E2267;
+    --clr2: #1E1625;
+    --clr3: #7e1cb5;
+/*    --clr3: #a101fa;*/
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Cairo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+/*===== Site initialization =====*/
+/*===== Site initialization =====*/
+.title h1 {
+    position: relative;
+    padding: 10px 0px;
+}
+
+.title h1:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 130px;
+    background-color: #b100ff;
+    background-color: var(--clr1);
+    border-radius: 40%;
+}
+
+.form-control:focus {
+    border-color: #fecbff !important;
+    box-shadow: 0 0 0 0.2rem rgba(157, 0, 255, 0.25) !important;
+}
+
+/*===== Navbar =====*/
+/*===== Navbar =====*/
+.paddingfornav {
+    padding-top: 120px !important;
+}
+
+nav {
+    background-color: rgba(78, 34, 103, 0.9) !important;
+    position: fixed !important;
+    z-index: 10;
+    width: 100%;
+}
+
+nav .navbar-brand img {
+    max-width: 100%;
+    width: 100px;
+}
+
+nav .navbar-nav > a {
+    color: white !important;
+}
+
+nav .navbar-nav a {
+    font-size: 13px;
+}
+
+nav .navbar-nav > a:hover {
+    text-decoration: underline;
+}
+
+nav .country img {
+    width: 30px;
+    height: 18px;
+}
+
+nav .navbar-nav > * {
+    margin: 0 5px;
+}
+
+nav .navbar-nav .dropdown a {
+    text-decoration: none
+}
+
+@media(max-width:992px) {
+    nav .navbar-nav {
+        text-align: center;
+    }
+
+    nav .navbar-nav a {
+        border-bottom: 1px solid grey;
+    }
+
+    nav .navbar-nav a:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-left: 15px;
+        transition: all 0.4s ease;
+    }
+
+    nav .navbar-nav .dropdown a {
+        text-decoration: none;
+        text-align: center;
+        background-color: transparent;
+    }
+
+    nav .navbar-nav .dropdown > a.dropdown-toggle {
+        padding: 0 !important;
+        border-bottom: none;
+    }
+}
+
+
+/*===== Cover =====*/
+/*===== Cover =====*/
+.top-cover {
+    background-color: var(--clr1);
+    min-height: 500px
+}
+
+.top-cover form .form-group input,
+.top-cover form .form-group select,
+.top-cover form .form-group button {
+    height: 50px;
+    cursor: pointer;
+}
+
+
+/*===== ad-area =====*/
+/*===== ad-area =====*/
+.ad-area img {
+    width: 100%
+}
+
+/*===== Latest-ads =====*/
+/*===== Latest-ads =====*/
+.latest-ad {
+    perspective: 1000px;
+}
+
+.latest-ad .sale {
+    position: absolute;
+    top: 7%;
+    left: 0;
+    padding: 7px;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+}
+
+.latest-ad .card {
+    transition: all 0.4s ease;
+}
+
+.latest-ad .card:hover {
+    transform: translateZ(10px);
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 5px #bababa
+}
+
+/*===== Projects =====*/
+/*===== Projects =====*/
+.projects {
+    perspective: 1000px;
+    background-color: #ACB8BC;
+}
+
+.projects .title {
+    color: white;
+    text-shadow: 1px 1px 1px #bebebe;
+}
+
+.projects .title :after {
+    background-color: white;
+}
+
+.projects .card {
+    transition: all 0.4s ease;
+    border: none;
+}
+
+.projects .card:hover {
+    transform: translateZ(10px);
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 5px #9a9a9a;
+}
+
+
+/*=====Our Companies =====*/
+/*=====Our Companies =====*/
+.companies {
+    background-color: #4E006A;
+}
+
+.companies .title {
+    color: white;
+    text-shadow: 1px 1px 1px #bebebe;
+}
+
+.companies .title :after {
+    background-color: white;
+}
+
+.companies .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.companies .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 200px;
+}
+
+.companies .swiper-slide img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #c1c1c1
+}
+
+
+/*===== Login =====*/
+/*===== Login =====*/
+.login {
+    padding: 300px 0 100px 0;
+}
+
+.login .row > .mx-auto {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.login form {
+    padding: 80px 50px 50px 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+@media(min-width:992px) {
+    .login form {
+        padding: 80px 200px;
+    }
+}
+
+.login .form-title {
+    padding-top: 70px;
+    position: absolute;
+    height: 350px;
+    width: 500px;
+    z-index: 5;
+    left: -280px;
+    top: -290px;
+    background: url('../icons/title-image.png') no-repeat;
+    background-size: contain;
+}
+
+.login .title {
+    position: absolute;
+    right: 110px;
+    bottom: 82px;
+    color: white;
+    font-weight: 800 !important;
+}
+
+.login .col-12:before {
+    content: '';
+    display: block;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    background: #000;
+    z-index: 0
+}
+
+.login .col-12 h4 {
+    margin: auto;
+    padding: 0 10px;
+    font-size: 18px;
+    height: auto;
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    background-color: #F2F2F2;
+}
+
+.login .social-login a {
+    transition: all .3s ease-in-out 0s;
+    display: inline-block;
+    color: #fff !important;
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+    border-radius: 5px;
+    margin: 0 3px;
+}
+
+.login .social-login a:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s ease;
+}
+
+.login .social-login a.facebook {
+    background: #005ebf;
+    border: 1px solid #005ebf;
+}
+
+.login .social-login a.google {
+    background: #bf0000;
+    border: 1px solid #bf0000;
+}
+
+.login .social-login a.twitter {
+    background: #55acee;
+    border: 1px solid #55acee;
+}
+
+.login .social-login a.linked {
+    background: #0077b5;
+    border: 1px solid #0077b5;
+}
+
+/*===== Company Reg =====*/
+/*===== Company Reg =====*/
+.company-reg {
+    padding: 300px 0 100px 0;
+}
+
+.company-reg .row > .mx-auto {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.company-reg form {
+    padding: 80px 50px 50px 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+@media(min-width:992px) {
+    .company-reg form {
+        padding: 80px 200px;
+    }
+}
+
+.company-reg .form-title {
+    padding-top: 70px;
+    position: absolute;
+    height: 350px;
+    width: 500px;
+    z-index: 5;
+    left: -280px;
+    top: -290px;
+    background: url('../icons/title-image.png') no-repeat;
+    background-size: contain;
+}
+
+.company-reg .title {
+    position: absolute;
+    right: 92px;
+    bottom: 70px;
+    color: white;
+    font-weight: 800 !important;
+}
+
+.company-reg .title h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+.company-reg .col-12:before {
+    content: '';
+    display: block;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    background: #000;
+    z-index: 0;
+}
+
+.company-reg .col-12 h4 {
+    margin: auto;
+    padding: 0 10px;
+    font-size: 18px;
+    height: auto;
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    background-color: #F2F2F2;
+}
+
+
+/*===== Count Companies =====*/
+/*===== Count Companies =====*/
+.count-companies {
+    perspective: 800px;
+    padding: 150px 0;
+}
+
+.count-companies .card-counter {
+    box-shadow: 2px 2px 10px #DADADA;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+}
+
+.count-companies .card-counter:hover {
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+}
+
+.count-companies .card-counter i {
+    font-size: 5em;
+    opacity: 0.6;
+}
+
+.count-companies .card-counter .count-numbers {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 32px;
+    display: block;
+}
+
+.count-companies .card-counter .count-name {
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 18px;
+}
+
+.count-companies .card {
+    height: 150px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.count-companies .card img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.count-companies .card:hover img {
+    transform: translateZ(20px);
+    transition: all 0.2s ease;
+    box-shadow: 5px 2px 5px #868686;
+}
+
+/*===== All Projects =====*/
+/*===== All Projects =====*/
+.all-projects{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    perspective: 800px;
+}
+.all-projects .card{
+    transition: all 0.5s ease;
+}
+.all-projects .card:hover {
+    transform: translateZ(20px);
+    transition: all 0.2s ease;
+    box-shadow: 5px 2px 10px #868686;
+}
+.all-projects .card img{
+    height: 240px;
+}
+.all-projects .card p:nth-of-type(1){
+    height: 100px;
+    overflow: hidden
+}
+/*===== About and Terms ====*/
+/*===== About and Terms ====*/
+.about {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.about .title h1{
+    font-size: 30px;
+}
+.about .title2{
+    background-color: var(--clr1);
+}
+.about p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+
+/*===== Single Project =====*/
+/*===== Single Project =====*/
+.single-project {
+    padding: 150px 0 100px 0;
+}
+.single-project .inner > .row{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px #d1d1d1;
+    border-radius: 10px;
+}
+.single-project .title h1{
+    font-size: 28px;
+}
+.single-project .carousel img {
+    border-radius: 5px;
+    max-height: 100vh;
+    min-height: 450px;
+}
+
+.single-project .social-login a {
+    transition: all .3s ease-in-out 0s;
+    display: inline-block;
+    color: #fff !important;
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+    border-radius: 5px;
+    margin: 5px 3px;
+}
+
+.single-project .social-login a:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s ease;
+}
+
+.single-project .features i{
+    padding: 5px;
+    background-color: var(--clr3);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.single-project .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.single-project .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 200px;
+}
+
+.single-project .swiper-slide img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #c1c1c1
+}
+
+.single-project .user .footer-social-link li {
+     width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #4E006A;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    font-size: 25px;
+}
+.single-project .user .footer-social-link li i{
+    color: #4E006A;
+}
+.single-project .user .footer-social-link li:hover {
+    background-color: #4E006A;
+}
+.single-project .user .footer-social-link li:hover i {
+    color: white;
+}
+.single-project .sale {
+    position: absolute;
+    top: 7%;
+    left: 0;
+    padding: 7px;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+}
+/*===== footer =====*/
+/*===== footer =====*/
+.houses img {
+    width: 100%;
+}
+
+footer {
+    background-color: #2F3133;
+}
+
+footer .brand img {
+    width: 200px;
+}
+
+footer .head {
+    color: white;
+    color: #ce46ff;
+}
+
+footer .footer-social-link li {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ce46ff;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+footer .footer-social-link li:hover {
+    background-color: #ce46ff;
+    transition: all 0.2s ease;
+}
+
+footer .footer-social-link {
+    font-size: 20px;
+}
+footer .list-unstyled li {
+    padding: 5px 0;
+}
+footer .list-unstyled li:hover{
+    background-color: var(--clr1);
+}
