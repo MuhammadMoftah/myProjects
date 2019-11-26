@@ -34,6 +34,14 @@
                         </div> 
                         
                         <div class="form-group">
+                           <p>Already on Yalla Furnish? <a href="login.php" class="font-weight-bold">Login</a></p>
+                        </div> 
+                        
+                        <div class="form-group">
+                           <p>By Login or Signup I agree to Yalla Furnish <a href="" class="font-weight-bold">Terms of use and Privacy Policy</a></p>
+                        </div>  
+                        
+                        <div class="form-group">
                             <input type="submit" class="form-control w-50 mx-auto main-btn"  value="Submit">
                         </div> 
                 </form>

@@ -59,18 +59,19 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-4 col-md-6 px-2">
-                            <a class="part card boardtoclick" data-id="#ShowBoard">
-                                <div class="img" style="background-image: url(./images/big-proj1.jpg);cursor:pointer">
-
+                        <div class="col-xl-4 col-md-6 px-2 ">
+                            <div class="part card" >
+                                <div class="img boardtoclick" data-id="#ShowBoard" style="background-image: url(./images/big-proj1.jpg);cursor:pointer">
                                 </div>
+                 
                                 <div class="card-body card-footer d-flex flex-column justify-content-around">
                                     <h5 class="card-title">Hussam's Ideas</h5>
                                     <p class="card-text main-link2 m-0">
                                         10 Saved Items
                                     </p>
+                                    <button title="Delete" data-toggle="modal" data-target="#deleteModal" class="btn btn-danger" style="width: 45px;height: 45px;position: absolute;right: 7px;top: 0;bottom: 0;margin: auto;"> <i class="far fa-trash-alt"></i></button>
                                 </div>
-                            </a>
+                            </div>
 
                             <!--Edit Board Modal -->
                             <div class="modal fade" id="EditBoardModal">
@@ -825,7 +826,7 @@
                                         <p class="text-muted pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo harum reiciendis vero nihil esse autem quibusdam saepe libero consequuntur.</p>
                                         <div class="d-flex align-items-center justify-content-between">
                                             <a href="" class="btn main-btn2 px-4"> Full Artical</a>
-                                            <a Title="Delete" href="" class="btn btn-danger" style="min-width: 50px;"> <i class="far fa-trash-alt"></i></a>
+                                            <a Title="Delete" href="" class="btn btn-danger" style="min-width: 50px;" data-toggle="modal" data-target="#deleteModal"> <i class="far fa-trash-alt"></i></a>
                                             <a Title="Edit" href="" class="btn btn-info" style="min-width: 50px;"><i class="far fa-edit"></i></a>
                                             <ul>
                                                 <li class="d-inline-block social">
@@ -1104,6 +1105,26 @@
 <!--End Showrooms-->
 
 <?php include 'footer.php'; ?>
+
+<!-- DELETE Warning Modal -->
+<div class="modal fade" id="deleteModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header border-0">
+                <h4 class="modal-title text-capitalize h5">Are you Sure to delete this?</h4>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer justify-content-center border-0">
+                <button type="button" class="btn btn-danger px-5" data-dismiss="modal">Yes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
 <!-- The Followers Modal -->
 <div class="modal fade followers-modal show" id="followersModal">
     <div class="modal-dialog">

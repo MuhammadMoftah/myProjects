@@ -17,6 +17,18 @@
                             <label for="exampleFormControlInput1">Password</label>
                             <input type="password" class="form-control" id="exampleFormControlInput3" placeholder="Password">
                         </div> 
+                        
+                        <div class="form-group">
+                           <p><a href="">Forget your password?</a></p>
+                        </div>
+                        
+                        <div class="form-group">
+                           <p>New to Yalla Furnish? <a href="register.php" class="font-weight-bold">Join Now</a></p>
+                        </div> 
+                        
+                        <div class="form-group">
+                           <p>By Login or Signup I agree to Yalla Furnish <a href="" class="font-weight-bold">Terms of use and Privacy Policy</a></p>
+                        </div> 
              
                         <div class="form-group">
                             <input type="submit" class="form-control w-50 mx-auto main-btn"  value="Login">
