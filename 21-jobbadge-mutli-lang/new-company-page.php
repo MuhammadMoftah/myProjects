@@ -69,120 +69,120 @@
                     <div class="row">
                         <div class="col-md-12 part-body rounded my-2">
                             <div class="container-post-jobs p-0 bg-white">
-                                    <div class="post-job-list-view">
-                                        <div class="list-view-item">
-                                            <div class="row align-items-center no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="item-post-job">
-                                                        <img src="images\logo\logo4.png" alt="" class="item-logo">
-                                                        <div class="item-post">
-                                                            <h4 class="post-name"><a href="job-details.php">Front End Developer</a></h4>
-                                                            <span class="post-date">2 days ago</span>
-                                                        </div>
+                                <div class="post-job-list-view">
+                                    <div class="list-view-item">
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-md-6">
+                                                <div class="item-post-job">
+                                                    <img src="images\logo\logo4.png" alt="" class="item-logo">
+                                                    <div class="item-post">
+                                                        <h4 class="post-name"><a href="job-details.php">Front End Developer</a></h4>
+                                                        <span class="post-date">2 days ago</span>
                                                     </div>
                                                 </div>
+                                            </div>
 
-                                                <div class="col-md-6">
-                                                    <div class="row no-gutters">
-                                                        <div class="col-12 col-md-5">
-                                                            <div class="item-position">
-                                                                <span class="icon icon-pin"></span>
-                                                                <span class="position-text">Cairo</span>
-                                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="row no-gutters">
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="item-position">
+                                                            <span class="icon icon-pin"></span>
+                                                            <span class="position-text">Cairo</span>
                                                         </div>
+                                                    </div>
 
-                                                        <div class="col-12 col-md-4">
-                                                            <div class="item-time-type">
-                                                                <span class="icon icon-tag-black-shape"></span>
-                                                                <span class="type-text">FULL TIME</span>
-                                                            </div>
+                                                    <div class="col-12 col-md-4">
+                                                        <div class="item-time-type">
+                                                            <span class="icon icon-tag-black-shape"></span>
+                                                            <span class="type-text">FULL TIME</span>
                                                         </div>
+                                                    </div>
 
-                                                        <div class="col-12 col-md-3 text-sm-center text-md-right">
-                                                            <a href="job-details.php" class="button-outline"><span>Apply</span></a>
-                                                        </div>
+                                                    <div class="col-12 col-md-3 text-sm-center text-md-right">
+                                                        <a href="job-details.php" class="button-outline"><span>Apply</span></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="list-view-item">
-                                            <div class="row align-items-center no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="item-post-job">
-                                                        <img src="images\logo\logo4.png" alt="" class="item-logo">
-                                                        <div class="item-post">
-                                                            <h4 class="post-name"><a href="job-details.php">Front End Developer</a></h4>
-                                                            <span class="post-date">2 days ago</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6">
-                                                    <div class="row no-gutters">
-                                                        <div class="col-12 col-md-5">
-                                                            <div class="item-position">
-                                                                <span class="icon icon-pin"></span>
-                                                                <span class="position-text">Cairo</span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-4">
-                                                            <div class="item-time-type">
-                                                                <span class="icon icon-tag-black-shape"></span>
-                                                                <span class="type-text">FULL TIME</span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-3 text-sm-center text-md-right">
-                                                            <a href="job-details.php" class="button-outline"><span>Apply</span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="list-view-item">
-                                            <div class="row align-items-center no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="item-post-job">
-                                                        <img src="images\logo\logo4.png" alt="" class="item-logo">
-                                                        <div class="item-post">
-                                                            <h4 class="post-name"><a href="job-details.php">Front End Developer</a></h4>
-                                                            <span class="post-date">2 days ago</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6">
-                                                    <div class="row no-gutters">
-                                                        <div class="col-12 col-md-5">
-                                                            <div class="item-position">
-                                                                <span class="icon icon-pin"></span>
-                                                                <span class="position-text">Cairo</span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-4">
-                                                            <div class="item-time-type">
-                                                                <span class="icon icon-tag-black-shape"></span>
-                                                                <span class="type-text">FULL TIME</span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-3 text-sm-center text-md-right">
-                                                            <a href="job-details.php" class="button-outline"><span>Apply</span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                
-                                            </div>
-                                        </div>
-
                                     </div>
+
+                                    <div class="list-view-item">
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-md-6">
+                                                <div class="item-post-job">
+                                                    <img src="images\logo\logo4.png" alt="" class="item-logo">
+                                                    <div class="item-post">
+                                                        <h4 class="post-name"><a href="job-details.php">Front End Developer</a></h4>
+                                                        <span class="post-date">2 days ago</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="row no-gutters">
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="item-position">
+                                                            <span class="icon icon-pin"></span>
+                                                            <span class="position-text">Cairo</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-md-4">
+                                                        <div class="item-time-type">
+                                                            <span class="icon icon-tag-black-shape"></span>
+                                                            <span class="type-text">FULL TIME</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-md-3 text-sm-center text-md-right">
+                                                        <a href="job-details.php" class="button-outline"><span>Apply</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list-view-item">
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-md-6">
+                                                <div class="item-post-job">
+                                                    <img src="images\logo\logo4.png" alt="" class="item-logo">
+                                                    <div class="item-post">
+                                                        <h4 class="post-name"><a href="job-details.php">Front End Developer</a></h4>
+                                                        <span class="post-date">2 days ago</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="row no-gutters">
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="item-position">
+                                                            <span class="icon icon-pin"></span>
+                                                            <span class="position-text">Cairo</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-md-4">
+                                                        <div class="item-time-type">
+                                                            <span class="icon icon-tag-black-shape"></span>
+                                                            <span class="type-text">FULL TIME</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-md-3 text-sm-center text-md-right">
+                                                        <a href="job-details.php" class="button-outline"><span>Apply</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>

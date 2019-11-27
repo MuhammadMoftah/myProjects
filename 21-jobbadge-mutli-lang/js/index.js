@@ -1,6 +1,8 @@
 /*global $ , console , alert , document, window */
 $(function () {
     'use strict';
+
+
     $('#usersTable').DataTable();
     $("#compDelete").click(function () {
         swal({
@@ -47,4 +49,17 @@ $(function () {
             return false;
         }
     });
+    
+    //    ==== Disable the input When Check Currntly work ====
+    //    ==== Disable the input When Check Currntly work ====
+    $('.currently-work').change(function() {
+        if ($('.currently-work')[0].checked == true) {
+            $('.end-date').prop('disabled', true);
+        } else {
+            $('.end-date').prop('disabled', false);
+        }
+    })
+
+
+    
 });

@@ -92,14 +92,14 @@
                                                         <label>Start From</label>
                                                         <input type='text' class='form-control datepicker-here' data-language='en' />
                                                         <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                            <input type="checkbox" class="custom-control-input currently-work" id="customCheck1">
                                                             <label class="custom-control-label" for="customCheck1">I Currently work here</label>
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group col-md-6">
                                                         <label>End Date</label>
-                                                        <input type='text' class='form-control datepicker-here' data-language='en' />
+                                                        <input type='text' class='form-control datepicker-here end-date' data-language='en' />
                                                     </div>
 
                                                     <div class="form-group col-md-6">
@@ -235,14 +235,14 @@
                                                         <label>Start Year</label>
                                                         <input type='text' class='form-control datepicker-here' data-language='en' />
                                                         <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                            <input type="checkbox" class="custom-control-input currently-work" id="customCheck1">
                                                             <label class="custom-control-label" for="customCheck1">I Currently Study here</label>
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group col-md-6">
                                                         <label>End Year</label>
-                                                        <input type='text' class='form-control datepicker-here' data-language='en' />
+                                                        <input type='text' class='form-control datepicker-here end-date' data-language='en' />
                                                     </div>
 
                                                     <div class="form-group col-md-12">
@@ -537,14 +537,14 @@
                                                         <label>Start Year</label>
                                                         <input type='text' class='form-control datepicker-here' data-language='en' />
                                                         <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                            <input type="checkbox" class="custom-control-input currently-work" id="customCheck1">
                                                             <label class="custom-control-label" for="customCheck1">I Currently Study here</label>
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group col-md-6">
                                                         <label>End Year</label>
-                                                        <input type='text' class='form-control datepicker-here' data-language='en' />
+                                                        <input type='text' class='form-control datepicker-here end-date' data-language='en' />
                                                     </div>
 
                                                     <div class="form-group col-md-12">
@@ -575,3 +575,13 @@
 
 
 <?php include 'footer.php';?>
+<script>
+    $('.currently-work').change(function() {
+        if ($('.currently-work')[0].checked == true) {
+            $('.end-date').prop('disabled', true);
+        } else {
+            $('.end-date').prop('disabled', false);
+        }
+    })
+
+</script>

@@ -1762,7 +1762,7 @@ label.uploadimg:hover .close-overlay {
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-image: url(../images/male1.jpg);
     background-position: center center;
     border-radius: 50px;

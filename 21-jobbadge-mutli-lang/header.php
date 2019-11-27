@@ -55,6 +55,7 @@
 
                     <div class="dropdown d-inline-block notifcation mr-3">
                         <img src="images/customer/customer1.jpg" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" alt="">
+                        <i class="fas fa-bars" data-toggle="dropdown" style="position: absolute;bottom: 0;right: 0;color: white;background-color: var(--clr2);padding: 4px;border-radius: 50%;font-size: 13px;cursor: pointer;"></i>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <p class="text-center border-bottom pb-2 mb-0">Muhammad Moftah</p>
                             <a class="dropdown-item text-muted py-2" href="#">AnyLink</a>

@@ -1097,7 +1097,6 @@
 
                 </div>
 
-
             </div>
         </div>
     </section>
@@ -1110,12 +1109,10 @@
 <div class="modal fade" id="deleteModal">
     <div class="modal-dialog">
         <div class="modal-content">
-
             <!-- Modal Header -->
             <div class="modal-header border-0">
                 <h4 class="modal-title text-capitalize h5">Are you Sure to delete this?</h4>
             </div>
-
             <!-- Modal footer -->
             <div class="modal-footer justify-content-center border-0">
                 <button type="button" class="btn btn-danger px-5" data-dismiss="modal">Yes</button>

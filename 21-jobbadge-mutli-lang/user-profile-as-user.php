@@ -12,10 +12,16 @@
                         <div class="card">
                             <img src="images/customer/customer2.jpg" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title text-center">Muhammad Moftah</h5>
+
+                                <h5 class="card-title text-center mb-0">Muhammad Moftah</h5>
                                 <h6 class="text-center text-info">Frontend Developer</h6>
+                                <div class="progress mt-3" style="width: 180px; height: 13px;margin: auto;">
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                </div>
+                                <a class="text-success" href=""> Complete Your Profile</a>
+
                                 <p class="card-text text-left p-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Follow</a> 
+                                <a href="#" class="btn btn-primary">Follow</a>
                                 <a href="#" class="btn btn-primary disabled">Followed</a>
                                 <br><br>
                                 <h5 class="card-title text-center">Contact Me</h5>
@@ -78,7 +84,7 @@
                                     <label for="exampleInputCompPhone">Phone</label>
                                     <input type="name" class="form-control" id="exampleInputCompPhone" placeholder="0123456789" disabled>
                                 </div>
-                                
+
                                 <div class="form-group col-md-6">
                                     <label>Show CV</label>
                                     <a class="btn btn-secondary form-control" target="_blank" href="cv.pdf"> Show Cv</a>
@@ -90,9 +96,9 @@
                             <form action="" class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="exampleInputCompany">User Name</label>
-                                    <input type="name" class="form-control" id="exampleInputCompany" placeholder="Old Company Name">
+                                    <input type="name" class="form-control" id="exampleInputCompany" placeholder="Old Company Name" spellcheck="true">
                                 </div>
-                                
+
                                 <div class="form-group col-md-6">
                                     <label for="jobTitle">Job Title</label>
                                     <input type="name" class="form-control" id="jobTitle" placeholder="Job Title">
@@ -148,7 +154,7 @@
                                     <textarea class="form-control" id="compDescribtion" rows="5"></textarea>
                                 </div>
 
-                          
+
                                 <div class="form-group col-md-6"> Upload CV
                                     <input type="file" class="custom-file-input" id="compFiles">
                                     <label style="width: 90%;top:32px" class="custom-file-label text-danger" for="compFiles">PDF CV</label>
@@ -318,3 +324,12 @@
 
 
 <?php include 'footer.php';?>
+
+
+<script>
+    //Show name of uploded file
+    $('input[type=file]').change(function() {
+        let file = $(this)[0].files[0].name;
+        $(this).find('+ label').text(file);
+    });
+</script>

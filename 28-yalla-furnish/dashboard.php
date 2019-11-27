@@ -38,13 +38,13 @@
                     <div class="container dash-chat" id="dash-chat">
                         <div class="row bg-white rounded py-2">
                             <div class="col-4 chat-left d-fle align-items-center">
-                                <hgroup class="d-flex justify-content-between">
-                                    <select class="form-control col-3" name="" id="">
+                                <hgroup class="d-fle justify-content-between row px-3">
+                                    <select class="form-control col-md-4 px-1" name="" id="">
                                         <option value="">All</option>
                                         <option value="">Read</option>
                                         <option value="">UnRead</option>
                                     </select>
-                                    <input class="form-control col-8" type="text" placeholder="Search ...">
+                                    <input class="form-control col-md-8" type="text" style="max-width:180px" placeholder="Search ...">
                                 </hgroup>
 
                                 <aside class="chat-list py-3">
@@ -278,7 +278,7 @@
                                                     <!--                                                    <figure class="img" style="background-image: url(./images/proj3.png)"></figure>-->
                                                     <aside class="overlay text-center">
                                                         <a class="d-block w-50 mx-auto btn btn-info" href="" style="min-width: 150px;">Edit Offer</a>
-                                                        <a class="d-block w-50 mx-auto btn btn-danger" href="" style="margin-top: 10px;min-width: 150px;">Delete Offer</a>
+                                                        <button class="d-block w-50 mx-auto btn btn-danger" data-toggle="modal" data-target="#deleteModal" style="margin-top: 10px;min-width: 150px;">Delete Offer</button>
                                                     </aside>
                                                     <div class="card-footer">
                                                         <h6 class="card-title mb-1">Product Name</h6>
@@ -616,7 +616,7 @@
                                                     <img src="images/proj3.png" class="card-img-top" alt="">
                                                     <aside class="overlay text-center">
                                                         <a class="d-block w-50 mx-auto btn btn-info" href="" style="min-width: 150px;">Edit Offer</a>
-                                                        <a class="d-block w-50 mx-auto btn btn-danger" href="" style="margin-top: 10px;min-width: 150px;">Delete Offer</a>
+                                                        <button class="d-block w-50 mx-auto btn btn-danger" data-target="#deleteModal" data-toggle="modal"  style="margin-top: 10px;min-width: 150px;">Delete Offer</button>
                                                     </aside>
                                                     <div class="card-footer">
                                                         <h6 class="card-title mb-1">Product Name</h6>
@@ -1111,8 +1111,28 @@
     </section>
 </div>
 <!--End Showrooms-->
-
 <?php include 'footer.php'; ?>
+
+
+<!-- DELETE Warning Modal -->
+<div class="modal fade" id="deleteModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header border-0">
+                <h4 class="modal-title text-capitalize h5">Are you Sure to delete this?</h4>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer justify-content-center border-0">
+                <button type="button" class="btn btn-danger px-5" data-dismiss="modal">Yes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
 <script>
     $('.text-input #chooseImg').change(function() {
         $('.text-input figure').fadeIn()
