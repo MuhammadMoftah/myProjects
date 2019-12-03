@@ -1,50 +1,38 @@
 /*===== Initialization ====*/
 /*===== Initialization ====*/
-body{
-    background-color: #f3f3f3;
-    height: 5000px;
+body {
+  background-color: #f3f3f3;
+  height: 5000px;
 }
 
-a, .btn, button {
+a,
+.btn,
+button {
   text-decoration: none;
   outline: none;
   transition: all 300ms linear 0s;
 }
-a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
   text-decoration: none;
   outline: none;
   cursor: pointer;
 }
 
-  h1,h2,h3,h4,h5,h6,
-  a,button,input[type=button],input[type="submit"] {
-    text-transform: capitalize;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button,
+input[type=button],
+input[type="submit"] {
+  text-transform: capitalize;
+}
