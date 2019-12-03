@@ -17,7 +17,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
   h1,h2,h3,h4,h5,h6,
-  a,button,input:not([type=text]) {
+  a,button,input[type=button],input[type="submit"] {
     text-transform: capitalize;
   }
 
