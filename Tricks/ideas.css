@@ -61,15 +61,15 @@ div {
 background-image:url(../images/cover1.jpg);
 background-repeat:no-repeat;
 background-size: cover;
-background-position: center center;
+background-position: center;
 
 
 /*===== Center BackGround Image With Hover=====*/
 /*===== Center BackGround Image With Hover=====*/
 height: 700px;
-background: linear-gradient(rgba(0, 0, 0, 0.45),
+background-image: linear-gradient(to right,rgba(0, 0, 0, 0.45),
     rgba(0, 0, 0, 0.45)),
-url(../images/customer/waiting.png);
+url(../images/background/about-us.webp);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
