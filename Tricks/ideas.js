@@ -1,9 +1,36 @@
 
 /*global $ , console , alert , document, window */
+
+// Change all Images in the page from Https tp http
+function loadImages(){
+    var allImages = document.querySelectorAll('img');
+    for (var i = 0; i <= allImages.length; i++) {
+        console.log(allImages[i].src);
+        var newImage = allImages[i].src.replace(/^https:\/\//i, 'http://');
+        allImages[i].src = newImage;
+        console.log("new Image= " + newImage);
+    }
+}
+
+// Change all links in the page from Https tp http
+function loadLinks(){
+    var allLinks = document.querySelectorAll('link,a');
+    for (var i = 0; i <= allLinks.length; i++) {
+        var newLink = allLinks[i].href.replace(/^https:\/\//i, 'http://');
+        allLinks[i].href = newLink;
+        console.log("new Link= " + newLink);
+    }
+}
+
+
 $(function () {
   'use strict';
 }
-  
+
+
+
+
+
   //Show name of uploded file
     $('input[type=file]').change(function() {
         let file = $(this)[0].files[0].name;
