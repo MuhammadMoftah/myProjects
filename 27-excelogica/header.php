@@ -21,7 +21,7 @@
         <!--===== NavBar =====-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white ">
             <div class="container">
-                <a class="navbar-brand p-0" href="indexx.php"><img src="images/main-logo.png" alt=""></a>
+                <a class="navbar-brand p-0" href="index.php"><img src="images/main-logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
