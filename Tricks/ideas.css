@@ -1,3 +1,11 @@
+/* ===== limit lines vertical =====*/
+/* ===== limit lines vertical =====*/
+div {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
 /* === Fit height 100% to the father === */
 /* === Fit height 100% to the father === */
 div {
