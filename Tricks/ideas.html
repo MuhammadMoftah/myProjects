@@ -32,8 +32,6 @@
 <div id="preloader">
     <div id="loader"></div>
 </div>
-
-
 <style>
     /*===== Loading Screen =====*/
     /*===== Loading Screen =====*/
@@ -118,3 +116,54 @@
         }
     }
 </style>
+
+
+
+<!-- Fix Large Pagination in Small Screen -->
+<!-- Fix Large Pagination in Small Screen -->
+<style>
+.pagination{
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+@media(max-width:768px){
+    .pagination{
+        overflow: hidden;
+    }
+    li.page-item {
+        display: none;
+    }
+    
+    .page-item:first-child,
+    .page-item:last-child,
+    .page-item.active {
+        display: block;
+    }
+    .page-item:nth-last-child(-n +2){
+    
+        display:block;
+    }
+    .page-item:nth-child(-n + 2){
+        display:block;
+    }
+}
+</style>
+<script>
+    $(document).ready(function(){
+        $(".pagination .active").nextAll().slice(0, 2).css({"display":"block"});
+        $(".pagination .active").prevAll().slice(0, 1).css({"display":"block"});
+        if ($(window).width() <= 768) {      
+            $(".pagination .active").nextAll().slice(0, 2).css({"display":"block"});
+            $(".pagination .active").prevAll().slice(0, 1).css({"display":"block"});
+        } 
+
+        $(window).resize(function(){
+            if ($(window).width() <= 768) {  
+                $(".pagination .active").nextAll().slice(0, 2).css({"display":"block"});
+                $(".pagination .active").prevAll().slice(0, 1).css({"display":"block"});
+            }     
+        });  
+    });
+</script>
