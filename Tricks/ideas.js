@@ -227,10 +227,16 @@ let countDown = new Date('Sep 30, 2019 00:00:00').getTime(),
   
   
   
+    //Get Sorted Date
+    //Get Sorted Date
+    const time= new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }),
+            day= new Date().getDate(),
+            month= new Date().getUTCMonth() +1,
+            year= new Date().getFullYear(),
+            fullDate=time +"  "+  day + "-" + month +"-"+ year;
+    console.log(fullDate);
 
 
 
 
-
-
-}); //End Start Function
+}); /End Start Function
