@@ -236,6 +236,10 @@ let countDown = new Date('Sep 30, 2019 00:00:00').getTime(),
             fullDate=time +"  "+  day + "-" + month +"-"+ year;
     console.log(fullDate);
 
+    //Check input if got just spaces
+    if(this.name.replace(/\s/g, '').length){
+        //Some code
+    }
 
 
 
