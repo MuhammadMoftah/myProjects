@@ -167,3 +167,61 @@
         });  
     });
 </script>
+
+<!--===== Customize Checkbox  =====-->
+<!--===== Customize Checkbox  =====-->
+<section class="row mb-3 mt-4 categories">
+    <div class="col-12">
+        <p class="h5 my-4">What your brand categories?</p>
+    </div>
+    <div class="col-md-3 col-4">
+        <input class="d-none" type="checkbox" id="chk1">
+        <label for="chk1" class="single-cate">
+            Salons
+        </label>
+    </div>
+
+    <div class="col-md-3 col-4">
+        <input class="d-none" type="checkbox" id="chk2">
+        <label for="chk2" class="single-cate">
+            Salons
+        </label>
+    </div>
+
+    <div class="col-md-3 col-4">
+        <input class="d-none" type="checkbox" id="chk3">
+        <label for="chk3" class="single-cate">
+            Bed rooms
+        </label>
+    </div>
+
+    <div class="col-md-3 col-4">
+        <input class="d-none" type="checkbox" id="chk4">
+        <label for="chk4" class="single-cate">
+            Bed rooms
+        </label>
+    </div>
+</section>
+
+<style>
+/* ==== Customize Checkbox ==== */ 
+/* ==== Customize Checkbox ==== */ 
+.categories .single-cate{
+    border:1px solid grey;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.categories .single-cate:hover{
+    border:1px solid var(--clr1);
+    color:var(--clr1);
+}
+.categories input:checked + .single-cate{
+    border:1px solid var(--clr1);
+    background-color:var(--clr1);
+    color: white;
+}
+</style>
