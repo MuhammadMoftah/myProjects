@@ -62,3 +62,13 @@ th{
   color: white;
   background-color: #26a69a;
 }
+
+/* ==== Remove input number Arrows ==== */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
