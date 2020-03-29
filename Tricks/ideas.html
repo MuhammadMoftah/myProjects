@@ -122,49 +122,65 @@
 <!-- Fix Large Pagination in Small Screen -->
 <!-- Fix Large Pagination in Small Screen -->
 <style>
-.pagination{
-    justify-content: center;
-    padding: 0;
-    margin-bottom: 0;
-    margin-top: 20px;
-}
-@media(max-width:768px){
-    .pagination{
-        overflow: hidden;
+    .pagination {
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 0;
+        margin-top: 20px;
     }
-    li.page-item {
-        display: none;
+
+    @media(max-width:768px) {
+        .pagination {
+            overflow: hidden;
+        }
+
+        li.page-item {
+            display: none;
+        }
+
+        .page-item:first-child,
+        .page-item:last-child,
+        .page-item.active {
+            display: block;
+        }
+
+        .page-item:nth-last-child(-n +2) {
+
+            display: block;
+        }
+
+        .page-item:nth-child(-n + 2) {
+            display: block;
+        }
     }
-    
-    .page-item:first-child,
-    .page-item:last-child,
-    .page-item.active {
-        display: block;
-    }
-    .page-item:nth-last-child(-n +2){
-    
-        display:block;
-    }
-    .page-item:nth-child(-n + 2){
-        display:block;
-    }
-}
 </style>
 <script>
-    $(document).ready(function(){
-        $(".pagination .active").nextAll().slice(0, 2).css({"display":"block"});
-        $(".pagination .active").prevAll().slice(0, 1).css({"display":"block"});
-        if ($(window).width() <= 768) {      
-            $(".pagination .active").nextAll().slice(0, 2).css({"display":"block"});
-            $(".pagination .active").prevAll().slice(0, 1).css({"display":"block"});
-        } 
+    $(document).ready(function () {
+        $(".pagination .active").nextAll().slice(0, 2).css({
+            "display": "block"
+        });
+        $(".pagination .active").prevAll().slice(0, 1).css({
+            "display": "block"
+        });
+        if ($(window).width() <= 768) {
+            $(".pagination .active").nextAll().slice(0, 2).css({
+                "display": "block"
+            });
+            $(".pagination .active").prevAll().slice(0, 1).css({
+                "display": "block"
+            });
+        }
 
-        $(window).resize(function(){
-            if ($(window).width() <= 768) {  
-                $(".pagination .active").nextAll().slice(0, 2).css({"display":"block"});
-                $(".pagination .active").prevAll().slice(0, 1).css({"display":"block"});
-            }     
-        });  
+        $(window).resize(function () {
+            if ($(window).width() <= 768) {
+                $(".pagination .active").nextAll().slice(0, 2).css({
+                    "display": "block"
+                });
+                $(".pagination .active").prevAll().slice(0, 1).css({
+                    "display": "block"
+                });
+            }
+        });
     });
 </script>
 
@@ -204,24 +220,126 @@
 </section>
 
 <style>
-/* ==== Customize Checkbox ==== */ 
-/* ==== Customize Checkbox ==== */ 
-.categories .single-cate{
-    border:1px solid grey;
-    text-transform: capitalize;
-    text-align: center;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 100%;
-}
-.categories .single-cate:hover{
-    border:1px solid var(--clr1);
-    color:var(--clr1);
-}
-.categories input:checked + .single-cate{
-    border:1px solid var(--clr1);
-    background-color:var(--clr1);
-    color: white;
-}
+    /* ==== Customize Checkbox ==== */
+    /* ==== Customize Checkbox ==== */
+    .categories .single-cate {
+        border: 1px solid grey;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .categories .single-cate:hover {
+        border: 1px solid var(--clr1);
+        color: var(--clr1);
+    }
+
+    .categories input:checked+.single-cate {
+        border: 1px solid var(--clr1);
+        background-color: var(--clr1);
+        color: white;
+    }
 </style>
+
+
+<!-- ===== Lazy Load Images (No Jquery Requied) ===== -->
+<!-- ===== Lazy Load Images (No Jquery Requied) ===== -->
+<div>
+    <img width="612" height="612" data-src="http://farm8.staticflickr.com/7060/6969705425_0905bf6bba_o.jpg"
+        src="https://via.placeholder.com/150" class="lazy">
+
+    <img width="612" height="612" data-src="http://farm8.staticflickr.com/7203/6969484613_0ee3af0144_o.jpg"
+        src="https://via.placeholder.com/150" class="lazy">
+
+    <img width="612" height="612" data-src="http://farm8.staticflickr.com/7207/6821596428_cdae70e306_o.jpg"
+        src="https://via.placeholder.com/150" class="lazy">
+
+    <img width="612" height="612" data-src="http://farm8.staticflickr.com/7037/6965140403_9fbb5e7f96_o.jpg"
+        src="https://via.placeholder.com/150" class="lazy">
+
+    <img width="612" height="612" data-src="https://i.picsum.photos/id/1008/5616/3744.jpg"
+        src="https://via.placeholder.com/150" class="lazy">
+
+    <img width="612" height="612" data-src="https://i.picsum.photos/id/1006/3000/2000.jpg"
+        src="https://via.placeholder.com/150" class="lazy">
+
+    <img width="612" height="612" data-src="https://i.picsum.photos/id/1005/5760/3840.jpg"
+        src="https://via.placeholder.com/150" class="lazy">
+</div>
+
+<script>
+    ! function (window) {
+        var $q = function (q, res) {
+                if (document.querySelectorAll) {
+                    res = document.querySelectorAll(q);
+                } else {
+                    var d = document,
+                        a = d.styleSheets[0] || d.createStyleSheet();
+                    a.addRule(q, 'f:b');
+                    for (var l = d.all, b = 0, c = [], f = l.length; b < f; b++)
+                        l[b].currentStyle.f && c.push(l[b]);
+
+                    a.removeRule(0);
+                    res = c;
+                }
+                return res;
+            },
+            addEventListener = function (evt, fn) {
+                window.addEventListener ?
+                    this.addEventListener(evt, fn, false) :
+                    (window.attachEvent) ?
+                    this.attachEvent('on' + evt, fn) :
+                    this['on' + evt] = fn;
+            },
+            _has = function (obj, key) {
+                return Object.prototype.hasOwnProperty.call(obj, key);
+            };
+
+        function loadImage(el, fn) {
+            var img = new Image(),
+                src = el.getAttribute('data-src');
+            img.onload = function () {
+                if (!!el.parent)
+                    el.parent.replaceChild(img, el)
+                else
+                    el.src = src;
+
+                fn ? fn() : null;
+            }
+            img.src = src;
+        }
+
+        function elementInViewport(el) {
+            var rect = el.getBoundingClientRect()
+
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+            )
+        }
+
+        var images = new Array(),
+            query = $q('img.lazy'),
+            processScroll = function () {
+                for (var i = 0; i < images.length; i++) {
+                    if (elementInViewport(images[i])) {
+                        loadImage(images[i], function () {
+                            images.splice(i, i);
+                        });
+                    }
+                };
+            };
+        // Array.prototype.slice.call is not callable under our lovely IE8 
+        for (var i = 0; i < query.length; i++) {
+            images.push(query[i]);
+        };
+
+        processScroll();
+        addEventListener('scroll', processScroll);
+
+    }(this);
+</script>
