@@ -1,6 +1,9 @@
 fullPage.js => Slide full page
 https://alvarotrigo.com/fullPage/
 
+Ionicons => simple icons
+https://ionicons.com/
+ 
 
 Transform your icons with trendy animations
 https://bitshadow.github.io/iconate/ 
