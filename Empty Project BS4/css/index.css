@@ -1,5 +1,10 @@
 /*===== Initialization ====*/
 /*===== Initialization ====*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #f3f3f3;
   height: 5000px;
@@ -13,7 +18,16 @@ button {
   outline: none;
   transition: all 300ms linear 0s;
 }
-
+textarea{
+  resize: none;
+}
+p{
+  white-space: pre-line;
+  margin: 0;
+}
+img{
+  max-width: 100%;
+}
 a:hover,
 a:focus,
 .btn:hover,
