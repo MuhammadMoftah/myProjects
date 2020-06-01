@@ -1,3 +1,45 @@
+<!-- ===== Simple Manual Pie Chart ===== -->
+<!-- ===== Simple Manual Pie Chart ===== -->
+<section class="task-pie">
+    <svg viewBox="0 0 36 36" style="stroke-dasharray:70 100">
+        <path d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" fill="#ffe6db" stroke="#E64A19" stroke-width="1" stroke-linecap="round" />
+    </svg>
+    <div class="pie-info">
+        <h1>75%</h1>
+        <h5 class="h6">
+            Task Completed
+        </h5>
+    </div>
+</section>
+
+<style>
+    .task-pie {
+        width: 100%;
+        max-width: 350px;
+        position: relative;
+    }
+
+    .task-pie .pie-info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        text-align: center;
+    }
+
+    @keyframes fillup {
+        from {
+            stroke-dasharray: 0 100;
+        }
+    }
+
+    svg {
+        animation: fillup 1.5s ease-in;
+    }
+</style>
+
 <!--== Upload Image With Preview (with Background Image) ==-->
 <!--== Upload Image With Preview (with Background Image) ==-->
 <div class="col-md-12 text-center">
@@ -37,6 +79,7 @@
     /*===== Loading Screen =====*/
     #preloader {
         position: fixed;
+        display: none;
         top: 0;
         left: 0;
         width: 100%;
@@ -273,26 +316,26 @@
 <script>
     !function (window) {
         var $q = function (q, res) {
-                if (document.querySelectorAll) {
-                    res = document.querySelectorAll(q);
-                } else {
-                    var d = document,
-                        a = d.styleSheets[0] || d.createStyleSheet();
-                    a.addRule(q, 'f:b');
-                    for (var l = d.all, b = 0, c = [], f = l.length; b < f; b++)
-                        l[b].currentStyle.f && c.push(l[b]);
+            if (document.querySelectorAll) {
+                res = document.querySelectorAll(q);
+            } else {
+                var d = document,
+                    a = d.styleSheets[0] || d.createStyleSheet();
+                a.addRule(q, 'f:b');
+                for (var l = d.all, b = 0, c = [], f = l.length; b < f; b++)
+                    l[b].currentStyle.f && c.push(l[b]);
 
-                    a.removeRule(0);
-                    res = c;
-                }
-                return res;
-            },
+                a.removeRule(0);
+                res = c;
+            }
+            return res;
+        },
             addEventListener = function (evt, fn) {
                 window.addEventListener ?
                     this.addEventListener(evt, fn, false) :
                     (window.attachEvent) ?
-                    this.attachEvent('on' + evt, fn) :
-                    this['on' + evt] = fn;
+                        this.attachEvent('on' + evt, fn) :
+                        this['on' + evt] = fn;
             },
             _has = function (obj, key) {
                 return Object.prototype.hasOwnProperty.call(obj, key);
