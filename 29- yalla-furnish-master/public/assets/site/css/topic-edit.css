@@ -1,0 +1,20 @@
+ .categories-conatiner {
+    width: 63%;
+    padding: 1%;
+ }
+ .categories-conatiner p {
+    width: 50%;
+ }
+ .categories-conatiner select {
+    width: 50%;
+ }
+ .link-container {
+    width: 61%;
+    padding: 1%;
+ }
+ .link-container p { 
+    width: 33%;
+ }
+ .link-container input { 
+    width: 67% !important;
+ }

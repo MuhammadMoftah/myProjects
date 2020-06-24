@@ -1,0 +1,12 @@
+.alert-success{
+    display: none;
+}
+.errors{
+    display: none;
+    background-color: #ff0000c7;
+    color: white;
+    text-align: center;
+}
+.create-product-form .note-editor {
+    margin-top: 11px;
+}

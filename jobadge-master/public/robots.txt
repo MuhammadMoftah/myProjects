@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /cdn-cgi
+Disallow: /share/company
+Disallow: /share/job
+disallow: /user

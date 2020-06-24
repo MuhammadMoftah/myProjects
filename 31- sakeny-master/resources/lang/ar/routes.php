@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'aboutus' => 'من-نحن',
+    'properties_for_sale' => 'عقارات-للبيع',
+    'properties_for_rent' => 'عقارات-للايجار',
+    'projects' => 'مشاريع',
+    'search' => 'بحث',
+    'user' => 'مستخدم',
+    'company' => 'مشروع',
+    'login' => 'تسجيل-دخول',
+    'register' => 'تسجيل',
+    'not_registered' => ' ليس لديك حساب؟ أنشيء حساب جديد الآن',
+    'projects_search' => 'مشاريع/بحث',
+    'company_registertion' => 'شركه/تسجيل',
+    'user_login' => 'مستخدم/تسجيل-دخول',
+    'already_registerd' => 'لديك حساب بالفعل؟ قم بتسجيل الدخول الآن',
+    'user_register' => 'مستخدم/تسجيل',
+    'ads_search' => 'عقارات/بحث',
+    'thankyou' => 'شكرا-لك',
+    'user_home_index' => 'الصفحه-الرئيسيه',
+    'properties_for_sale_apartments_only' => 'شقق-للبيع',
+    'properties_for_rent_apartments_only' => 'شقق-للايجار',
+    'properties_for_sale_apartments_only_by_district' => 'عقارات-للبيع/{id} ',
+    'user_create_ad' => 'مستخدم/عقارات/اضافه',
+    'search_ads_by_district' => 'عقارات/{id}',
+    'contact_us' => 'تواصل-معنا',
+    'company_register_post' => '/شركه/تسجيل/اضافه',
+    'user_register_post' => '/مستخدم/تسجيل/اضافه',
+
+];

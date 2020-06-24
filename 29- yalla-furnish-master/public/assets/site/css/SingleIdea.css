@@ -1,0 +1,32 @@
+
+.mycomment .userimage {
+    width: 48px!important;
+     height: 48px!important;
+     padding: 0px!important;
+ }
+
+.mycomment .note-editable {
+    margin: 2.5px; 
+ }
+
+ .mycomment .note-editor{
+    margin-left: 49px;
+ 
+ }
+ .myreply {
+    margin-bottom: 12.5px;
+ }
+
+ .comment-edit-modal .note-editor{
+    margin-bottom: 12.5px;
+ }
+
+ .reply-edit-modal .note-editable{
+    margin-top: 2px;
+    margin-left: 2px;
+ }
+
+ .reply-edit-modal button {
+   margin-top: 11px;
+}
+ 

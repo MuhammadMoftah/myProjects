@@ -1,0 +1,43 @@
+<?php
+
+namespace App\Mail;
+
+use Illuminate\Bus\Queueable;
+use Illuminate\Mail\Mailable;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldQueue;
+
+class CompanyLiveInterviewUpdateMail extends Mailable
+{
+    use Queueable, SerializesModels;
+
+    public $mail_data;
+    public $subject;
+    public $oldData;
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
+    public function __construct($mail_data, $subject, $oldData)
+    {
+        //
+        $this->subject = $subject;
+        $this->mail_data = $mail_data;
+        $this->oldData  = $oldData;
+      
+    }
+
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
+    {
+
+        return $this->from('info@jobadge.com')->subject($this->subject)->view('user.mails.companyLiveInterviewUpdate')->with([
+            'mail_data' => $this->mail_data,
+        ])->priority(1);
+    }
+}
