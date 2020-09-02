@@ -1,6 +1,21 @@
 
 /*global $ , console , alert , document, window */
 
+// convert HH:MM from 24 format to 12 format
+function time12(x) {
+    hour = x.slice(0, 2)
+    mint = x.slice(3, 5)
+    if (hour > 23) return
+    if (hour > 12) {
+      hour = hour - 12
+      console.log(hour + ':' + mint + ' PM')
+    } else {
+      console.log(hour + ':' + mint + ' AM')
+    }
+  }
+  time12('00:24')
+
+
 // Change all Images in the page from Https tp http
 function loadImages(){
     var allImages = document.querySelectorAll('img');
