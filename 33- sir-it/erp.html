@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Import Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Flickity -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!-- Website logo -->
+  <link rel="icon" href="./assets/images/logo.ico" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <!-- <link rel="stylesheet" href="./assets/css/ltr.css"> -->
+  <title>SIR ERP</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent rtl">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" width="100px" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav w-100 justify-content-around">
+            <li class="nav-item active text-center">
+              <a class="nav-link" href="#">الرئيسية</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#">عن سير</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#">خدماتنا</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#">الحلول التقنية</a>
+            </li>
+            <li class="nav-item dropdown text-center">
+              <a class="nav-link dropdown-toggle" href="erp.html" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                سير ERP
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item py-2" href="components.html">جولة في سير ERP</a>
+                <a class="dropdown-item py-2" href="#">مكونات سير SIR</a>
+                <a class="dropdown-item py-2" href="#">أنظمة متخصصة</a>
+                <a class="dropdown-item py-2" href="#">خدمات متقدمة</a>
+              </div>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#">اتصل بنا </a>
+            </li>
+            <button class="btn btn-outline-info">EN</button>
+          </ul>
+        </div>
+    </nav>
+
+    <main role="main" id="sir-erp">
+
+
+<!-- SIR ERP Carousel -->
+<section id="erp-carousel" class="carousel slide home-cover" data-ride="carousel" data-interval="false">
+    <ol class="carousel-indicators">
+       <li data-target="#erp-carousel" data-slide-to="0" class="inverted active"></li>
+       <li data-target="#erp-carousel" data-slide-to="1" class="inverted"></li>
+       <li data-target="#erp-carousel" data-slide-to="2" class="inverted"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item d-flex flex-column align-items-center justify-content-center active">
+            <h1 class="text-center">CLOUD عصر خدمات التطبيقات السحابية المتكاملة العصرية</h1>
+            <h2 class="text-center">منظمتك على مدار الساعة واليوم 7/24</h2>
+            <img src="./assets/images/laptop.png" class="d-block w-100" alt="erp carousel item">
+            <a href="" class="btn btn-primary-outline more-cta">المزيد</a>
+        </div>
+        
+            <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+                <h1 class="text-center">CLOUD عصر خدمات التطبيقات السحابية المتكاملة العصرية</h1>
+                <h2 class="text-center">منظمتك على مدار الساعة واليوم 7/24</h2>
+                <img src="./assets/images/laptop.png" class="d-block w-100" alt="erp carousel item">
+                <a href="" class="btn btn-primary-outline more-cta">المزيد</a>
+            </div>
+        
+            <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+                <h1 class="text-center">CLOUD عصر خدمات التطبيقات السحابية المتكاملة العصرية</h1>
+                <h2 class="text-center">منظمتك على مدار الساعة واليوم 7/24</h2>
+                <img src="./assets/images/laptop.png" class="d-block w-100" alt="erp carousel item">
+                <a href="" class="btn btn-primary-outline more-cta">المزيد</a>
+            </div>
+        
+    </div>
+    <a class="carousel-control-prev" href="#erp-carousel" role="button" data-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#erp-carousel" role="button" data-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="sr-only">Next</span>
+    </a>
+ </section>
+
+<!-- Info section -->
+<section class="block-space sided-info">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md">
+                <h2 class="block-heading">جولة فى سير ERP</h2>
+                <p class="text-justify">نظام "سير ERP" نظام عمل عالمى متكامل يوفر خدمات الاعمال المختلفه ويحققها بمهنية وشفافية عالية ويقدم الحلول التى تنقل عملك إلى أعلى مستوى من التجكم التشغيلى مع ضمان ان موظفيك يمكنهم أدأء المهام بأعلى كفاءه كما تقوم سير بتسليم اعمالهم بصوره متكاملة مما يؤكد الخبرة والثقة التى تتسم بها اعمالهم السابقة , مهما كانت تحديات العمل التى ثد تواجهك ,فنحن متيقنون من قدراتنا على توفير الحلول الذكية التى ستاخذك إلى عاملك الذى تريدة .</p>
+            </div>
+            <div class="col-12 col-md mt-5 mt-md-0 text-center">
+                <img src="./assets/images/erp-img.svg" alt="Info image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SIR ERP Advantages-->
+<section class="block-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="block-heading centered"> مميزات نظام سير ERP</h2>
+            </div>
+            <!-- Please note that Advantages array conetnt exist inside context in file-iclude task in gulpfile.js -->
+            
+                <div class="col-12 col-sm-6 col-lg-4 p-0">
+                    <div class="mini-card d-flex align-items-center">
+                        <img src="./assets/images/advantages/1.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #DC4C69">نظام موحد</h6>
+                            <p>يربط جميع أقسام المؤسسات والشركات ببعضها البعض</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 p-0">
+                    <div class="mini-card d-flex align-items-center">
+                        <img src="./assets/images/advantages/2.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #95D6A4">تحسين</h6>
+                            <p>مستويات الكفاءة والانتاجية</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 p-0">
+                    <div class="mini-card d-flex align-items-center">
+                        <img src="./assets/images/advantages/3.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #88B337">توفير</h6>
+                            <p>التكلفة وتقليل معدل الهدر</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 p-0">
+                    <div class="mini-card d-flex align-items-center">
+                        <img src="./assets/images/advantages/4.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #5C9CEE">تحسين القدرة</h6>
+                            <p>على التوقع وتحديد الاتجاهات والتحليل المسبق.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 p-0">
+                    <div class="mini-card d-flex align-items-center">
+                        <img src="./assets/images/advantages/5.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #95D6A4">تطوير</h6>
+                            <p>خدمة العملاء وخدمات المتعلقة فيما بعد البيع</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 p-0">
+                    <div class="mini-card d-flex align-items-center">
+                        <img src="./assets/images/advantages/6.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #8ACCE7">سهولة الإستخدام</h6>
+                            <p>والمرونة في التعديل وفق متطلبات العميل</p>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- SIR ERP Components (carousel)-->
+<section class="block-space accent-bg" id="">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="block-heading inverted centered"> مكونات سير ERP</h2>
+            </div>
+            <div class="component-carousel" style="width: 100%" data-flickity='{"pageDots": false,  "freeScroll": true, "contain": true, "wrapAround": true, "rtl": true }'>
+                
+                    <div class="info-card">
+                        <img src="./assets/images/components/1.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #ED5B48">حلول الموارد المالية</h6>
+                            <p>فريق «سير ERP» لحلول الموارد المالية خبرة أكثر من 10 سنوات في مجال أتمتة الإجراءات والعمليات المالية؛ فـ (سير) على ثقة من أنه -جنبًا الى جنب- ستقدم أفضل الخدمات المالية التي تقلل الضغط وتخفف من الصعوبات المالية؛ وبالتالي تقديم تجربة ممتازة للعملاء.</p>
+                        </div>
+                        <div class="footer">
+                            <a href="" class="more-link">المزيد</a>
+                        </div>
+                    </div>
+                
+                    <div class="info-card">
+                        <img src="./assets/images/components/2.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #FF5776">حلول الموارد البشرية</h6>
+                            <p>فريق «سير ERP» لحلول الموارد البشرية مكرس لتقديم الدعم الوظيفي المرن والعملي، والشؤون الإدارية التي يحتاجها عملك؛ فـ (سير) تقدم لك مجموعة من الخدمات والاستشارات المتعلقة بالموارد البشرية والإدارية، بالاستعانة بمصادر وأنظمة عالمية موثوقة</p>
+                        </div>
+                        <div class="footer">
+                            <a href="" class="more-link">المزيد</a>
+                        </div>
+                    </div>
+                
+                    <div class="info-card">
+                        <img src="./assets/images/components/3.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #FFC645">إدارة المشاريع</h6>
+                            <p>نظام متكامل لإدارة المشروعات باحترافية ومهنية عالية من حيث التخطيط والمتابعة والتحكم لمهام وأزمنة وتكاليف المشروع، ويدعم إدارة المشروع إلكترونيا وفق دورة حياة المشروع</p>
+                        </div>
+                        <div class="footer">
+                            <a href="" class="more-link">المزيد</a>
+                        </div>
+                    </div>
+                
+                    <div class="info-card">
+                        <img src="./assets/images/components/4.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #ED5B48">إدارة المخازن</h6>
+                            <p>نظام «سير ERP» لإدارة سلاسل الإمداد (المستودعات والمخازن) يقدم خدمات مرنة وفعالة تمكن من إدارة ملفات تعريف الأصناف وتحديد مستويات إعادة الطلب على مستوى المستودع وإدارة عمليات الجرد والتقييم للأصناف، وإدارة تواريخ الانتهاء</p>
+                        </div>
+                        <div class="footer">
+                            <a href="" class="more-link">المزيد</a>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="col-12 text-center mt-5">
+                <a href="" class="btn btn-primary-outline more-cta">المزيد</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Specified systems -->
+<section class="block-space spec-sys">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="block-heading centered">أنظمة متخصصة</h2>
+                <h6 class="block-subheading text-center">تركز سير على توفير حلول متخصصة لعدد من المجالات المختلفة التي تعمل على تلبية احتياجاتكم</h6>
+            </div>
+            
+                <div class="col-12">
+                    <div class="mini-card full d-flex">
+                        <img src="./assets/images/systems/contracting.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #F49C00">نظام إدارة المقاولات</h6>
+                            <p>نظام سير لإدارة المقاولات يقدم خدمة متكاملة للتخطيط لمشاريع المقاولات ومتابعة المشروعات البنائية التي ينفذها المقاول ومراقبة الجودة والكميات بحسب مراحل التنفيذ المقررة.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12">
+                    <div class="mini-card full d-flex">
+                        <img src="./assets/images/systems/factories.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #DB4655">نظام إدارة المصانع</h6>
+                            <p>نظام إدارة عملية التصنيع شامل ومتكامل بدء من التخطيط الإنتاجي وإدارة عمليات الإنتاج، وإصدار أوامر التصنيع بصورة مرنة وإنشاء قوالب لجداول المواد لكل عملية تصنيع، وكذلك مراقبة العملية الإنتاجية وكفاءة الموارد المستخدمة (طريقة وتوصيف الإنتاج)، بمهنية وكفاءة عالية.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12">
+                    <div class="mini-card full d-flex">
+                        <img src="./assets/images/systems/educational.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #4397D5">نظام إدارة المنشآت التعليمية</h6>
+                            <p>نظام إلكتروني متطور لإدارة المنشآت التعليمية يهدف لخدمة جميع أطراف العملية التعليمية (إدارة المدرسة – المعلم – الطالب – ولي الأمر) ويوفر خدمات متقدمة لكل طرف من أطراف العملية التعليمية على حدة ويربط جميع أطراف المنظومة بعضهم البعض.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12">
+                    <div class="mini-card full d-flex">
+                        <img src="./assets/images/systems/health.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #AABECE">نظام إدارة المنشآت الصحية</h6>
+                            <p>نظام إلكتروني مرن وشامل لجميع متطلبات المنشآت الصحية يشمل الشؤون المالية والإدارية والموارد البشرية وإدارة العيادات والصيدلية والمختبر والأشعة ويوفر النظام إعدادات متقدمة للأقسام والإدارات الصحية وتهيئة مرنة للمواعيد وورديات العمل كما يقدم خدمات متكاملة بدء من حجز المواعيد وتسجيل المرضى وتقييد العلامات الحيوية وزيارة الطبيب المعالج وكتابة الوصفة الطبية وغيرها.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12">
+                    <div class="mini-card full d-flex">
+                        <img src="./assets/images/systems/associations.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #80C03B">إدارة الهيئات والمنظمات والجمعيات الخيرية وغير الربحية</h6>
+                            <p>يعد نظام سير لإدارة المنشآت غير الربحية من الأنظمة المتخصصة والمتكاملة في إدارة الأعمال الخيرية والتي تتيح للمنظمات غير الربحية التعامل إلكترونياً في جميع مجالاتها الإدارية والمالية والمخازن، وإدارة المشاريع، وإدارة التبرعات، وإدارة المستفيدين، وغيرها من الخدمات المتقدمة.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12">
+                    <div class="mini-card full d-flex">
+                        <img src="./assets/images/systems/sales.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #D80027">نظام مبيعات الجملة والتجزئة</h6>
+                            <p>نظام سير لإدارة مبيعات الجملة والتجزئة يقدم حلولاً متكاملة لكل ما تحتاج لإدارة متاجرك ومستودعاتك ومخزون بضائعك وعلاقتك بمندوبي المبيعات وشركاء التوزيع. كما يوفر النظام لك آلية سهلة لربط أجهزة نقاط البيع في المتاجر بالمستودعات ومنظومة المشتريات والمدفوعات في المنشأة.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12">
+                    <div class="mini-card full d-flex">
+                        <img src="./assets/images/systems/custom.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #407093">بناء الأنظمة وَفْقَ احتياج ومتطلبات العميل</h6>
+                            <p>تقوم «سير ERP» بأتمتة إجراءات العمل الداخلية لدى جميع المؤسسات والشركات، بطريقة تسهم بخدمة العملاء بكفاءة ومهنية عاليتين، كما يعتبر وسيلة مثالية لأتمتة العديد من المعاملات والطلبات الورقية بطريقة تقنية وعصرية.</p>
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="col-12 text-center">
+                <button class="btn btn1 mt-4"> المزيد </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Advanced services-->
+<section class="block-space light-bg" id="">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="block-heading centered">خدمات متقدمة</h2>
+            </div>
+        </div>
+        <div class="row flex-lg-column justify-content-center advanced">
+            
+                <div class="col-12 col-md-6 col-lg-4 flex-grow-0 flex-lg-grow-1 p-2">
+                    <div class="info-card text-center">
+                        <img src="./assets/images/advanced/customization.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #1689FC">التخصيص وتعديل النظام</h6>
+                            <p>تعتمد «سير ERP» في نظامها على تخصيص البرامج، وجعلها تلبي حاجة العميل وَفْق متطلباته وإجراءاته؛ لتضمن تماثلها مع رغبة العملاء.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-md-6 col-lg-4 flex-grow-0 flex-lg-grow-1 p-2">
+                    <div class="info-card text-center">
+                        <img src="./assets/images/advanced/preparation.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #EF5261">الإعداد والتهيئة</h6>
+                            <p>وسائل آمنة وسهلة تقوم «سير ERP» من خلالها بضبط الإعدادات وتهيئتها لجميع برامج الخدمات المختلفة؛ بحيث تلبي حاجة العميل.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-md-6 col-lg-4 flex-grow-0 flex-lg-grow-1 p-2">
+                    <div class="info-card text-center">
+                        <img src="./assets/images/advanced/training.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #76CC7A">التدريب</h6>
+                            <p>توفر «سير ERP» مجموعة واسعة من التدريبات التي تساعدك على تعلم كيفية استخدام خدمات (سير) المختلفة.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-md-6 col-lg-4 flex-grow-0 flex-lg-grow-1 p-2">
+                    <div class="info-card text-center">
+                        <img src="./assets/images/advanced/backup.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #607D8B">النسخ الاحتياطي</h6>
+                            <p>تعمل «سير ERP» على توفير تخزين آمن لأصول البيانات الهامة لسير العمل وتحافظ عليها، والسماح باستعادة البيانات المؤرشفة في الوقت المناسب.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-md-6 col-lg-4 flex-grow-0 flex-lg-grow-1 p-2">
+                    <div class="info-card text-center">
+                        <img src="./assets/images/advanced/connectivity.svg" alt="">
+                        <div class="content">
+                            <h6 style="color: #FED843">الربط والتكامل</h6>
+                            <p>توفر «سير ERP» تأخذ بعين الاعتبار أهمية ربط أى نظام إدارة إالكترونى بأنظمة وبرامج العالم الخارجى , لذا فإن «سير ERP» تقدم خدمات سهلة وآمنة , من خلال قدرتها على الارتباط بالعديد من الأنظمة الخارجية ,والتكامل مع الأجهزة الضرورية لعمل المنشأة والتي من شأنها أن تسهل عمل المنشأة وتوفر الوقت والجهد وتلبي الرغبة والحاجة ,مثل : قنوات الدفع الالكترونى ,ونقاط البيع ,ومكتبة الربط البرمجى .</p>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+</main>
+
+
+<footer class="footer" style="background-image:url('./assets/images/footer-clouds.png')">
+	<div class="py-3 bg-light  border">
+		<div class="container d-md-flex d-block justify-content-between align-items-center">
+			<strong class="clr1 col">احصل على أخبار منتجاتنا وخدماتنا أولاً بأول</strong>
+			<form class="position-relative mt-md-0 mt-3 send" style="min-width: 300px;">
+				<input class="form-control" type="text" placeholder="ادخل بريدك الاكتروني">
+				<button class="btn btn2 mr-n3 position-absolute" style="top: 0;
+		left: 0;"><i class="far fa-paper-plane"></i></button>
+			</form>
+		</div>
+	</div>
+
+	<div class="container md-footer">
+		<div class="row py-4">
+			<div class="col-lg-2 col-xs-12 my-4 about-company">
+				<img src="./assets/images/logo.png" width="130px" alt="">
+			</div>
+
+			<div class="col-lg-5 col-xs-12 location mb-3">
+				<p class="text-secondary mt-4">
+					<i class="fas fa-map-marker-alt mx-1 " style="width: 20px;"></i>المملكة العربية السعودية -
+					الرياض - حي اشبيليه <br> شارع الشيخ حسن بن حسين بن علي
+				</p>
+				<p class="text-secondary my-3">
+					<i class="fas fa-envelope mx-1" style="width: 20px;"></i>966556221189+
+				</p>
+				<p class="text-secondary my-3">
+					<i class="fas fa-mobile-alt mx-1" style="width: 20px;"></i>info@sir.sa
+				</p>
+			</div>
+			<div class="col-lg-5 col-xs-12 links my-4">
+				<h4 class="h6 clr1 font-weight-bold">انتقال سريع</h4>
+				<ul class="m-0 p-0 row">
+					<div class="col-6">
+						<li class="my-2"><a class="text-dark" href="#">الرئيسية</a></li>
+						<li class="my-2"><a class="text-dark" href="#">عن سير</a></li>
+						<li class="my-2"><a class="text-dark" href="#">خدماتنا</a></li>
+					</div>
+					<div class="col-6">
+						<li class="my-2"><a class="text-dark" href="#">الحلول التقنية</a></li>
+						<li class="my-2"><a class="text-dark" href="#">سير ERP</a></li>
+						<li class="my-2"><a class="text-dark" href="#">اتصل بنا</a></li>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="py-3 bg-clr1">
+		<div class="container d-flex justify-content-between">
+			<p class=""><small class="text-white">جميع الحقوق محفوظة</small></p>
+			<div class="social">
+				<a class=" text-white px-2 py-1 ">
+					<i class="fab fa-whatsapp fa-lg"></i>
+				</a>
+				<a class=" text-white px-2 py-1 ">
+					<i class="fab fa-facebook fa-lg"></i>
+				</a>
+				<a class=" text-white px-2 py-1 ">
+					<i class="fab fa-twitter fa-lg"></i>
+				</a>
+				<a class=" text-white px-2 py-1 ">
+					<i class="fab fa-instagram fa-lg"></i>
+				</a>
+				<a class=" text-white px-2 py-1 ">
+					<i class="fab fa-linkedin-in fa-lg "></i>
+				</a>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<!--===== JavaScript Includes =====-->
+<!--===== JavaScript Includes =====-->
+
+<!-- fontawesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+	integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+	crossorigin="anonymous"></script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!-- popperjs -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+	integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<!-- bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+	integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- Flickity -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<!--    custome-->
+<script src="./assets/js/main.min.js"></script>
+</body>
+
+</html>

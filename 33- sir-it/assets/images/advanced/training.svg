@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_137" data-name="Rectangle 137" width="66" height="66" transform="translate(834 2947)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Training" transform="translate(-834 -2947)" clip-path="url(#clip-path)">
+    <g id="_003-teaching" data-name="003-teaching" transform="translate(830.586 2943.586)">
+      <path id="Path_1525" data-name="Path 1525" d="M35.276,3.414H69.414V40.966H35.276Z" fill="#eae8e5"/>
+      <path id="Path_1526" data-name="Path 1526" d="M3.414,36.414H44.379v4.552H3.414Z" fill="#454a6d"/>
+      <path id="Path_1527" data-name="Path 1527" d="M28.448,36.414v-9.1l3.61,3.61a4.552,4.552,0,0,0,6.437,0l8.16-8.161L42.1,18.207l-6.828,6.828L29.81,18.659a4.55,4.55,0,0,0-3.456-1.59H10.241A4.552,4.552,0,0,0,5.69,21.621V31.862a4.552,4.552,0,0,0,4.552,4.552Z" fill="#4ac3ed"/>
+      <path id="Path_1528" data-name="Path 1528" d="M21.621,36.414H19.345V31.862a1.139,1.139,0,0,0-1.138-1.138H11.379V26.172h2.276v2.276h4.552a3.418,3.418,0,0,1,3.414,3.414Z" fill="#31a9d4"/>
+      <path id="Path_1529" data-name="Path 1529" d="M22.759,11.379a5.692,5.692,0,0,1-6.248,5.663,5.855,5.855,0,0,1-5.131-5.908V5.69a2.275,2.275,0,0,1,2.276-2.276h6.828A2.275,2.275,0,0,1,22.759,5.69V6.828l2.276,4.552Z" fill="#e89d43"/>
+      <path id="Path_1530" data-name="Path 1530" d="M13.655,17.069,17.069,23.9l3.414-6.828Z" fill="#eae8e5"/>
+      <path id="Path_1531" data-name="Path 1531" d="M56.9,12.652,50.069,9.238,43.75,12.4l-1.017-2.037,7.336-3.668L56.9,10.107l6.319-3.16,1.017,2.037Z" fill="#454a6d"/>
+      <path id="Path_1532" data-name="Path 1532" d="M41.821,14.791h9.654v2.276H41.821Z" transform="translate(2.4 37.656) rotate(-45)" fill="#454a6d"/>
+      <path id="Path_1533" data-name="Path 1533" d="M51.207,19.345H64.862v2.276H51.207Z" fill="#454a6d"/>
+      <path id="Path_1534" data-name="Path 1534" d="M51.207,23.9H64.862v2.276H51.207Z" fill="#454a6d"/>
+      <path id="Path_1535" data-name="Path 1535" d="M51.207,28.448H64.862v2.276H51.207Z" fill="#454a6d"/>
+      <path id="Path_1536" data-name="Path 1536" d="M51.207,33H64.862v2.276H51.207Z" fill="#454a6d"/>
+      <g id="Group_1713" data-name="Group 1713">
+        <path id="Path_1537" data-name="Path 1537" d="M12.517,56.9a5.69,5.69,0,0,0-5.69,5.69v6.828H18.207V62.586A5.69,5.69,0,0,0,12.517,56.9Z" fill="#76cc7a"/>
+        <circle id="Ellipse_83" data-name="Ellipse 83" cx="4.552" cy="4.552" r="4.552" transform="translate(7.966 47.793)" fill="#76cc7a"/>
+        <path id="Path_1538" data-name="Path 1538" d="M28.448,56.9a5.69,5.69,0,0,0-5.69,5.69v6.828H34.138V62.586A5.69,5.69,0,0,0,28.448,56.9Z" fill="#76cc7a"/>
+        <circle id="Ellipse_84" data-name="Ellipse 84" cx="4.552" cy="4.552" r="4.552" transform="translate(23.897 47.793)" fill="#76cc7a"/>
+        <path id="Path_1539" data-name="Path 1539" d="M44.379,56.9a5.69,5.69,0,0,0-5.69,5.69v6.828H50.069V62.586A5.69,5.69,0,0,0,44.379,56.9Z" fill="#76cc7a"/>
+        <circle id="Ellipse_85" data-name="Ellipse 85" cx="4.552" cy="4.552" r="4.552" transform="translate(39.828 47.793)" fill="#76cc7a"/>
+        <path id="Path_1540" data-name="Path 1540" d="M60.31,56.9a5.69,5.69,0,0,0-5.69,5.69v6.828H66V62.586A5.69,5.69,0,0,0,60.31,56.9Z" fill="#76cc7a"/>
+        <circle id="Ellipse_86" data-name="Ellipse 86" cx="4.552" cy="4.552" r="4.552" transform="translate(55.759 47.793)" fill="#76cc7a"/>
+      </g>
+      <path id="Path_1541" data-name="Path 1541" d="M5.69,40.966H42.1v5.69H5.69Z" fill="#33385c"/>
+    </g>
+  </g>
+</svg>

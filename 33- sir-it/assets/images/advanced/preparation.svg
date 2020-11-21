@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_137" data-name="Rectangle 137" width="66" height="66" transform="translate(834 2947)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="preparation" transform="translate(-834 -2947)" clip-path="url(#clip-path)">
+    <g id="_002-web-browser" data-name="002-web-browser" transform="translate(834 2947)">
+      <g id="Circle_Grid" data-name="Circle Grid">
+        <circle id="Ellipse_79" data-name="Ellipse 79" cx="33" cy="33" r="33" fill="#ef5261"/>
+      </g>
+      <g id="icon">
+        <path id="Path_1522" data-name="Path 1522" d="M11.859,19.838V49.7a1.818,1.818,0,0,0,1.818,1.818H52.323A1.818,1.818,0,0,0,54.141,49.7V19.838Z" fill="#eeefee"/>
+        <path id="Path_1523" data-name="Path 1523" d="M52.323,12.668H13.677a1.818,1.818,0,0,0-1.818,1.818V21.6H54.141V14.486A1.818,1.818,0,0,0,52.323,12.668Z" fill="#62667c"/>
+        <circle id="Ellipse_80" data-name="Ellipse 80" cx="1.637" cy="1.637" r="1.637" transform="translate(35.994 15.458)" fill="#2cbfae"/>
+        <circle id="Ellipse_81" data-name="Ellipse 81" cx="1.637" cy="1.637" r="1.637" transform="translate(41.782 15.458)" fill="#f6c863"/>
+        <circle id="Ellipse_82" data-name="Ellipse 82" cx="1.637" cy="1.637" r="1.637" transform="translate(47.568 15.536)" fill="#ef5261"/>
+        <path id="Path_1524" data-name="Path 1524" d="M23.766,37.935V35.183l2.5-.516a7.19,7.19,0,0,1,.637-1.539L25.5,31l1.949-1.949,2.125,1.4a7.188,7.188,0,0,1,1.539-.637l.516-2.5h2.752l.516,2.5a7.146,7.146,0,0,1,1.534.637l2.13-1.4L40.507,31l-1.4,2.125a6.92,6.92,0,0,1,.632,1.539l2.5.516v2.752l-2.5.516a6.879,6.879,0,0,1-.632,1.534l1.4,2.13-1.949,1.949-2.13-1.4a6.878,6.878,0,0,1-1.534.632l-.516,2.5H31.624l-.516-2.5a6.918,6.918,0,0,1-1.539-.632l-2.125,1.4L25.5,42.115l1.4-2.13a7.148,7.148,0,0,1-.637-1.534ZM33,40.207a3.649,3.649,0,1,0-3.649-3.649A3.649,3.649,0,0,0,33,40.207Z" fill="#575b6d"/>
+      </g>
+    </g>
+  </g>
+</svg>

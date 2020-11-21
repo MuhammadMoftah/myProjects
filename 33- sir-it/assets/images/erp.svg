@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_137" data-name="Rectangle 137" width="66" height="66" transform="translate(1131 2947)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="erp" transform="translate(-1131 -2947)" clip-path="url(#clip-path)">
+    <g id="browser" transform="translate(1131 2947)">
+      <path id="Path_462" data-name="Path 462" d="M9.2,6.492H56.8a3.246,3.246,0,0,1,3.246,3.246V57.344A3.246,3.246,0,0,1,56.8,60.59H9.2a3.246,3.246,0,0,1-3.246-3.246V9.738A3.246,3.246,0,0,1,9.2,6.492Z" fill="#e6e6e6"/>
+      <path id="Path_463" data-name="Path 463" d="M9.2,6.492H56.8a3.246,3.246,0,0,1,3.246,3.246v5.41H5.951V9.738A3.246,3.246,0,0,1,9.2,6.492Z" fill="#0071bc"/>
+      <rect id="Rectangle_138" data-name="Rectangle 138" width="2.164" height="2.164" transform="translate(9.197 9.738)" fill="#da4836"/>
+      <rect id="Rectangle_139" data-name="Rectangle 139" width="2.164" height="2.164" transform="translate(13.525 9.738)" fill="#f8cf26"/>
+      <rect id="Rectangle_140" data-name="Rectangle 140" width="2.164" height="2.164" transform="translate(17.852 9.738)" fill="#3dbf50"/>
+      <circle id="Ellipse_47" data-name="Ellipse 47" cx="15.148" cy="15.148" r="15.148" transform="translate(34.082 0)" fill="#fbb03b"/>
+      <circle id="Ellipse_48" data-name="Ellipse 48" cx="4.328" cy="4.328" r="4.328" transform="translate(44.902 5.41)" fill="#29abe2"/>
+      <g id="Group_1261" data-name="Group 1261">
+        <rect id="Rectangle_141" data-name="Rectangle 141" width="18.394" height="2.164" transform="translate(33 54.098)" fill="#999"/>
+        <rect id="Rectangle_142" data-name="Rectangle 142" width="22.721" height="2.164" transform="translate(33 49.77)" fill="#999"/>
+        <rect id="Rectangle_143" data-name="Rectangle 143" width="22.721" height="2.164" transform="translate(33 45.443)" fill="#999"/>
+        <rect id="Rectangle_144" data-name="Rectangle 144" width="22.721" height="2.164" transform="translate(33 41.115)" fill="#999"/>
+        <rect id="Rectangle_145" data-name="Rectangle 145" width="16.23" height="2.164" transform="translate(39.492 36.787)" fill="#999"/>
+        <rect id="Rectangle_146" data-name="Rectangle 146" width="2.164" height="2.164" transform="translate(35.164 36.787)" fill="#999"/>
+        <text id="ERP-2" data-name="ERP" transform="translate(30 27)" fill="gray" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-19.969" y="0">ERP</tspan></text>
+      </g>
+      <g id="Group_1262" data-name="Group 1262">
+        <path id="Path_464" data-name="Path 464" d="M57.885,66H43.82V63.836H57.885a5.416,5.416,0,0,0,5.41-5.41V54.1h2.164v4.328A7.582,7.582,0,0,1,57.885,66Z" fill="#b3b3b3"/>
+        <rect id="Rectangle_150" data-name="Rectangle 150" width="2.164" height="2.164" transform="translate(39.492 63.836)" fill="#b3b3b3"/>
+        <rect id="Rectangle_151" data-name="Rectangle 151" width="2.164" height="2.164" transform="translate(0.541 8.656)" fill="#b3b3b3"/>
+        <rect id="Rectangle_152" data-name="Rectangle 152" width="2.164" height="20.557" transform="translate(0.541 12.984)" fill="#b3b3b3"/>
+      </g>
+      <path id="Path_465" data-name="Path 465" d="M26.508,41.115H24.344V36.787a4.328,4.328,0,1,0-8.656,0v4.328H13.524V36.787a6.492,6.492,0,0,1,12.984,0v4.328Z" fill="#666"/>
+      <rect id="Rectangle_153" data-name="Rectangle 153" width="17.311" height="15.148" transform="translate(11.361 40.033)" fill="gray"/>
+      <path id="Path_466" data-name="Path 466" d="M23.262,46.525a3.246,3.246,0,1,0-4.328,3.048v2.362H21.1V49.572A3.246,3.246,0,0,0,23.262,46.525Zm-3.246,1.082A1.082,1.082,0,1,1,21.1,46.525,1.082,1.082,0,0,1,20.016,47.606Z" fill="#fbb03b"/>
+      <path id="Path_467" data-name="Path 467" d="M52.475,14.066H45.984a5.41,5.41,0,0,0-5.41,5.41v8.093a15.1,15.1,0,0,0,17.311,0V19.475A5.41,5.41,0,0,0,52.475,14.066Z" fill="#29abe2"/>
+      <g id="Group_1263" data-name="Group 1263">
+        <path id="Path_468" data-name="Path 468" d="M52.475,29.938a14.927,14.927,0,0,0,2.164-.656V20.557H52.475Z" fill="#0071bc"/>
+        <path id="Path_469" data-name="Path 469" d="M45.984,29.936V20.557H43.82v8.728A15.1,15.1,0,0,0,45.984,29.936Z" fill="#0071bc"/>
+      </g>
+    </g>
+  </g>
+</svg>

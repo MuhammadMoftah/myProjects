@@ -1,0 +1,96 @@
+/* General styles */
+
+html,
+body {
+   direction: ltr;
+   text-align: left;
+}
+
+/* img{
+   transform: scaleX(-1);
+} */
+
+.block-heading:after{
+   left: 0;
+   right: unset;
+   transform: scaleX(-1);
+}
+
+.dots::after{
+   right: unset;
+   left: 0;
+}
+
+.mini-card .content{
+   margin-right: 0;
+   margin-left: 20px;
+}
+
+.info-card .content,
+.figure-container .img-first{
+   text-align: left !important;
+}
+
+
+.info-card .footer,
+ .figure-container .img-second{
+   text-align: right !important;
+}
+
+/* removed from here because it overrides all alignments on elements */
+/* * {
+   text-align: left;
+} */
+
+
+/* === home cover === */
+.home-cover .carousel-indicators {
+   right: auto;
+}
+.home-cover .carousel-caption {
+   text-align: left !important;
+}
+
+
+/* ==== Reliability ==== */
+.dots-mini{
+   right: auto;
+   left: 0;
+   top: -94px;
+}
+
+
+
+/* ==== footer ==== */
+footer .upper-footer form button {
+   left: unset !important;
+   right: 0;
+}
+footer .send button{
+   right: 0;
+   left: auto !important;
+}
+
+
+/* General styles */
+
+/* img{
+   transform: scaleX(-1);
+} */
+
+.block-heading:after{
+   left: 0;
+   right: unset;
+   transform: scaleX(-1);
+}
+
+.dots::after{
+   right: unset;
+   left: 0;
+}
+
+
+.spec-sys::after {
+   right: auto !important;
+   left: -200px;
+}
