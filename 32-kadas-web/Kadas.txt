@@ -1,0 +1,67 @@
+dashboard = talent
+
+
+Kadas – A Business Operation Workflow, Remote HR and Smart Office Management
+https://www.kadas.co.za/
+Platform interface 1st 
+CUSTOMER LOGIN
+http://users.kadas.co.za/login
+Email: info@kadasfundi.com
+Password: secretpassword
+
+
+a7md.rizk@gmail.com
+secret
+
+
+ADMIN LOGIN
+http://users.kadas.co.za/admin
+Email: super@admin.com
+Password: secret
+
+
+kadas-subscriptions
+Sobek IT
+Kadas subscriptions dashboard
+Dashboard (Admin panel) 2nd interface
+dashboard.kadas.co.za
+Email: info@kadasfundi.com
+Password: secret
+
+
+iOS app: https://apps.apple.com/us/app/kadas/id1414538805
+Android app: https://play.google.com/store/apps/details?id=co.za.sobekit.kadas&hl=en_GB
+
+
+users:
+emp1@gmail.com
+emp2@gmail.com
+devhod@gmail.com  (HOD)
+developer.saad.93@gmail.com  (HR)
+pass: secret
+
+http://jitsi.kadasfundi.com/
+
+Mohamed Ashraf
++01101008748
+
+Saad Sabry
++201015985243
+
+API Collections
+https://www.postman.com/collections/96d5699d3b36ca2ce1fe
+
+
+My kadas account:
+mohammedm@sobekit.co.za
+secret
+
+
+yarae@sobekit.co.za
+Ye151094
+
+
+acounts al Deemo:
+demo@kadas.co.za
+hr@kadas.co.za
+adam@kadas.co.za

@@ -1,0 +1,34 @@
+<template>
+  <v-layout column>
+    <v-flex class="mb-5">
+      <h1 class="page-title display-1 font-weight-thin">
+        Attendances Listing
+      </h1>
+      <AttendancesListing />
+    </v-flex>
+  </v-layout>
+</template>
+
+<script>
+import AttendancesListing from '~/components/Attendances/AttendancesListing'
+
+export default {
+  components: {
+    AttendancesListing
+  }
+}
+</script>
+
+<style lang="stylus" scoped>
+.page-title {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  padding-bottom: 0;
+}
+
+.dialog {
+  overflow-x: hidden;
+}
+</style>
