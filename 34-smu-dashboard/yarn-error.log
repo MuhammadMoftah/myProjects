@@ -1,0 +1,76 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.5/bin/yarn.js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://npm.fontawesome.com/@fortawesome/pro-duotone-svg-icons/-/5.15.3/pro-duotone-svg-icons-5.15.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/opt/yarn-v1.22.5/lib/cli.js:141376:19)
+      at Object.onceWrapper (events.js:420:28)
+      at ClientRequest.emit (events.js:314:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:774:9)
+      at Object.onceWrapper (events.js:420:28)
+      at TLSSocket.emit (events.js:326:22)
+      at TLSSocket.Socket._onTimeout (net.js:482:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+     "name": "smu",
+     "version": "1.0.0",
+     "private": true,
+     "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "test": "jest"
+     },
+     "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.30",
+        "@fortawesome/pro-duotone-svg-icons": "^5.14.0",
+        "@fortawesome/pro-light-svg-icons": "^5.14.0",
+        "@fortawesome/pro-solid-svg-icons": "^5.14.0",
+        "@fortawesome/vue-fontawesome": "^0.1.10",
+        "@nuxt/content": "^1.5.0",
+        "@nuxtjs/auth-next": "5.0.0-1611574754.9020f2a",
+        "@nuxtjs/axios": "^5.12.0",
+        "@nuxtjs/pwa": "^3.0.0-beta.20",
+        "chart.js": "^2.9.4",
+        "nuxt": "^2.14.0",
+        "nuxt-fontawesome": "^0.4.0",
+        "nuxt-i18n": "^6.15.4",
+        "pusher-js": "^7.0.1",
+        "v-tooltip": "^2.0.3",
+        "vue-chartjs": "^3.5.1",
+        "vue-currency-input": "^1.22.3",
+        "vue-i18n": "^8.22.1",
+        "vue2-datepicker": "^3.9.0"
+     },
+     "devDependencies": {
+        "@nuxtjs/tailwindcss": "^2.1.0",
+        "@vue/test-utils": "^1.0.3",
+        "babel-core": "7.0.0-bridge.0",
+        "babel-jest": "^26.1.0",
+        "jest": "^26.1.0",
+        "tailwindcss-rtl": "^0.4.0",
+        "vue-jest": "^3.0.4"
+     }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

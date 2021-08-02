@@ -3,6 +3,7 @@ dashboard = talent
 
 Kadas – A Business Operation Workflow, Remote HR and Smart Office Management
 https://www.kadas.co.za/
+http://web.kadas.co.za/login
 Platform interface 1st 
 CUSTOMER LOGIN
 http://users.kadas.co.za/login

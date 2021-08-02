@@ -1,0 +1,33 @@
+.q-layout--standard{
+   min-height: 500px  !important;
+}
+body{
+   background: #f0f0f0;
+}
+
+.border1{
+   border:1px solid #d7d7d7;
+}
+.border2{
+   border:2px solid #d7d7d7;
+}
+.border-bottom1{
+   border-bottom:1px solid #f0f0f0;
+}
+.border-top1{
+   border-top:1px solid #f0f0f0;
+}
+.rounded{
+   border-radius: 10px;
+}
+.rounded-full{
+   border-radius: 50%;
+}
+.q-notifications__list--top {
+   margin-top: 60px !important
+}
+
+.section-container {
+   width: 100%;
+   max-width: 500px;
+}

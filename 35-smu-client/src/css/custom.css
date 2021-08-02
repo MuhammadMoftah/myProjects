@@ -1,0 +1,91 @@
+.border1 {
+  border: 1px solid #e5e5e5 !important;
+}
+.border2 {
+  border: 2px solid #e5e5e5 !important;
+}
+.roboto {
+  font-family: "roboto";
+}
+.roboto * {
+  font-family: "roboto";
+}
+
+.rounded1 {
+  border-radius: 5px;
+}
+
+.rounded2 {
+  border-radius: 7px;
+}
+.rounded3 {
+  border-radius: 10px;
+}
+.rounded4 {
+  border-radius: 15px;
+}
+.rounded5 {
+  border-radius: 20px;
+}
+.rounded6 {
+  border-radius: 25px;
+}
+.rounded-cir {
+  border-radius: 50%;
+}
+
+/* ==== Animations === */
+/* Rotate X */
+.rotate-vertical-leave-active {
+  transition: all 0.2s ease;
+}
+.rotate-vertical-enter-active {
+  transition: all 0.2s ease;
+}
+.rotate-vertical-enter,
+.rotate-vertical-leave-to {
+  transform: rotateX(90deg);
+  opacity: 0;
+}
+
+/* Slide Y */
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+.slide-fade-leave-active {
+  transition: all 0.3s ease;
+}
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(-400px);
+  opacity: 0;
+}
+/* Slide Y */
+.slide-vertical-enter-active {
+  transition: all 0.3s ease;
+}
+.slide-vertical-leave-active {
+  transition: all 0.3s ease;
+}
+.slide-vertical-enter,
+.slide-vertical-leave-to {
+  transform: translateY(50px);
+  opacity: 0;
+}
+/* Fade  */
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s ease;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s ease;
+}
+.page-enter,
+.page-leave-to {
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}

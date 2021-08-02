@@ -1,0 +1,42 @@
+{
+   "name": "smu",
+   "version": "1.0.0",
+   "private": true,
+   "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "test": "jest"
+   },
+   "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^1.2.30",
+      "@fortawesome/pro-duotone-svg-icons": "^5.14.0",
+      "@fortawesome/pro-light-svg-icons": "^5.14.0",
+      "@fortawesome/pro-solid-svg-icons": "^5.14.0",
+      "@fortawesome/vue-fontawesome": "^0.1.10",
+      "@nuxt/content": "^1.5.0",
+      "@nuxtjs/auth-next": "5.0.0-1611574754.9020f2a",
+      "@nuxtjs/axios": "^5.12.0",
+      "@nuxtjs/pwa": "^3.0.0-beta.20",
+      "chart.js": "^2.9.4",
+      "nuxt": "^2.14.0",
+      "nuxt-fontawesome": "^0.4.0",
+      "nuxt-i18n": "^6.15.4",
+      "pusher-js": "^7.0.1",
+      "v-tooltip": "^2.0.3",
+      "vue-chartjs": "^3.5.1",
+      "vue-currency-input": "^1.22.3",
+      "vue-i18n": "^8.22.1",
+      "vue2-datepicker": "^3.9.0"
+   },
+   "devDependencies": {
+      "@nuxtjs/tailwindcss": "^2.1.0",
+      "@vue/test-utils": "^1.0.3",
+      "babel-core": "7.0.0-bridge.0",
+      "babel-jest": "^26.1.0",
+      "jest": "^26.1.0",
+      "tailwindcss-rtl": "^0.4.0",
+      "vue-jest": "^3.0.4"
+   }
+}
