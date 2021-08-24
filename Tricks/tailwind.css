@@ -1,0 +1,26 @@
+/* inputs style */
+.input {
+    @apply p-2;
+    @apply w-full;
+    @apply transition-all;
+    @apply duration-100;
+    @apply bg-white;
+    @apply border;
+    @apply rounded;
+    @apply shadow-inner;
+    @apply font-semibold;
+    @apply text-gray-700;
+    @apply outline-none;
+  }
+  
+  .input:focus {
+    @apply border-gray-500;
+  }
+  .input:hover {
+    @apply bg-gray-100;
+  }
+  select.input {
+    cursor: pointer;
+    padding: 10px;
+    text-transform: capitalize;
+  }
