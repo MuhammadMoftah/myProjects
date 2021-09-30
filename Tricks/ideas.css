@@ -156,8 +156,13 @@ div {
     transform: translate3d(0, 0, 0);
 }
 
-
-
+/* ===== prevent user from select ===== */
+/* ===== prevent user from select ===== */
+div {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
 
 /* Center the navbar and ConTroll BreakPoint */
 /* Center the navbar and ConTroll BreakPoint */
