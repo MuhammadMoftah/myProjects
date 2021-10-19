@@ -162,6 +162,16 @@ div {
 
 /* ==== Quick Dark mode to section ==== */
 /* ==== Quick Dark mode to section ==== */
-section {
-  filter: invert(1);
+:root {
+  filter: invert(100%) hue-rotate(180deg);
+}
+
+/* to remove dark from element do it again  */
+div :not(img) {
+  filter: invert(100%) hue-rotate(180deg);
+}
+
+/* dont apply for img  */
+:not(img) {
+  filter: invert(100%) hue-rotate(180deg);
 }
